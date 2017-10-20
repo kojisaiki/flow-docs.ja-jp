@@ -1,0 +1,138 @@
+- name: はじめに
+  items:
+    - name: はじめに
+      href: getting-started.md
+    - name: サインアップ
+      href: sign-up-sign-in.md
+    - name: テンプレートからフローを作成する
+      href: get-started-logic-template.md
+    - name: ゼロからフローを作成する
+      href: get-started-logic-flow.md
+    - name: チーム フローを作成する
+      href: create-team-flows.md
+    - name: 環境の概要
+      href: environments-overview-maker.md
+    - name: よく寄せられる質問
+      href: frequently-asked-questions.md
+- name: フローを構築する
+  items:
+    - name: アクションを追加する
+      href: multi-step-logic-flow.md
+    - name: 条件の追加
+      href: add-condition.md
+    - name: スケジュールに従ってフローを実行する
+      href: run-scheduled-tasks.md
+    - name: 電子メールでフローをトリガーする
+      href: email-triggers.md
+    - name: 項目のリストを処理する
+      href: apply-to-each.md
+    - name: データ操作を使用する
+      href: data-operations.md
+    - name: データのフィルターとコピー
+      href: odata-filters.md
+    - name: Dynamics 365 でフローを作成する
+      href: connection-dynamics365.md
+    - name: Common Data Service にデータを追加する
+      href: common-data-model-intro.md
+    - name: フローを見る
+      href: see-a-flow-run.md
+    - name: テンプレートを発行する
+      href: publish-a-template.md
+    - name: フローのトラブルシューティング
+      href: fix-flow-failures.md
+- name: 承認フローを作成する
+  items:
+    - name: 1 つの承認
+      href: modern-approvals.md
+    - name: 連続した承認
+      href: sequential-modern-approvals.md
+    - name: 並行した承認
+      href: parallel-modern-approvals.md
+    - name: 統合された承認
+      href: common-data-model-approve.md
+- name: モバイル アプリの使用
+  items:
+    - name: フローを作成する
+      href: mobile-create-flow.md
+    - name: ボタン フローを作成する
+      href: introduction-to-button-flows.md
+    - name: トリガー トークンを使用してボタン フローを作成する
+      href: introduction-to-button-trigger-tokens.md
+    - name: ユーザー入力のあるボタン フローを作成する
+      href: button-flow-with-user-input-tokens.md
+    - name: ボタンを共有する
+      href: share-buttons.md
+    - name: フロー アクティビティを監視する
+      href: mobile-monitor-activity.md
+    - name: フローを管理する
+      href: mobile-manage-flows.md
+- name: 物理デバイスを使用する
+  items:
+    - name: Flic を使用する
+      href: flic-button-flows.md
+    - name: bttn を使用する
+      href: bttn-button-flows.md
+- name: 接続
+  items:
+    - name: 利用可能な接続
+      href: 'https://go.microsoft.com/fwlink/?linkid=832211'
+    - name: 接続を管理する
+      href: add-manage-connections.md
+    - name: ゲートウェイを管理する
+      href: gateway-manage.md
+    - name: ゲートウェイについて理解する
+      href: gateway-reference.md
+- name: '開発: 企業の開発者'
+  items:
+    - name: 企業の開発者のための Microsoft Flow
+      href: dev-enterprise-intro.md
+    - name: カスタム コネクタを登録して使用する
+      href: register-custom-api.md
+    - name: Postman でカスタム コネクタを記述する
+      href: postman-collection.md
+    - name: カスタム コネクタ用の OpenAPI 拡張
+      href: customapi-how-to-swagger.md
+    - name: カスタム コネクタで Azure Active Directory を使用する
+      href: customapi-azure-resource-manager-tutorial.md
+    - name: Web API 用のカスタム コネクタを作成する
+      href: customapi-web-api-tutorial.md
+    - name: Webhook を使用してフローをトリガーする
+      href: customapi-webhooks.md
+- name: '開発: パートナーと ISV'
+  items:
+    - name: Microsoft パートナーと ISV のための Microsoft Flow
+      href: dev-isv-partner-intro.md
+    - name: API コネクタの認定の概要
+      href: api-connector-overview.md
+    - name: 証明書の API コネクタを開発する
+      href: api-connector-dev.md
+    - name: 証明書の API コネクタを送信する
+      href: api-connector-submission.md
+    - name: API コネクタの認定に関する FAQ
+      href: api-connector-faq.md
+    - name: Web サイトとその他のテクノロジを統合する
+      href: embed-flow-dev.md
+    - name: 顧客がフローを体験できるようにする
+      href: dev-appsource-test-drive.md
+- name: 管理
+  items:
+    - name: 組織における Flow の Q & A
+      href: organization-q-and-a.md
+    - name: 料金
+      href: billing-questions.md
+    - name: 管理センターの概要
+      href: admin-center-introduction.md
+    - name: 環境を管理する
+      href: environments-overview-admin.md
+    - name: データ損失の防止に役立つポリシーを設定する
+      href: prevent-data-loss.md
+    - name: データ グループの概要
+      href: introduction-to-data-groups.md
+- name: 参照
+  items:
+    - name: リージョンの概要
+      href: regions-overview.md
+    - name: 制限事項と構成
+      href: limits-and-config.md
+    - name: リリース ノート
+      href: release-notes.md

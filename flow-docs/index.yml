@@ -1,0 +1,105 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Microsoft Flow Docs
+metadata:
+  title: Microsoft Flow ドキュメント、ビデオ、参照など
+  description: ここのリソースを使用してフローの作成、共有、管理を開始します。 単純なボタンで起動したり、独自の承認フローを作成したりできます。
+  author: MSFTMan
+  manager: anneta
+  layout: LandingPage
+  ms.assetid: null
+  ms.service: flow
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 10/18/2017
+  ms.author: deonhe
+sections:
+  - items:
+      - type: markdown
+        text: |
+          ここのリソースを使用してフローの作成、共有、管理を開始します。 単純なボタンで起動したり、独自の承認フローを作成したりできます。
+  - items:
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 2
+        items:
+          - href: guided-learning/index
+            html: <p>ガイド付き学習ツアーを見る</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
+            title: ツアーを見る
+          - href: getting-started
+            html: <p>Microsoft Flow の概要を確認する</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
+            title: はじめに
+          - href: mobile-create-flow
+            html: <p>任意のモバイル デバイスのフローを作成する</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_mobileapp.svg'
+            title: モバイル アプリについて理解する
+          - href: introduction-to-button-flows
+            html: <p>2 分間でボタン フローを作成する</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
+            title: ボタンについて
+          - href: 'https://flow.microsoft.com/blog/automation-for-recruiters'
+            html: <p>週のフローからインスピレーションを受ける</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
+            title: 週のフロー
+          - href: 'https://flow.microsoft.com/support/'
+            html: <p>ヘルプとサポートを受ける</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_support.svg'
+            title: お寄せください
+  - title: ステップ バイ ステップ ガイド
+    items:
+      - type: paragraph
+        text: さまざまな種類のフローを作成する方法について説明します。
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 3
+        items:
+          - href: get-started-logic-template
+            title: テンプレートからフローを作成する
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_guide.svg'
+          - href: get-started-logic-flow
+            title: ゼロからフローを作成する
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_build.svg'
+          - href: modern-approvals
+            title: 承認フローを作成する
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_tasks.svg'
+          - href: share-buttons
+            title: 他のユーザーがボタンを使用できるようにする
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_setup.svg'
+          - href: create-team-flows
+            title: フローの所有権を共有する
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_configure-teams.svg'
+          - href: fix-flow-failures
+            title: フローのトラブルシューティング
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_investigate.svg'
+  - title: Microsoft Flow のビデオの概要
+    items:
+      - type: markdown
+        text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/iMteXfAvDSE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>'
+  - title: 高度なチュートリアル
+    items:
+      - type: paragraph
+        text: 式の使用方法、REST API、カスタム コネクタの作成方法などについて説明します。
+      - type: list
+        style: unordered
+        items:
+          - html: <a href="environments-overview-admin">組織の Microsoft Flow を管理する</a>
+          - html: '<a href="https://flow.microsoft.com/blog/call-flow-restapi/">フローでの REST API の使用について理解する</a>'
+          - html: <a href="customapi-web-api-tutorial">カスタム コネクタを作成する</a>
+          - html: '<a href="https://flow.microsoft.com/blog/grow-up-to-logic-apps/">Logic Apps でフローを展開する</a>'

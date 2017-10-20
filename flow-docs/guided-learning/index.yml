@@ -1,0 +1,41 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Microsoft Flow のガイド付き学習
+metadata:
+  title: Microsoft Flow のガイド付き学習
+  meta.description: 'Start your learning journey with this sequenced collection of courses, and understand the extensive and powerful capabilities of Microsoft Flow.'
+  author: MSFTMan
+  manager: anneta
+  layout: LandingPage
+  ms.assetid: null
+  ms.service: flow
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 10/13/2017
+  ms.author: deonhe
+abstract:
+  description: 順序に沿ったコースで学習を進め、Microsoft Flow の広範かつ強力な機能について理解します。
+sections:
+  - items:
+      - type: list
+        style: cards
+        className: cardsF
+        columns: 2
+        items:
+          - html: '<p><a href="get-started#step-1">Microsoft Flow の基本を理解する</a> - 14 分</p><p><a href="get-started#step-2">テンプレートからフローを作成する</a> - 9 分</p><p><a href="get-started#step-3">Microsoft Flow モバイル アプリを使用する</a> - 8 分</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
+            title: はじめに
+          - html: '<p><a href="build-flows#step-1">ボタン フローを作成する</a> - 11 分</p><p><a href="build-flows#step-2">通知を受け取る</a> - 6 分</p><p><a href="build-flows#step-3">ファイルをコピーする</a> - 4 分</p><p><a href="build-flows#step-4">データを収集する</a> - 5 分</p><p><a href="build-flows#step-5">フローによるツイートの投稿</a> - 15 分</p><p><a href="build-flows#step-6">スケジュールされたフローを作成する</a> - 9 分</p><p><a href="build-flows#step-7">ドキュメントを変換して保存する</a> - 14 分</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_build.svg'
+            title: フローの構築
+          - html: '<p><a href="work-with-approvals#step-1">承認要求を作成する</a> - 4 分</p><p><a href="work-with-approvals#step-2">承認要求を処理する</a> - 7 分</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_tasks.svg'
+            title: 承認を処理する
+          - html: '<p><a href="administer-flows#step-1">環境を使用してフローを管理する</a> - 8 分</p><p><a href="administer-flows#step-2">データ損失防止ポリシーを使用する</a> - 6 分</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_management.svg'
+            title: フローの管理

@@ -1,0 +1,8 @@
+- name: はじめに
+  href: 'get-started.yml#step-1'
+- name: フローの構築
+  href: 'build-flows.yml#step-1'
+- name: 承認を処理する
+  href: 'work-with-approvals.yml#step-1'
+- name: フローの管理
+  href: 'administer-flows.yml#step-1'
