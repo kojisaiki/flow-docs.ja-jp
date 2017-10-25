@@ -55,7 +55,7 @@ ms.lasthandoff: 10/15/2017
 
 [!INCLUDE [sign-in-use-blank-select-email-trigger-and-inbox-folder](includes/sign-in-use-blank-select-email-trigger-and-inbox-folder.md)]
 
-1. **[Subject Filter] (件名フィルター)** ボックスで、フローを使用して着信電子メールのフィルターを適用するテキストを入力します。
+1. **Subject Filter\ (件名フィルター)** ボックスで、フローを使用して着信電子メールのフィルターを適用するテキストを入力します。
    
      この例では、件名に「lottery」(宝くじ) という語が含まれる電子メールに注目します。
    
@@ -63,7 +63,7 @@ ms.lasthandoff: 10/15/2017
 
 [!INCLUDE [add-mobile-notification-action](includes/add-mobile-notification-action.md)]
 
-1. 先ほど指定した **[Subject Filter] (件名フィルター)** に一致する電子メールが届いたときに受信するモバイル通知の詳細を入力します。
+1. 先ほど指定した **[Subject Filter]\(件名フィルター)** に一致する電子メールが届いたときに受信するモバイル通知の詳細を入力します。
    
     ![通知の詳細](./media/email-triggers/email-triggers-4.png)
 
@@ -80,7 +80,7 @@ ms.lasthandoff: 10/15/2017
 
 [!INCLUDE [sign-in-use-blank-select-email-trigger-and-inbox-folder](includes/sign-in-use-blank-select-email-trigger-and-inbox-folder.md)]
 
-1. 送信者の電子メール アドレスを **[From] (差出人)** に入力します。
+1. 送信者の電子メール アドレスを **[From]\(差出人)** に入力します。
    
      このアドレスから送信されたすべての電子メールに対してアクションが実行されます。
    
@@ -110,7 +110,7 @@ ms.lasthandoff: 10/15/2017
 
 [!INCLUDE [sign-in-use-blank-select-email-trigger-and-specific-folder](includes/sign-in-use-blank-select-email-trigger-and-specific-folder.md)]
 
-1. 特定の電子メールの振り分け先としてルールで指定したフォルダーを選択します。 すべての電子メール フォルダーを表示するには、最初に **[Show Picker] (ピッカーの表示)** アイコンを選択します。これは、**[新しい電子メールが届いたとき]** カードの **[フォルダー]** ボックスの右側にあります。
+1. 特定の電子メールの振り分け先としてルールで指定したフォルダーを選択します。 すべての電子メール フォルダーを表示するには、最初に **[Show Picker]\(ピッカーの表示)** アイコンを選択します。これは、**[新しい電子メールが届いたとき]** カードの **[フォルダー]** ボックスの右側にあります。
    
     ![フォルダーの選択](./media/email-triggers/email-triggers-2.png)
 
