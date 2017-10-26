@@ -56,7 +56,7 @@ ms.lasthandoff: 10/15/2017
 2. 承認する要求に対して **[承認]** を選択します。
    
     ![承認を選択する](./media/mobile-approvals/select-approve.png)
-3. (省略可能)\**[コメントの追加]\(省略可能)** を選択します。
+3. (省略可能) **[コメントの追加](省略可能)** を選択します。
    
     ![コメントの追加を選択する](./media/mobile-approvals/select-add-comment.png)
    
