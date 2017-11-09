@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 8620cd49f9e19f6641909fcab3103568d148e565
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="manage-sequential-approvals-with-microsoft-flow"></a>Microsoft Flow を使用してシーケンシャル承認を管理する
 一部のワークフローでは、最終承認者が承認する前に事前承認が必要です。 たとえば、ある会社には、1000.00 ドルを超える請求書では財務部門による承認の前に事前承認を要求するシーケンシャル承認ポリシーが存在する可能性があります。
@@ -85,7 +85,7 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 [!INCLUDE [add-approval-condition-response](includes/add-approval-condition-response.md)]
 
 > [!NOTE]
-> この条件は、**[Start an approval]\(承認を開始)** アクションからの応答をチェックします。
+> この条件は、**[Start an approval] (承認を開始)** アクションからの応答をチェックします。
 > 
 > 
 
@@ -100,13 +100,13 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
    ![アイテムの更新の構成](./media/sequential-modern-approvals/configure-update-item.png)
 
 ## <a name="get-the-pre-approvers-manager"></a>事前承認者のマネージャーを取得する
-1. 先ほどの[休暇申請を作成した従業員のマネージャーを取得する](sequential-modern-approvals.md#get-the-manager-for-the-person-who-created-the-vacation-request)ステップを使用して、**[Get manager]\(マネージャー取得)** アクションを再度追加して構成します。 今回は事前承認者のマネージャーを取得します。
-2. 作成した **[Get manager 2]\(マネージャー取得 2)** カードはこのイメージのようになります。 **[このフローで使用されるアプリやサービスから動的コンテンツを追加します]** カードでは、**[Get manager]\(マネージャー取得)** カテゴリから取得した **[電子メール]** トークンを使用してください。
+1. 先ほどの[休暇申請を作成した従業員のマネージャーを取得する](sequential-modern-approvals.md#get-the-manager-for-the-person-who-created-the-vacation-request)ステップを使用して、**[Get manager] (マネージャー取得)** アクションを再度追加して構成します。 今回は事前承認者のマネージャーを取得します。
+2. 作成した **[Get manager 2] (マネージャー取得 2)** カードはこのイメージのようになります。 **[このフローで使用されるアプリやサービスから動的コンテンツを追加します]** カードでは、**[Get manager] (マネージャー取得)** カテゴリから取得した **[電子メール]** トークンを使用してください。
    
    ![事前承認者のマネージャーを取得する](includes/media/modern-approvals/get-pre-approver-manager.png)
 
 ## <a name="add-the-final-approval-action"></a>最終承認アクションを追加する
-1. 先ほどの[事前承認用の承認アクションを追加する](sequential-modern-approvals.md#add-an-approval-action-for-pre-approvals)ステップを使用して、**[Start an approval]\(承認を開始)** アクションを再度追加して構成します。 このアクションを使用すると、最終承認を求める電子メール要求が送信されます。
+1. 先ほどの[事前承認用の承認アクションを追加する](sequential-modern-approvals.md#add-an-approval-action-for-pre-approvals)ステップを使用して、**[Start an approval] (承認を開始)** アクションを再度追加して構成します。 このアクションを使用すると、最終承認を求める電子メール要求が送信されます。
 2. 完了したカードはこのイメージのようになります。
    
     ![承認の構成](./media/sequential-modern-approvals/provide-approval-config-info.png)

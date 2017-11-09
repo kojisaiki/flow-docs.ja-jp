@@ -26,10 +26,10 @@ ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
 ms.openlocfilehash: a833abf7cb43e6d8a1c67b0f4160c90a4b24545a
-ms.sourcegitcommit: 122870842a07183ab3b90e07d99b60d822d6c5ae
+ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>複数の値を確認する条件で式を使用する
 このチュートリアルでは、式と**条件**を利用し、**詳細設定モード**で複数の値を比較する方法について学習します。
@@ -100,7 +100,7 @@ ms.lasthandoff: 10/18/2017
     注: 使用しているスプレッドシートに対応する "行の取得" アクションを選択します。 たとえば、Google スプレッドシートを使用している場合、**[Google スプレッドシート - 行の取得]** を選択します。
    
     ![行を取得する](includes/media/new-step/get-excel-rows.png)
-3. [**ファイル名**] ボックスのフォルダー アイコンを選択し、データが含まれるスプレッドシートを探し、選択します。
+3. **[ファイル名]** ボックスのフォルダー アイコンを選択し、データが含まれるスプレッドシートを探し、選択します。
    
     ![スプレッドシートを選択する](includes/media/new-step/select-spreadsheet.png)
 4. **[テーブル名]** 一覧のデータを含むテーブルを選択します。

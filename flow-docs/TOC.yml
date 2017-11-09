@@ -30,6 +30,8 @@
       href: data-operations.md
     - name: データのフィルターとコピー
       href: odata-filters.md
+    - name: 条件の式を使用する
+      href: use-expressions-in-conditions.md
     - name: Dynamics 365 でフローを作成する
       href: connection-dynamics365.md
     - name: Common Data Service にデータを追加する

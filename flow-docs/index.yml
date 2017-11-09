@@ -45,7 +45,7 @@ sections:
             image:
               src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
             title: ボタンについて
-          - href: 'https://flow.microsoft.com/blog/automation-for-recruiters'
+          - href: 'https://aka.ms/flowoftheweek'
             html: <p>週のフローからインスピレーションを受ける</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
