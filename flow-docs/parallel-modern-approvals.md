@@ -64,18 +64,18 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 [!INCLUDE [add-an-approval-action](includes/add-an-approval-action.md)]
 
 > [!IMPORTANT]
-> このアクションを実行すると、**[割り当て先ユーザー/グループ]** ボックス内の電子メール アドレスに休暇申請が送信されるため、**[Get manager] (マネージャー取得)** 一覧から取得した **[Email]\(電子メール)** トークンを挿入してください。
+> このアクションを実行すると、**[割り当て先ユーザー/グループ]** ボックス内の電子メール アドレスに休暇申請が送信されるため、**[Get manager]\(マネージャー取得)** 一覧から取得した **[Email]\(電子メール)** トークンを挿入してください。
 > 
 > 
 
 ## <a name="insert-a-parallel-branch-approval-action-for-the-sales-team"></a>販売チーム用のパラレル分岐承認アクションを挿入する
-1. **[Get manager]\(マネージャー取得)** カードと **[Start an approval] (承認を開始)** カードの間にある下向き矢印を選択します。
+1. **[Get manager]\(マネージャー取得)** カードと **[Start an approval]\(承認を開始)** カードの間にある下向き矢印を選択します。
 2. 下向き矢印を選択した後に表示されるプラス記号を選択します。
 3. **[Add a parallel branch]\(パラレル分岐の追加)** を選択します。
 4. **[アクションの追加]** を選択します。
    
     ![マネージャーの構成を取得する](./media/parallel-modern-approvals/add-parallel-branch.png)
-5. 休暇申請を販売チームに送信する **[Start an approval] (承認を開始)** アクションを検索して選択し、構成します。 **[Start an approval]\(承認を開始)** アクションを追加する方法がわからない場合は、[直属のマネージャー用の承認アクションを追加するために使用したステップ](parallel-modern-approvals.md#add-an-approval-action-for-immediate-manager)を参照してください。
+5. 休暇申請を販売チームに送信する **[Start an approval]\(承認を開始)** アクションを検索して選択し、構成します。 **[Start an approval]\(承認を開始)** アクションを追加する方法がわからない場合は、[直属のマネージャー用の承認アクションを追加するために使用したステップ](parallel-modern-approvals.md#add-an-approval-action-for-immediate-manager)を参照してください。
 
 > [!IMPORTANT]
 > **[Start an approval]\(承認を開始)** アクションの **[割り当て先ユーザー/グループ]** ボックスにある販売チームの電子メール アドレスを使用します。
@@ -114,10 +114,10 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 1. **[Start an approval]\(承認を開始)** 分岐にある空白部分を選択します。
 2. 小さい **[Insert a new step]\(新しいステップの挿入)** ボタン (前のステップで空白部分を選択した後で表示された丸付きの + ボタン) を選択します。
 3. 表示されるメニューから **[条件の追加]** を選択します。
-4. **[条件]** カードの最初のチェックボックスをオンにして、動的コンテンツ一覧の **[Start an approval]\(承認を開始)** カテゴリから **[Response] (応答)** トークンを選択します。
+4. **[条件]** カードの最初のチェックボックスをオンにして、動的コンテンツ一覧の **[Start an approval]\(承認を開始)** カテゴリから **[Response]\(応答)** トークンを選択します。
    
     ![パラレル分岐条件が含まれるフロー](./media/parallel-modern-approvals/configure-approval-condition.png)
-5. 一覧 (**[条件]** カードの中ほどにある) が **[is equal to] (と等しい)** に設定されていることを確認します。
+5. 一覧 (**[条件]** カードの中ほどにある) が **[is equal to]\(と等しい)** に設定されていることを確認します。
 6. 最後のボックスに「**Approve**」(承認) (このテキストでは大文字と小文字が区別されます) と入力します。
 7. 条件カードは、次の例のようになります。
    
@@ -151,7 +151,7 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 
    ![アイテムの更新の構成](./media/parallel-modern-approvals/configure-update-item.png)
 
-**[Start an approval 2]\(承認を開始 2)** と **[Start an approval 3] (承認を開始 3)** の分岐について、前のステップを繰り返します。
+**[Start an approval 2]\(承認を開始 2)** と **[Start an approval 3]\(承認を開始 3)** の分岐について、前のステップを繰り返します。
 
 ## <a name="complete-the-flow"></a>フローを完成させる
 1. **[新しいステップ]**  >  **[アクションの追加]** を選択する
