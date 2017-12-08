@@ -1,13 +1,12 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: はじめに
+title: "はじめに"
 metadata:
-  title: はじめに | Microsoft Flow
-  description: Microsoft Flow のガイド付き学習にようこそ。 この自分のペースで進められるオンライン コースでは、Microsoft Flow について順番に説明します。Microsoft Flow に関する知識を積み上げることができます。
+  title: "はじめに | Microsoft Flow"
+  description: "Microsoft Flow のガイド付き学習にようこそ。 この自分のペースで進められるオンライン コースでは、Microsoft Flow について順番に説明します。Microsoft Flow に関する知識を積み上げることができます。"
   audience: Business User
   level: Beginner
   nextTutorialHref: build-flows
-  nextTutorialTitle: フローの構築
+  nextTutorialTitle: "フローの構築"
   displayType: one-column
   author: MSFTMan
   manager: anneta
@@ -16,26 +15,32 @@ metadata:
   ms.date: 10/04/2017
   ms.author: deonhe
 items:
-  - durationInMinutes: 1
-    content: |
-      Microsoft Flow のガイド付き学習にようこそ。 この自分のペースで進められるオンライン コースでは、Microsoft Flow について順番に説明します。Microsoft Flow に関する知識を積み上げることができます。
-  - title: Microsoft Flow の基本を理解する
-    durationInMinutes: 14
-    content: |
-      > [!Video https://www.youtube.com/embed/CYR-fZc5Maw?rel=0]
+- durationInMinutes: 1
+  content: "Microsoft Flow のガイド付き学習にようこそ。 この自分のペースで進められるオンライン コースでは、Microsoft Flow について順番に説明します。Microsoft Flow に関する知識を積み上げることができます。\n"
+  ms.openlocfilehash: 7b5bcbbe1a53feb773b940aae32b295cec5feba8
+  ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 11/07/2017
+- title: "Microsoft Flow の基本を理解する"
+  durationInMinutes: 14
+  content: >
+    > [!Video https://www.youtube.com/embed/CYR-fZc5Maw?rel=0]
 
-      [!INCLUDE [learning-introduce-flow](../includes/learning-introduce-flow.md)]
-  - title: テンプレートからフローを作成する
-    durationInMinutes: 9
-    content: |
-      > [!Video https://www.youtube.com/embed/D46qE7FuShM?rel=0]
 
-      [!INCLUDE [learning-create-a-flow](../includes/learning-create-a-flow.md)]
-  - title: Microsoft Flow モバイル アプリの使用
-    durationInMinutes: 8
-    content: |
-      > [!Video https://www.youtube.com/embed/o80hRMpb0_4?rel=0]
+    [!INCLUDE [learning-introduce-flow](../includes/learning-introduce-flow.md)]
+- title: "テンプレートからフローを作成する"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/D46qE7FuShM?rel=0]
 
-      [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
-  - content: |
-      Microsoft Flow のガイド付き学習の「**はじめに**」セクションを完了しておきます。
+
+    [!INCLUDE [learning-create-a-flow](../includes/learning-create-a-flow.md)]
+- title: "Microsoft Flow モバイル アプリの使用"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/o80hRMpb0_4?rel=0]
+
+
+    [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
+- content: "Microsoft Flow のガイド付き学習の「**はじめに**」セクションを完了しておきます。\0"

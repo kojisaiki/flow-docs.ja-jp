@@ -1,9 +1,8 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: フローの管理
+title: "フローの管理"
 metadata:
-  title: フローの管理 | Microsoft Flow
-  description: 環境とデータ保護ポリシーを使用してデータ ソースとフローを管理する方法について説明します。
+  title: "フローの管理 | Microsoft Flow"
+  description: "環境とデータ保護ポリシーを使用してデータ ソースとフローを管理する方法について説明します。"
   audience: Business User
   level: Beginner
   displayType: one-column
@@ -14,20 +13,25 @@ metadata:
   ms.date: 10/04/2017
   ms.author: deonhe
 items:
-  - durationInMinutes: 1
-    content: |
-      環境とデータ保護ポリシーを使用してデータ ソースとフローを管理する方法について説明します。
-  - title: 環境を使用してフローを管理する
-    durationInMinutes: 8
-    content: |
-      > [!Video https://www.youtube.com/embed/wnScBLz7css?rel=0]
+- durationInMinutes: 1
+  content: "環境とデータ保護ポリシーを使用してデータ ソースとフローを管理する方法について説明します。\n"
+  ms.openlocfilehash: 52eb25087beb258481be25a560c84093d025021a
+  ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 11/07/2017
+- title: "環境を使用してフローを管理する"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/wnScBLz7css?rel=0]
 
-      [!INCLUDE [learning-environments](../includes/learning-environments.md)]
-  - title: データ損失防止ポリシーを使用する
-    durationInMinutes: 6
-    content: |
-      > [!Video https://www.youtube.com/embed/vls4RPVP5xE?rel=0]
 
-      [!INCLUDE [learning-data-loss-prevention](../includes/learning-data-loss-prevention.md)]
-  - content: |
-      Microsoft Flow のガイド付き学習の「**フローの管理**」セクションを完了しておきます。
+    [!INCLUDE [learning-environments](../includes/learning-environments.md)]
+- title: "データ損失防止ポリシーを使用する"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/vls4RPVP5xE?rel=0]
+
+
+    [!INCLUDE [learning-data-loss-prevention](../includes/learning-data-loss-prevention.md)]
+- content: "Microsoft Flow のガイド付き学習の「**フローの管理**」セクションを完了しておきます。\0"
