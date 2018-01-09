@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/25/2017
+ms.date: 01/01/2018
 ms.author: stepsic
-ms.openlocfilehash: 37bab7ccd54ecc7976a42df2e215daa19916fc85
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 8bdfafff5fbf3a5491809063e92607cd8e10167c
+ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -28,11 +28,11 @@ ms.lasthandoff: 10/15/2017
    1. 障害を特定します。 最初に Web ポータルの上部にある通知アイコンを選ぶか、モバイル アプリで **[Activity]** (アクティビティ) タブを選びます。 フローが表示され、選択できるようになります。
    2. これでフローの詳細を調べられるようになりました。 赤い感嘆符アイコンの付いたステップを探すと、フローのエラー メッセージが表示されているはずです。
    3. エラー メッセージに応じて、フローを**編集**して修正できます。 [フローの一般的なエラーの解決方法については、こちらを参照してください](fix-flow-failures.md)。
-2. 高度な条件または数式はどのようにして使えばよいですか。
+2. 高度な条件または式はどのようにして使えばよいですか。
    
-   * [条件の追加に関する記事](add-a-condition.md)をご覧ください。
+   * [条件の追加に関する記事](add-condition.md)をご覧ください。
    * フローに複数のケースが必要な場合は、既存の条件から **[条件の追加]** をクリックまたはタップします。
-   * 高度な数式を作成するには、[Logic Apps の関数](https://docs.microsoft.com/rest/api/logic/definition-language)を参照してください。
+   * 高度な式を作成するには、[Logic Apps の関数](https://docs.microsoft.com/rest/api/logic/definition-language)を参照してください。
 3. Office 365 ではライセンスはどのように機能しますか?
    
    * Office 365 ユーザーの場合は、Microsoft Flow for Office 365 プランでフル アクセスを取得します。 詳細については、[Microsoft Flow の料金プラン](https://flow.microsoft.com/pricing/)をご覧ください。
@@ -40,11 +40,110 @@ ms.lasthandoff: 10/15/2017
 
 ## <a name="known-issues-and-resolutions"></a>既知の問題と解決策
 1. [マイ サイト] にある、種類が *カスタム リスト* 以外の SharePoint リストがサポートされていません。 この問題を回避するには、標準的な SharePoint サイトにカスタム リストを作成します。
-2. ドキュメント メタデータが SharePoint ドキュメント ライブラリ上のトリガーから返されません。
-3. SharePoint リストの分類フィールドにフローを書き込むことはできません。 この問題が修正されるまでは、単純な文字列フィールドを使用することをお勧めします。
-4. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
+2. SharePoint リストの分類フィールドにフローを書き込むことはできません。 この問題が修正されるまでは、単純な文字列フィールドを使用することをお勧めします。
+3. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
 
 ## <a name="whats-new"></a>新機能
+
+### <a name="release-2017-12-20"></a>2017 年 12 月 20 日リリース
+
+すべての Microsoft Flow リージョンで Microsoft Flow Analytics を利用できるようになり、環境内で実行されているフローの正常性を詳細に知ることができます。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/announcing-microsoft-flow-analytics/)。
+
+
+### <a name="release-2017-12-14"></a>2017 年 12 月 14 日リリース
+
+- **Outlook Connector の機能強化** - ".eml" ファイルとしてのメールの保存、予定表の招待への自動応答、メール スレッドで言及されたときのフローのトリガーを行うことができるようになりました。
+- **接続の機能強化** - Microsoft Flow はユーザーが最近使った接続を記憶し、新しく追加されたすべてのコネクタを表示します。
+- **5 つの新しいコネクタ** - Azure Container Instances、Azure Kusto、Metatask、Microsoft To-Do、Plumsail Documents が追加されました。
+- **HTTP の機能強化** - HTTP のアクションがチャンク エンコードをサポートするようになりました。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/outlook-connector-more/)。
+
+### <a name="release-2017-12-05"></a>2017 年 12 月 5 日リリース
+
+すべてのリージョンで、Microsoft Flow の起動パネルを利用できるようになりました。 このパネルでは、SharePoint のリストまたはドキュメント ライブラリ内でフローを実行するときに、フローに値を追加することができます。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/introducing-flow-launch-panel-in-sharepoint-lists-and-libraries/)。
+
+
+### <a name="release-2017-11-28"></a>2017 年 11 月 28 日リリース
+
+- **管理されたメタデータ** - 管理されたメタデータ (分類とも呼ばれます) 型を使う SharePoint の列のデータを読み取ったり書き込んだりできます 。
+- **配列への追加** - 新しい [配列変数に追加] アクションを使って、配列の末尾に項目を追加できます。
+- **Tago** - Tago へのコネクタが新しく追加されました。外部データを提供する電子デバイスを簡単に接続し、コンテキスト分析を使ってより賢明な意思決定を下すことができます。
+- **iPhone X** - iPhone X の全画面表示を使い、画像のアップロードの速度が向上した、新しいバージョンの Microsoft Flow アプリです。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/managed-metadata-tago/)。
+
+### <a name="release-2017-11-09"></a>2017 年 11 月 9 日リリース
+
+- **OneDrive for Business の統合** - [OneDrive for Business 内のフロー ボタン](https://flow.microsoft.com/blog/microsoft-flow-integration-in-one-drive-for-business-and-new-connector-actions/)を使って、選んだファイルまたはフォルダーに対するフローを作成またはトリガーできるようになりました。
+- **プランナーのトリガー** - 新しいタスクが作成されたとき、自分にタスクが割り当てられたとき、またはタスクが完了したときに、フローを開始します。
+- **SharePoint の添付ファイル** - SharePoint リスト項目の添付ファイルを処理 (添付ファイルの一覧表示、ダウンロード、追加、削除) します。
+- **フロー管理コネクタ** - 環境内の他のフローの管理を自動化するフローを作成します (たとえば、アクセス許可をフローに自動的に追加します)。
+- **4 つの新しいコネクタ** - Azure Custom Vision Service、D&B Optimizer、Enadoc、Derdak SIGNL4 が追加されました。 
+- **新しいコネクタ アクション** - SQL クエリの実行、メール トリガーの取得の高速化、Azure AD での HTTP の任意のメソッドの使用など。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/planner-triggers-connector-improvements/)。
+
+### <a name="release-2017-11-02"></a>2017 年 11 月 2 日リリース
+
+- **監査ログ** - Microsoft Flow 監査イベントを、すべてのテナントの Office 365 セキュリティ/コンプライアンス センターで使用できるようになりました。
+- **フロー ウィジェットの修正** - ウィジェットにボタンが読み込まれなくなる Flow モバイル アプリの問題を修正しました。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/security-and-compliance-center/)。
+
+### <a name="release-2017-10-19"></a>2017 年 10 月 19 日リリース
+
+- **入れ子になった Apply to each** - 他の Apply to each コンテナーに Apply to each アクションを追加し、フィルター処理や選択ができます。
+- **日付と時刻のアクション** - ローカル時刻の取得、および時間の追加、減算、書式設定のための新しいアクション。
+- **4 つの新しいコネクタ** - Content Moderator、Docparser、Microsoft Kaizala、Pitney Bowes Data Validation が追加されました。
+- **接続エクスペリエンスの向上** - 接続が切れたときの Flow ポータルでの通知と、より充実した接続の詳細情報。
+- **外出先コレクション** - [外出先で作業する](https://flow.microsoft.com/collections/onthego/)ための新しいテンプレート コレクション。
+- **メール アドレスのボタン入力** - ユーザーがボタンを実行したときに、ユーザーからメール アドレスを収集します。
+- **ファイルのボタン入力** - ユーザーがボタンを実行したときに、写真などのアップロードされたファイルをユーザーから取得します。
+- **最初の実行と自動サインイン** - 自動サインインなど、モバイル アプリでの最初の実行エクスペリエンスが向上しました。
+- **Microsoft Forms トリガーの高速化** - Forms でこれまでよりはるかに速くフローをトリガーできます (これまでは 1 時間に 1 回)。
+- **セッション間でのボタン入力** - 携帯電話でトリガーされたボタンが、以前の入力を記憶しています。
+- **モバイル アクティビティ フィード** - より詳細な実行の概要とトラブルシューティングの詳細を含めるように、アクティビティのフィードが強化されました。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/nested-apply-to-each/)。
+
+### <a name="release-2017-10-03"></a>2017 年 10 月 3 日リリース
+
+- **全員の承認が必要** - 承認要求を受け取ったすべてのユーザーによる承認を必要とします。
+- **新しい OneDrive for Business アクション** - OneDrive for Business に格納されたファイルの PDF 生成および他の 4 つの新しいアクション。
+- **Apache Impala コネクタ** - Apache Impala (incubating) はオープン ソースであり、Apache Hadoop のネイティブの分析データベースです。
+- **フローの説明の追加** - フローを共有するときに同僚がフローの概要を理解できるように、フローの説明を追加します。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/all-must-approve-and-onedrive/)。
+
+### <a name="release-2017-09-25---q3-update-for-microsoft-flow"></a>2017 年 9 月 25 日リリース - Microsoft Flow の第 3 四半期更新プログラム
+
+- **最初のリリースでの SharePoint のより深い統合** - レビュー フロー用の新しい "標準" 送信と、初期リリース テナントのフローを実行するときに入力を収集するためのフロー パネルがあります。
+- **Dynamics 365 for Customer Engagement** - フローが Dynamics 365 for Customer Engagement の UI に統合されました。
+- **Microsoft セキュリティ センター** - フローが Microsoft セキュリティ センターに一覧表示され、HIPAA、ISO、SOC などの認定が示されます。
+- **使用状況の分析** - すべてのフローには、基本的な使用状況分析機能を備えた Power BI ダッシュボードが埋め込まれています。
+- **初期リリースでの監査ログ** - 初期リリース テナントのすべてのフロー管理イベントが、Office 365 セキュリティ/コンプライアンス センターに記録されます。
+- **6 つの新しいコネクタ** - LinkedIn、Office 365 Groups、Skype for Business、Adobe Sign、Bizzy、Azure Log Analytics Data Collection が追加されました。
+- **SQL トリガー** - SQL テーブルで新しい行が追加されると、または行が更新されると、フローが実行されます。
+- **オンプレミスのカスタム コネクタ** - カスタム コネクタは、オンプレミスのデータ ゲートウェイを使って、ネットワーク上の内部エンドポイントに接続できるようになりました。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/q3-2017-update/)。
+
+### <a name="release-2017-09-21"></a>2017 年 9 月 21 日リリース
+
+- **フロー履歴のダウンロード** - フローの実行履歴を Excel で開く CSV ファイルとしてダウンロードします。
+- **高度な定期実行** - 定期的なスケジュールを作成してフローをトリガーします (たとえば、平日にのみトリガーする)。
+- **IntelliSense** - 式を入力すると、IntelliSense がパラメーターの候補を表示します。
+- **4 つの新しいコネクタ** - Azure AD HTTP サービス、Amazon Redshift、Azure Event Grid Publish、FlowForma 用のコネクタが追加されました。
+- **リンクの共有** - OneDrive ファイルまたは Azure Storage Blob の共有できるリンクを生成する新しいアクション。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/download-history-recurrence/)。
+
+
 ### <a name="release-2017-08-25"></a>2017 年 8 月 25 日リリース
 * **SharePoint 用のドキュメント プロパティおよびその他** - [SharePoint ドキュメント ライブラリのプロパティの読み取りおよび設定](https://flow.microsoft.com/blog/support-for-sharepoint-document-library-properties/)を行い、SharePoint アイテムへのリンクなど追加のフィールドを使用できます。
 * **フロー コレクション** - フロー コレクションは、ロールごと、または縦方向で整理された一連のテンプレート コレクションです。
@@ -406,8 +505,8 @@ Microsoft Project Online と Mailchimp の Mandrill の 2 つの新しいサー�
 * フローをカスタマイズした後、[独自のテンプレートをギャラリーに発行](publish-a-template.md)できます。
 * フローのチェックと実行すべてについて、履歴を確認することができます。
 * フローを保存するときに、トリガー アクションを実行するだけで、[実行中のフローを即座に確認](see-a-flow-run.md)できます。
-* Flow に関する意見を交換したり[提案](https://go.microsoft.com/fwlink/?LinkID=787474)したりするための[新しいコミュニティ](http://go.microsoft.com/fwlink/?LinkID=787467)を利用できます。
+* Flow に関する意見を交換したり[提案](https://go.microsoft.com/fwlink/?LinkID=787474)したりするための[新しいコミュニティ](https://go.microsoft.com/fwlink/?LinkID=787467)を利用できます。
 
 ## <a name="next-steps"></a>次のステップ
-このリリース ノートまたは[よく寄せられる質問](frequently-asked-questions.md)に記載されていない問題がある場合は、[コミュニティに参加](http://go.microsoft.com/fwlink/?LinkID=787467)して質問するか、[サポートにお問い合わせください](http://go.microsoft.com/fwlink/?LinkID=787479)。
+このリリース ノートまたは[よく寄せられる質問](frequently-asked-questions.md)に記載されていない問題がある場合は、[コミュニティに参加](https://go.microsoft.com/fwlink/?LinkID=787467)して質問するか、[サポートにお問い合わせください](http://go.microsoft.com/fwlink/?LinkID=787479)。
 

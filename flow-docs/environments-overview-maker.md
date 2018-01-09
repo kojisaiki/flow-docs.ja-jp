@@ -1,6 +1,6 @@
 ---
-title: "Microsoft Flow の作成時に環境を切り替える | Microsoft Docs"
-description: "Microsoft Flow を作成するときにさまざまな環境を使用する方法"
+title: "Microsoft Flow の環境についての説明 | Microsoft Docs"
+description: "環境を使ってフローを分離する方法について説明します。"
 services: 
 suite: flow
 documentationcenter: na
@@ -13,70 +13,79 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/27/2016
+ms.date: 11/27/2017
 ms.author: sunayv
-ms.openlocfilehash: bcbb566c20291da14881d771c538dd89689b6b1d
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 202167f833c6f5e1a8105db8bd44addc24dfdc3e
+ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="choosing-an-environment"></a>環境を選択する
-Microsoft Flow は、さまざまな環境で作業できるほか、環境の切り替えも簡単に行うことができます。 この記事では、環境に関する次のトピックを取り上げます。
 
-* 環境の機能の概要
-* 環境を切り替える
-* 適切な環境でフローを作成する方法
+この記事で紹介する Microsoft Flow の**環境**を使うと、フロー、ゲートウェイ、接続、その他のリソースを作成して安全に分離できます。
+
+以下について説明します。
+
+* 環境が提供する機能。
+* 環境の切り替え。
+* 適切な環境でフローを作成する方法。
 
 ## <a name="environments-overview"></a>環境の概要
-環境では、フロー、接続、ゲートウェイなどのリソースの分離境界を提供しています。 フローを作成する際は、フローをホストする環境と、そのフローで使用するリソースを選択します。 シナリオに応じて異なる環境を使用できます。
 
-いくつかの例を示します。
+フローを作成するときに、フローおよびフローが使うリソースをホストする環境を選びます。 シナリオごとに異なる環境を使うことができます。
 
-* Microsoft Common Data Service への接続を使用するフローの作成。 このシナリオでは、フローと Microsoft Common Data Service は同一の環境に存在します。 このため、すべてのデータは環境 (分離境界) 内で分離されます。
-* 人事部門向けのフローの作成。 人事部門のユーザーのみがそのフローにアクセスできるようにする必要があります。 たとえば、販売グループがそのフローを使用できないようにします。 このシナリオでは、人事部門のユーザーのみがアクセス許可を持つ別の環境を使用して、フローとフローで使用されるリソース (ゲートウェイや接続など) をホストすることができます。
-* フローを使用して SharePoint のデータを表示する、ヨーロッパのユーザーがいる場合。 このシナリオでは、フローと SharePoint 接続をホストする環境をヨーロッパに作成します。 このヨーロッパの環境では、すべてのリソースがヨーロッパに存在するため (データのローカリティ)、ヨーロッパのユーザーは最高のパフォーマンスを得られます。
+## <a name="here-are-a-few-scenarios-for-using-environments"></a>環境を使うシナリオの例
 
-環境は、Microsoft Flow の管理者によって作成されます。 このような管理者は、異なる環境にアクセスできるユーザーも制御します。
+シナリオ|推奨
+-----|-----
+Microsoft Common Data Service への接続を使うフローを作成する。|フローと Common Data Service を同じ環境に配置します。 このため、すべてのデータは環境 (分離境界) 内で分離されます。
+人事部門向けのフローを作成する。 人事部門のユーザーのみがそのフローにアクセスできるようにする必要があります。|環境を作成し、人事部のユーザーのみをそこに追加します。 フローおよびフローが使う他のリソースを、この環境に置きます。
+フローを使って SharePoint のデータを表示するユーザーがヨーロッパにいる。|ヨーロッパに環境を作成し、フローと SharePoint 接続をその中に作成します。 このヨーロッパの環境では、すべてのリソースがヨーロッパに存在するため (データのローカリティ)、ヨーロッパのユーザーは最高のパフォーマンスを得られます。
 
-このトピックでは、異なる環境間で移動する方法を示します。 環境の作成と管理の方法の詳細については、[環境の管理](environments-overview-admin.md)に関するページを参照してください。
+環境を作成するには、Microsoft Flow 管理者である必要があります。 管理者は、環境にアクセスできるユーザーを制御します。 環境の作成と管理の方法について詳しくは、[環境の管理](environments-overview-admin.md)に関するトピックをご覧ください。
 
 ## <a name="switching-environments"></a>環境を切り替える
-Microsoft Flow では、非常に簡単に環境を切り替えることができます。 切り替えを行うと、その特定の環境のすべての項目が表示されます。他の環境の項目は表示されません。
+
+Microsoft Flow では、簡単に環境を切り替えることができます。 環境を切り替えると、その特定の環境で作成された項目のみが表示されます。他の環境にある項目が表示またはアクセスされることはありません。
 
 次に例を示します。
 
-*Human Resources* 環境に *NewEmployee* という名前のフローを作成します。 [flow.microsoft.com](http://flow.microsoft.com) で、*Sales* 環境を開きます。 *NewEmployee* フローは表示されません。 *NewEmployee* フローを表示するには、*Human Resources* 環境を開きます。 これは、接続、ゲートウェイ、PowerApps など、その環境で作成するすべての項目に適用されますので注意してください。
+*Human Resources* 環境に *NewEmployee* という名前のフローを作成してあります。 [Microsoft Flow](https://flow.microsoft.com) で、*Sales* 環境を開きます。 *NewEmployee* フローは表示されません。 *NewEmployee* フローを表示するには、*Human Resources* 環境を開きます。 接続、ゲートウェイ、フローなど、その環境で作成した他のすべての項目にも同じルールが適用されることに注意してください。
 
-1. [flow.microsoft.com](http://flow.microsoft.com) を開きます。
-2. 右上隅に、ユーザーの名前と現在の環境が表示されます。  
-   ![](./media/environments-overview-maker/default-environment.png)
-   
-    画像では通知に注目してください。 これらの通知は、この既定の環境のフローに固有です。
-3. 自分の名前を選択します。 ドロップダウン リストには、ユーザーが使用できるすべての環境が一覧表示されます。 現在の環境が選択されています。  
-   ![](./media/environments-overview-maker/all-environments.png)
-4. 別の環境に切り替えるには、一覧でその環境を選択します。  
-   ![](./media/environments-overview-maker/select-europe.png)
-5. Microsoft Flow は、新しい環境に自動的に切り替わります。  
-   ![](./media/environments-overview-maker/europe-environment.png)
-   
-    画像で通知が表示されなくなったことに注目してください。 新しい Europe 環境には通知がありません。
+環境を切り替えるには次の手順のようにします。
+
+1. [Microsoft Flow](https://flow.microsoft.com) にサインインします。
+1. 右上隅に、自分のプロファイルを表す画像が表示されます。
+
+   ![プロファイルの画像](./media/environments-overview-maker/default-environment.png)
+
+1. 画像を選びます。 ドロップダウン リストに、自分が使用できるすべての環境が表示されます。 現在サインインしている環境にはチェック マークが表示されます。
+
+   ![環境の一覧の画像](./media/environments-overview-maker/all-environments.png)
+1. 別の環境に切り替えるには、一覧でその環境を選択します。
+
+   ![切り替え先の環境を選ぶ](./media/environments-overview-maker/select-europe.png)
+1. Microsoft Flow が新しい環境に切り替わります。
 
 ## <a name="create-flows-in-the-right-environment"></a>適切な環境でのフローの作成
-フローを作成する前に、フローを作成する環境を選択していることを必ず確認してください。 選択していない場合は、フローを削除して、正しい環境で再作成することになります。
 
-フローを作成する環境を選択する際は、次のことを考慮してください。
+フローを作成する前に、フローとそのリソースを追加する環境を選びます。
 
-* ゲートウェイは既定の環境に作成されます。 ゲートウェイは他の環境に作成できないため、オンプレミスのデータに接続する場合は既定の環境を使用する必要があります。
-* フローで使用できるのは、同じ環境内にある接続とリソースのみです。 別の環境のリソースを使用することはできません。 たとえば、カスタム コネクタを使うフローを作成しているものとします。 このカスタム コネクタは、フローと同じ環境に存在する必要があります。
-* Microsoft Common Data Service データベースが関連付けられている環境は常に 1 つだけです。 つまり、Microsoft Common Data Service のデータを使用する場合は、そのデータベースと同じ環境を選択する必要があります。
-* リソースの編集が可能な環境がすべて表示されます。 ただし、すべての環境で新しいリソースを作成できるという意味ではありません。 このため、一部の環境では新しいフローを作成できない場合があります。 管理者に依頼して "**作成者**" として環境に追加してもらうか、別の環境を選んでフローを作成する必要があります (既定の環境にはいつでもフローを作成できます)。
+> [!NOTE]
+正しくない環境にフローを作成した場合は、フローを削除し、適切な環境に作成しなおす必要があります。
 
-## <a name="what-you-did"></a>結果
-上記の手順を使用すると、使用するためのアクセス許可を持っている複数の環境を切り替えます。 これで、フローの作成を開始できます。
+フローをホストする環境を選ぶときは、次のことを考慮してください。
+
+* ゲートウェイは、既定の環境にのみ作成できます。 したがって、ゲートウェイを使ってフローをオンプレミスのデータに接続する場合は、既定の環境を使う必要があります。
+* Microsoft Common Data Service のデータベースは、特定の環境に関連付けられています。 そのため、Common Data Service を使うフローを作成する場合は、データベースをホストしている環境にフローを作成する必要があります。
+* 自分がリソースを編集できるすべての環境が表示されます。 ただし、フローを作成する必要があるすべての環境への作成者としての追加は、管理者に依頼する必要があります。
+
+> [!NOTE]
+既定の環境でのフローの作成は常に行うことができます。
 
 ## <a name="next-steps"></a>次のステップ
-[テンプレートからフローを作成する](get-started-logic-template.md)  
-[フローを作成する](get-started-logic-flow.md)  
-[管理者に関する環境の概要](environments-overview-admin.md)
 
+* [テンプレートからフローを作成する](get-started-logic-template.md)
+* [フローを作成する](get-started-logic-flow.md)
+* [管理者に関する環境の概要](environments-overview-admin.md)
