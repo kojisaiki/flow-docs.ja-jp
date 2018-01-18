@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/05/2016
 ms.author: stepsic
-ms.openlocfilehash: 6a05153864e37682ece83d8e5d90fa43a3ad01e1
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f8807ca0941761018c92a385c26f427e69ededcb
+ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="flow-in-your-organization-qa"></a>組織における Flow の Q & A
 このトピックでは、組織のユーザーが Flow を使用する方法と、管理者が Flow サービスを制御する方法について説明します。
@@ -73,7 +73,7 @@ Microsoft Flow は完全なパブリック クラウド サービスです。世
 2. 左のナビゲーション バーで、**[ユーザー]** を選択し、**[アクティブ ユーザー]** を選択します。
 3. ライセンスを削除するユーザーを見つけ、その名前を選択します。
 4. ユーザーの詳細ウィンドウの **[製品ライセンス]** セクションで、**[編集]** を選択します。
-5. **Microsoft Flow Plan 1** または **Microsoft Flow Plan 2** という名前のライセンスを見つけて [**オフ**] に切り替え、[**保存**] を選択します。
+5. **Microsoft Flow Plan 1** または **Microsoft Flow Plan 2** という名前のライセンスを見つけて **[オフ]** に切り替え、**[保存]** を選択します。
    
    ![](./media/organization-q-and-a/remove-license.png)
 
@@ -101,12 +101,12 @@ Office 365 プランや Dynamics 365 プランのライセンスでユーザー�
 この場合、既定で Flow のタイルが削除されるだけです。 ユーザーは引き続き個人として Microsoft Flow の使用を選択できます。
 
 ### <a name="why-did-10000-licenses-for-microsoft-flow-show-up-in-my-office-365-tenant"></a>Office 365 テナントで Microsoft Flow の 10,000 ライセンスが表示されたのはなぜですか?
-世界中のユーザーが Microsoft Flow の Plan 1 または 2 を 90 日間試用できます。そのような評価版ライセンスがテナントの新しい Flow ユーザーの収容可能人数を表します。 これらのライセンスには料金が発生しません。 Office 365 管理ポータルに 10,000 の (評価版) ライセンスが表示されるとき、具体的に次の 2 つの理由が考えられます。
+Microsoft Flow の Plan 1 または 2 を 90 日間試用できます。そのような評価版ライセンスがテナントの新しい Flow ユーザーの収容可能人数を表します。 これらのライセンスには料金が発生しません。 Office 365 管理ポータルに 10,000 の (評価版) ライセンスが表示されるとき、具体的に次の 2 つの理由が考えられます。
 
 1. 2016 年 4 月から 2016 年 10 月までの間でテナント内の 1 名以上のユーザーが Flow に参加した場合、"Microsoft PowerApps and Logic flows" というラベルの付いた 10,000 ライセンスが表示されます。
    
     ![](./media/organization-q-and-a/licenses2.png)
-2. テナント内の 1 名以上のユーザーが「[How do users sign up for PowerApps](#how-do-users-sign-up-for-powerapps)」 (PowerApps にサインアップする方法) セクションの試用サインアップ **Option 1** で Flow Plan 2 評価版にサインアップした場合、"Microsoft Power Apps & Flow" というラベルの付いた 10,000 ライセンスが表示されます。
+2. テナント内の 1 名以上のユーザーが「[How do users sign up for PowerApps](#how-do-people-sign-up-for-flow)」 (PowerApps にサインアップする方法) セクションの試用サインアップ **Option 1** で Flow Plan 2 評価版にサインアップした場合、"Microsoft Power Apps & Flow" というラベルの付いた 10,000 ライセンスが表示されます。
    
     ![](./media/organization-q-and-a/licenses1.png)
 
