@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/02/2017
 ms.author: stepsic
-ms.openlocfilehash: 27e12df6ae5754f921d37992fa6759d152fd1afc
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: c5fefde9bdd2f8e82052abfaa64a7188d768d8ea
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/18/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow での制限事項と構成
 このトピックでは、現時点でのフローに関する制限事項と構成の詳細について説明します。
@@ -108,4 +108,16 @@ Microsoft Flow の要求の送信元の IP アドレスは、フローを使用�
 | 米国 (早期アクセス) |52.161.26.191、52.161.27.42、52.161.29.40、52.161.26.33、13.66.213.240、13.66.214.51、13.66.210.166、13.66.213.29 |
 
 たとえば、Azure SQL Database の IP アドレスをホワイトリストに登録する場合は、これらのアドレスを使う必要があります。
+
+次の表に、Microsoft Flow の接続先となるサービスの一覧を示します。 これらのどのサービスもネットワークでブロックされないことを確認してください。
+
+ドメイン | プロトコル | 用途
+--------|  ---------| -----
+management.azure.com|https|Azure Resource Manager にアクセスします。
+login.microsoft.com</br>login.windows.net</br>login.microsoftonline.com</br>secure.aadcdn.microsoftonline-p.com|https|Active Directory Authentication Library (ADAL) にアクセスします。
+graph.microsoft.com </br>graph.windows.net</br>|https|プロファイルの写真などのユーザー情報を取得するために、Azure AD Graph API にアクセスします。
+*.azure-apim.net|https|コネクタのランタイムにアクセスします。
+*.flow.microsoft.com|https|Microsoft Flow サイトにアクセスします。
+*.powerapps.com|https|PowerApps サイトにアクセスします。
+psux.azureedge.net|https|Microsoft Flow CDN にアクセスします。
 
