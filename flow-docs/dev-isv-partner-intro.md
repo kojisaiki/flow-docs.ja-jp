@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/01/2017
 ms.author: mblythe
 ms.openlocfilehash: 3709f8e9bb09171a8e31a8b64695d064f0b8146a
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="microsoft-flow-for-isvs-and-microsoft-partners"></a>ISV および Microsoft パートナーのための Microsoft Flow
 Microsoft パートナーまたは ISV は、その製品と顧客のデータやビジネス プロセスとの統合を広げることにより、顧客による導入を促進できます。 コネクタを利用することで、顧客は Microsoft Flow を通して製品に接続できます。 顧客が体験できるアプリを開発して AppSource に公開することで、ビジネスの新しい潜在顧客を開拓できます。
