@@ -84,34 +84,12 @@
       href: gateway-manage.md
     - name: ゲートウェイについて理解する
       href: gateway-reference.md
-- name: '開発: 企業の開発者'
+- name: Microsoft Flow の開発
   items:
-    - name: 企業の開発者のための Microsoft Flow
+    - name: 企業の開発者、パートナー、ISV のための Microsoft Flow
       href: dev-enterprise-intro.md
-    - name: カスタム コネクタを登録して使用する
+    - name: カスタム コネクタのビルドと認定
       href: register-custom-api.md
-    - name: Postman でカスタム コネクタを記述する
-      href: postman-collection.md
-    - name: カスタム コネクタ用の OpenAPI 拡張
-      href: customapi-how-to-swagger.md
-    - name: カスタム コネクタで Azure Active Directory を使用する
-      href: customapi-azure-resource-manager-tutorial.md
-    - name: Web API 用のカスタム コネクタを作成する
-      href: customapi-web-api-tutorial.md
-    - name: Webhook を使用してフローをトリガーする
-      href: customapi-webhooks.md
-- name: '開発: パートナーと ISV'
-  items:
-    - name: Microsoft パートナーと ISV のための Microsoft Flow
-      href: dev-isv-partner-intro.md
-    - name: API コネクタの認定の概要
-      href: api-connector-overview.md
-    - name: 証明書の API コネクタを開発する
-      href: api-connector-dev.md
-    - name: 証明書の API コネクタを送信する
-      href: api-connector-submission.md
-    - name: API コネクタの認定に関する FAQ
-      href: api-connector-faq.md
     - name: Web サイトとその他のテクノロジを統合する
       href: embed-flow-dev.md
     - name: 顧客がフローを体験できるようにする
