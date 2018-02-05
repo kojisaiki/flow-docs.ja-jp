@@ -1,6 +1,6 @@
 ---
-title: "企業の開発者のための Microsoft Flow | Microsoft Docs"
-description: "企業の開発者向けに Microsoft Flow での開発に関する概要を説明します。"
+title: "企業の開発者、ISV、パートナーのための Microsoft Flow | Microsoft Docs"
+description: "Microsoft Flow のソリューションの開発について説明します。"
 services: 
 suite: flow
 documentationcenter: na
@@ -13,23 +13,37 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/01/2017
+ms.date: 01/29/2018
 ms.author: mblythe
-ms.openlocfilehash: 128cef8d8267f3a98310764a24907b795c1a76de
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: d24d7bc18aae4ecd3c7734ca066669b68e376937
+ms.sourcegitcommit: 2d6cd915a666e9032882871f70aadaea4f877c6f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
-# <a name="microsoft-flow-for-enterprise-developers"></a>企業の開発者のための Microsoft Flow
-企業の開発者として組織が堅牢なカスタム ソリューションを作成できるように Microsoft Flow で支援します。 カスタム コネクタを使って、データと Web サービスに接続します。組織の Web サイトにアプリを組み込みます。Common Data Service でデータを操作します。
+# <a name="microsoft-flow-for-enterprise-developers-isvs-and-partners"></a>企業の開発者、ISV、パートナーのための Microsoft Flow
 
-## <a name="build-custom-connectors"></a>カスタム コネクタを作成する
-カスタム コネクタを作成し、Microsoft Flow を介して組織のデータと Web サービスに接続します。 [詳細については、こちらをご覧ください](register-custom-api.md)
+開発者は Microsoft Flow を拡張することで組織や顧客により強力なソリューションを提供できます。
 
-## <a name="build-azure-functions"></a>Azure Functions を構築する
-Azure Functions を作成し、カスタム サーバー側ロジックでアプリを拡張します。 [詳細については、こちらをご覧ください](https://powerapps.microsoft.com/blog/using-azure-functions-in-powerapps/)
+## <a name="microsoft-flow-for-enterprise-developers"></a>企業の開発者のための Microsoft Flow
 
-## <a name="embed-apps"></a>アプリを組み込む
-Microsoft Flow を Web サイトのエクスペリエンスに組み込んで統合されたソリューションを作成し、組織で既に使用されているワークフローやプロセスを目に見えるようにします。 [詳細については、こちらをご覧ください](embed-flow-dev.md)
+企業の開発者として組織が堅牢なカスタム ソリューションを作成できるように Microsoft Flow で支援します。
+
+- **カスタム コネクタの作成**: カスタム コネクタを作成し、Microsoft Flow を介して組織のデータと Web サービスに接続します。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/connectors/custom-connectors/)
+
+- **Azure Functions の作成**: Azure Functions を作成し、カスタム サーバー側ロジックでアプリを拡張します。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/azure/azure-functions/functions-flow-scenario)
+
+- **Microsoft Flow の組み込み**: Microsoft Flow を Web サイトのエクスペリエンスに組み込んで統合されたソリューションを作成し、組織で既に使用されているワークフローやプロセスを目に見えるようにします。 [詳細については、こちらをご覧ください](embed-flow-dev.md)
+
+## <a name="microsoft-flow-for-isvs-and-microsoft-partners"></a>ISV および Microsoft パートナーのための Microsoft Flow
+
+Microsoft パートナーまたは ISV は、その製品と顧客のデータやビジネス プロセスとの統合を広げることにより、顧客による導入を促進できます。
+
+- **カスタム コネクタの作成と認証**: Microsoft Flow がサービスと対話できるコネクタを作成して、Microsoft のクラウドに製品を格納しましょう。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/connectors/custom-connectors/submit-certification)
+
+- **テンプレートの公開**: コネクタを作成した後は、サービスの使用方法を示すテンプレートを公開する必要があります。 これらのテンプレートは、ユーザーがサービスについて理解し、その後で独自のワークフローに拡張できる例として使用されます。 [詳細については、こちらをご覧ください](publish-a-template.md)
+
+- **Microsoft Flow の組み込み**: アプリ内に Microsoft Flow を組み込んで、ご利用のアプリと Microsoft Flow がサポートする他のすべてのサービスをコンテキスト内で深く統合することができます。 [詳細については、こちらをご覧ください](embed-flow-dev.md)
+
+- **AppSource でのソリューションの公開**: 顧客が体験できるアプリを開発して AppSource に公開することで、ビジネスの新しい潜在顧客を開拓します。 [詳細については、こちらをご覧ください](dev-appsource-test-drive.md)
 
