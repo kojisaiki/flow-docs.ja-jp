@@ -10,16 +10,16 @@ editor:
 tags: 
 ms.service: flow
 ms.devlang: na
-ms.topic: article
+ms.topic: get-started-article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 06b0198ffa75a3de673460dc13037205f58ad515
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
+ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Microsoft Flow のオンプレミス データ ゲートウェイについて
 オンプレミス データ ゲートウェイと Microsoft Flow を利用し、Microsoft SQL Server などのオンプレミス データ ソースに安全に接続します。
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/15/2017
 ### <a name="prerequisites"></a>前提条件
 最小:
 
-* [.NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653)
+* [.NET Framework 4.6](https://www.microsoft.com/download/details.aspx?id=48130)
 * 64 ビット版の Windows 7 または Windows Server 2008 R2 (またはそれ以降)
 
 推奨:
@@ -49,7 +49,7 @@ ms.lasthandoff: 10/15/2017
 > 
 > 
 
-1. [インストーラーをダウンロード](http://go.microsoft.com/fwlink/?LinkID=820931)し、実行します。
+1. [インストーラーをダウンロード](https://go.microsoft.com/fwlink/?LinkID=820931)し、実行します。
    
     ![インストーラーの実行](./media/gateway-reference/run-installer.png)
 2. インストール ウィザードの最初の画面で、**[次へ]** を選択し、ノート PC へのゲートウェイのインストールに関する通知を確認します。
@@ -81,18 +81,25 @@ ms.lasthandoff: 10/15/2017
 このゲートウェイは Windows サービスとして実行されるため、その他の Windows サービスと同様、複数の方法で開始および停止できます。 たとえば、ゲートウェイが実行されているコンピューター上で、管理者特権のアクセス許可を使用してコマンド プロンプトを開き、次のコマンドのいずれかを実行できます。
 
 * サービスを停止するには、次のコマンドを実行します。
-  
-    ````net stop PBIEgwService````
+
+```batchfile
+    net stop PBIEgwService
+```
+
 * サービスを開始するには、次のコマンドを実行します。
-  
-    ````net start PBIEgwService````
+
+```batchfile
+    net start PBIEgwService
+```
 
 ## <a name="configure-a-firewall-or-proxy"></a>ファイアウォールまたはプロキシの構成
 ゲートウェイのプロキシ情報を指定する方法については、[プロキシ設定の構成](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/)に関するページを参照してください。
 
 PowerShell プロンプトから次のコマンドを実行することで、ファイアウォール (またはプロキシ) が接続をブロックしている可能性があるかどうかを確認できます。 このコマンドにより、Azure Service Bus への接続性がテストされます。 このコマンドは、ネットワーク接続をテストするだけで、クラウド サーバー サービスやゲートウェイとは関係ありません。 コンピューターがインターネットに接続されているかどうかを確認する際に役立ちます。
 
-````Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350````
+```powershell
+Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+```
 
 結果は次の出力のようになります。 **TcpTestSucceeded** が *true* ではない場合は、ファイアウォールによってブロックされている可能性があります。
 
@@ -157,7 +164,7 @@ PowerShell プロンプトから次のコマンドを実行することで、フ
 **回答:** いいえ。 ゲートウェイは、Azure Service Bus への送信接続を使用します。
 
 **質問:** 送信接続をブロックしたらどうなりますか。 何を開く必要がありますか。
-**回答:** ゲートウェイで使用する[ポート](gateway-reference.md#ports)とホストを確認してください。
+**回答:** ゲートウェイで使用する[ポート](gateway-reference.md#configure-ports)とホストを確認してください。
 
 **質問:** ゲートウェイをデータ ソースと同じコンピューターにインストールする必要がありますか。
 **回答:** いいえ。 ゲートウェイは、指定された接続情報を使用してデータ ソースに接続します。 この意味では、ゲートウェイをクライアント アプリケーションと考えてください。 ゲートウェイで必要なのは、指定されたサーバー名に接続できることだけです。
