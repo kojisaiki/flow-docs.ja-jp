@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/01/2018
+ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 8bdfafff5fbf3a5491809063e92607cd8e10167c
-ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
+ms.openlocfilehash: 3687266e84c06c37ac6ae0ee3d89aae0814158f3
+ms.sourcegitcommit: 28b6b09c9f3dd98a64492668d9a3b8c7bfbd6ce3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/12/2018
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -44,6 +44,30 @@ ms.lasthandoff: 01/03/2018
 3. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
 
 ## <a name="whats-new"></a>新機能
+
+### <a name="release-2018-02-09"></a>2018 年 2 月 9 日リリース
+
+- **ゲートウェイの高可用性** - オンプレミス データ ゲートウェイで可用性の高いクラスターを作り、1 台のコンピューターが停止しても接続が維持されるようにします。
+- **Apply to each の改善** - Flow プラン 1 または Flow プラン 2 によって、最大 100,000 個の項目が 1 回の実行で処理され、Apply to each ループで 50 件のアクションが並列処理されます。 
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each/)。
+
+### <a name="release-2018-01-29"></a>2018 年 1 月 29 日リリース
+
+- **Microsoft Teams 内の Flow** - Teams から、フローを作成して管理し、送受信した承認を見直し、Teams デスクトップ アプリまたは teams.microsoft.com で直接フローを起動できます。[詳細についてはここをお読みください](https://flow.microsoft.com/blog/microsoft-flow-in-microsoft-teams/)。
+- **共同編集通知** - 自分が所有しているフローが共同作業者によって変更されると、メール通知が届き、変更者と変更されたフローが伝えられます。
+- **新しい式** - 新しい式セットが 2 つ追加されました。1 つは URL を解析するための式セットで、もう 1 つは JSON オブジェクトと連動する式セットです。
+- **3 つの新しいコネクタ** - 今週は新しい Plumsail コネクタが 2 つあります。Plumsail SP と Plumsail Forms です。また、新しい kintone コネクタがあります。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/shared-notifications-and-expressions/)。
+
+### <a name="release-2018-01-17"></a>2018 年 1 月 17 日リリース
+
+- **Office 365 プロファイル情報** - ユーザーのプロファイルと写真を操作する新しいアクションを Office 365 ユーザー コネクタに追加しました。
+- **文字列変数を増やす** - ループ内の文字列を増やし、テーブルやその他の一覧をビルドできます。
+- **Infobip コネクタ** - Infobip は、音声通話や受信 SMS のトリガーなど、企業レベルの通信を可能にするサービスです。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/o365-profile-infobip/)。
 
 ### <a name="release-2017-12-20"></a>2017 年 12 月 20 日リリース
 
