@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: 41c416557dbb491432448c33369767f9705278c9
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f56b109cc0263c8464d6d7475421ab32af8888d5
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="build-an-approval-loop-by-using-microsoft-flow-and-the-microsoft-common-data-service"></a>Microsoft Flow と Microsoft Common Data Service を使用した承認ループの作成
 Common Data Service を使用すると、フローから独立しているデータベースに情報が格納されるフローを作成できます。 その最も良い例が、承認に関するものです。 承認の状態をエンティティに格納すると、フローはそれを基盤にして動作することができます。
@@ -34,7 +34,7 @@ Common Data Service を使用すると、フローから独立しているデー
 
 **前提条件**
 
-* [Microsoft Flow](sign-up-sign-in.md) と [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) にサインアップする。
+* [Microsoft Flow](sign-up-sign-in.md) と [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) にサインアップする。
 * 「[Manage your connections (接続の管理)](https://powerapps.microsoft.com/tutorials/add-manage-connections/)」の説明に従って Dropbox および Office 365 Outlook への接続を作成する。
 
 ## <a name="build-the-entity"></a>エンティティを作成する

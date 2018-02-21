@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/22/2017
 ms.author: deonhe
-ms.openlocfilehash: 0e0309793cfcb45ca7ee72910803a4abc27d2f26
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 6b152f0ec85558889970db2784fe8c2dcbf526ed
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>全員が承認する必要のある承認フローを作成する
 このチュートリアルでは、休暇申請が承認されるためには全員 (割り当てられているすべての承認者) が同意する必要があり、どの承認者でも要求全体を拒否できる、承認ワークフローを作成する方法を示します。
@@ -28,12 +28,12 @@ ms.lasthandoff: 10/15/2017
 
 ## <a name="prerequisites"></a>前提条件
 * [Microsoft Flow](https://flow.microsoft.com)、Office 365 Outlook、および Office 365 ユーザーへのアクセス。
-* A SharePoint Online [リスト](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)。
+* A SharePoint Online [リスト](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)。
   
     このチュートリアルでは、休暇申請に使う SharePoint Online リストを既に作成してあるものとします。 SharePoint リストの詳細を示す例については、[並列承認](parallel-modern-approvals.md)に関するチュートリアルをご覧ください。
 * フロー作成の基本をよく理解している。
   
-    [アクション、トリガー](multi-step-logic-flow.md#add-another-action)、および[条件](add-a-condition.md)の追加方法を確認することができます。 次の手順では、これらのアクションの実行方法がわかっていることを前提とします。
+    [アクション、トリガー](multi-step-logic-flow.md#add-another-action)、および[条件](add-condition.md)の追加方法を確認することができます。 次の手順では、これらのアクションの実行方法がわかっていることを前提とします。
 
 > [!NOTE]
 > このチュートリアルでは、SharePoint Online と Office 365 Outlook を使いますが、Zendesk、Salesforce、Gmail、Microsoft Flow がサポートする [150 以上のサービス](https://flow.microsoft.com/connectors/)など、その他のサービスを使うこともできます。

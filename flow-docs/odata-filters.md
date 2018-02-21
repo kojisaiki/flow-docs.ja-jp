@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: 37b53fa50afdc6865c5ba905957405f0e4b67520
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Microsoft Flow を使用するデータのフィルターとコピー
 このチュートリアルでは、新しい項目または変更された項目のソースを監視し、それらの変更をターゲットにコピーするフローを作成する方法を示します。 ユーザーがある場所にデータを入力する場合に、チームで別の場所または形式のデータが必要な場合、このようなフローを作成できます。
 
-このチュートリアルで Microsoft SharePoint[ リスト](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) (ソース) から [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) テーブル (ターゲット) にデータをコピーする場合、Microsoft Flow でサポートされる [150 を超えるサービス](https://flow.microsoft.com/connectors/)のどのサービス間でもデータをコピーできます。
+このチュートリアルで Microsoft SharePoint[ リスト](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) (ソース) から [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) テーブル (ターゲット) にデータをコピーする場合、Microsoft Flow でサポートされる [150 を超えるサービス](https://flow.microsoft.com/connectors/)のどのサービス間でもデータをコピーできます。
 
 > [!IMPORTANT]
 > 双方向の同期がサポートされていないため、ターゲットで行われた変更内容はソースにコピーされません。 双方向の同期を設定しようとしている場合は、ソースとターゲット間で変更内容が無限に送信される無限ループを作成します。
@@ -35,7 +35,7 @@ ms.lasthandoff: 10/15/2017
 * データのソースとターゲットへのアクセス権がある。 このチュートリアルには、ソースとターゲットを作成する手順は含まれていません。
 * [Microsoft Flow](https://flow.microsoft.com) のアクセス権を持っている
 * データの格納方法の基本を理解している。
-* フロー作成の基本をよく理解している。 [アクション、トリガー](multi-step-logic-flow.md#add-another-action)、および[条件](add-a-condition.md)の追加方法を確認することができます。 次の手順では、これらのアクションの実行方法がわかっていることを前提とします。
+* フロー作成の基本をよく理解している。 [アクション、トリガー](multi-step-logic-flow.md#add-another-action)、および[条件](add-condition.md)の追加方法を確認することができます。 次の手順では、これらのアクションの実行方法がわかっていることを前提とします。
 
 > [!TIP]
 > ソースとターゲット内の列名がすべて一致する必要はありませんが、項目を挿入または更新する際にすべての*必須*列にデータを指定する必要があります。 Microsoft Flow で自動的に必須フィールドが識別されます。

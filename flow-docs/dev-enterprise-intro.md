@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: mblythe
-ms.openlocfilehash: 3e6a6e0e369f8d89dcf834b4225dfd5aa4758dd7
-ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+ms.openlocfilehash: d8886f0828ca3b8ccf7ae1ce9c46f6e9b8fcc766
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="microsoft-flow-for-enterprise-developers-isvs-and-partners"></a>企業の開発者、ISV、パートナーのための Microsoft Flow
 
@@ -51,7 +51,7 @@ Microsoft パートナーまたは独立系ソフトウェア ベンダー (ISV)
 
 ### <a name="1-connecting-to-your-apis-or-enabling-customers-to-connect-to-your-apis"></a>1.API への接続、またはお客様による API への接続の有効化
 
-ISV として、お客様にフローを使用してアクセスしていただきたい独自のデータを所有することが多くあります。 カスタム コネクタを使用するとあらゆるデータに対するアクセスを公開することができます。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/en-us/connectors/custom-connectors/)
+ISV として、お客様にフローを使用してアクセスしていただきたい独自のデータを所有することが多くあります。 カスタム コネクタを使用するとあらゆるデータに対するアクセスを公開することができます。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/connectors/custom-connectors/)
 
 作成後は、お客様が次の 2 つの方法でコネクタを使用できるようになります。
 - コネクタは、REST API または PowerShell を介して、お客様のテナントに展開できます。
@@ -77,7 +77,7 @@ REST API を呼び出し、認証済みの UI を埋め込むには、アプリ�
 
 お客様が既に Office 365 または Dynamics 365 を所有していて、ユーザーが Azure AD でログインする ID がそのライセンスと関連付けられている場合、それ以上のライセンス要件はありません。 ただし、お客様が Office 365 または Dynamics 365 を使用しない場合は、アプリケーションに埋め込まれたコンポーネントを利用するライセンスが与えられるように、Microsoft Flow の使用権を代わりに取得する必要があります。
 
-お客様の代わりにライセンスを取得するための [Microsoft クラウド ソリューション プロバイダー](https://partner.microsoft.com/en-US/cloud-solution-provider) プログラムを提供しています。 Microsoft Flow には 2 種類の[価格プラン](https://flow.microsoft.com/pricing/)があります。プランと機能の詳細をご確認ください。
+お客様の代わりにライセンスを取得するための [Microsoft クラウド ソリューション プロバイダー](https://partner.microsoft.com/cloud-solution-provider) プログラムを提供しています。 Microsoft Flow には 2 種類の[価格プラン](https://flow.microsoft.com/pricing/)があります。プランと機能の詳細をご確認ください。
 
 ### <a name="7-list-on-appsource"></a>7.AppSource に登録
 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: a63ccacb1e6d9bd63d5a11a8db6ea01a9fc37333
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Common Data Service を使用するフローの作成
 [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/) を使用するフローを作成することにより、ビジネス データの統合ビューで運用効率を向上させます。 組織の適切な標準ビジネス エンティティ (販売、購買、顧客サービス、生産性など) から成る、このセキュリティで保護されたビジネス データベースをデプロイします。 組織データを 1 つ以上の[カスタム エンティティ](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)に格納します。このエンティティには、Microsoft Excel や Salesforce などの外部データ ソースに比べて、いくつかの利点があります。
@@ -37,7 +37,7 @@ ms.lasthandoff: 10/15/2017
 
 * [Microsoft Flow](https://flow.microsoft.com) と [PowerApps](https://web.powerapps.com) にサインアップする。
   
-    問題が発生した場合は、所有するアカウントの種類が [Microsoft Flow](sign-up-sign-in.md) と [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) でサポートされているかどうかと、組織によってサインアップがブロックされていないことを確認してください。
+    問題が発生した場合は、所有するアカウントの種類が [Microsoft Flow](sign-up-sign-in.md) と [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) でサポートされているかどうかと、組織によってサインアップがブロックされていないことを確認してください。
 * 今までに Common Data Service を使用したことがない場合は、[powerapps.com](https://web.powerapps.com/#/entities) の **[エンティティ]** タブを開き、**[自分のデータベースを作成]** をクリックまたはタップしてください。
 
 ## <a name="sign-in-to-your-environment"></a>環境へのサインイン
