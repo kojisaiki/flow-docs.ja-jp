@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 3687266e84c06c37ac6ae0ee3d89aae0814158f3
-ms.sourcegitcommit: 28b6b09c9f3dd98a64492668d9a3b8c7bfbd6ce3
+ms.openlocfilehash: 57a86fa86633e040cf788443d54bd60cfd340844
+ms.sourcegitcommit: 6308b1f4ec4ed18a8a7c89911a83cd2f12ed6dc4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -121,7 +121,7 @@ ms.lasthandoff: 02/12/2018
 
 ### <a name="release-2017-10-19"></a>2017 年 10 月 19 日リリース
 
-- **入れ子になった Apply to each** - 他の Apply to each コンテナーに Apply to each アクションを追加し、フィルター処理や選択ができます。
+- **入れ子になった Apply to each** - 他の Apply to each コンテナー アクションに Apply to each アクションを追加し、フィルター処理や選択ができます。
 - **日付と時刻のアクション** - ローカル時刻の取得、および時間の追加、減算、書式設定のための新しいアクション。
 - **4 つの新しいコネクタ** - Content Moderator、Docparser、Microsoft Kaizala、Pitney Bowes Data Validation が追加されました。
 - **接続エクスペリエンスの向上** - 接続が切れたときの Flow ポータルでの通知と、より充実した接続の詳細情報。

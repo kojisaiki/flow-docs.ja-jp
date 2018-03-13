@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: fe05ce536b61887f52ea4e297457c71ead3e8bfd
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f6fc61a25dadba50c4906310b0562d32c11f8e73
+ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>Microsoft Flow を使用して承認ワークフローを作成してテストする
 Microsoft Flow では、SharePoint、Dynamics CRM、Salesforce、OneDrive for Business、Zendesk、WordPress など、複数のサービスにわたり文書やプロセスの承認を管理できます。
 
 承認ワークフローを作成するには、**[承認 - 承認を開始]** アクションを任意のフローに追加します。 このアクションを追加すると、フローでドキュメントまたはプロセスの承認を管理できるようになります。 たとえば、請求書、作業指示書または販売見積りを承認する、ドキュメントの承認フローを作成できます。 また、休暇申請、超過作業時間、出張計画を承認する、プロセスの承認フローを作成することもできます。
 
-承認者は、受信トレイ、Microsoft Flow Web サイトの[承認センター](https://flow.microsoft.com/manage/approvals/received/)、または Microsoft Flow アプリから要求を管理します。
+承認者は、受信トレイ、Microsoft Flow Web サイトの[承認センター](https://flow.microsoft.com/manage/approvals/received/)、または Microsoft Flow アプリから要求に対応できます。
 
 ## <a name="create-an-approval-flow"></a>承認フローを作成する
 ここで、作成し、テストするフローの概要を次に示します。
@@ -129,4 +129,3 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 * [シーケンシャル承認フロー](sequential-modern-approvals.md)を作成する
 * [並列承認フローを作成する](parallel-modern-approvals.md)
 * [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 用の Microsoft Flow モバイル アプリをインストールします。
-
