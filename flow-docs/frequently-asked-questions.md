@@ -1,13 +1,13 @@
 ---
-title: "よく寄せられる質問 | Microsoft Docs"
-description: "Microsoft Flow に関するいくつかの一般的な質問に回答します。"
-services: 
+title: よく寄せられる質問 | Microsoft Docs
+description: Microsoft Flow に関するいくつかの一般的な質問に回答します。
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 5b8deda5f22bcc1fa7cfa37a0d4244f26c2004a4
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 99a66520b5a922b4945c9d3c94c7a5c053df98ee
+ms.sourcegitcommit: a0435b92fa7f5dedff3b0ff806836c7a07309fd2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="frequently-asked-questions"></a>よく寄せられる質問
 ## <a name="audience-and-strategy"></a>対象ユーザーと戦略
@@ -99,10 +99,21 @@ Microsoft Flow には最大 50 のフローが付属します。 さらに必要
 * [ブログ](https://flow.microsoft.com)
 * [YouTube チャンネル](https://youtube.com/playlist?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF)
 * [トピック](getting-started.md)
-* [コミュニティ](http://powerusers.microsoft.com)
+* [コミュニティ](https://powerusers.microsoft.com)
 
 ### <a name="what-operating-systems-does-the-mobile-app-for-microsoft-flow-support"></a>Microsoft Flow 用のモバイル アプリがサポートする OS は何ですか。
 Microsoft Flow モバイル アプリは、[Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) で使用できます。
+
+### <a name="can-flows-be-turned-off-or-disabled"></a>フローをオフまたは無効にすることはできますか。
+
+はい。各フローにはオン/オフ スイッチがあり、フローで要求が処理されないようにすることができます。
+
+フローがオンに戻ったときにどのように反応するかについては、次の表を確認してください。
+
+トリガーの種類|説明
+-------|--------
+ポーリング (**繰り返し**トリガーなど)|フローが再度オンになったときに、未処理/保留中のイベントがすべて処理されます。
+Webhook|フローが再度オンになったときに処理されるのは、フローがオンになってから生成される新しいイベントのみです。
 
 ### <a name="what-regions-and-languages-does-microsoft-flow-support"></a>Microsoft Flow ではどのリージョンと言語がサポートされていますか。
 Microsoft Flow は、42 の言語、[6 つのリージョン](regions-overview.md)で使用できます。
