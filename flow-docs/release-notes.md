@@ -1,13 +1,13 @@
 ---
-title: "リリース ノート | Microsoft Docs"
-description: "Microsoft Flow リリースの一般的な問題と新機能"
-services: 
+title: リリース ノート | Microsoft Docs
+description: Microsoft Flow リリースの一般的な問題と新機能
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 57a86fa86633e040cf788443d54bd60cfd340844
-ms.sourcegitcommit: 6308b1f4ec4ed18a8a7c89911a83cd2f12ed6dc4
+ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
+ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -391,7 +391,7 @@ Microsoft Flow でご利用いただけるサービスに DocuSign (電子署名
 ### <a name="release-2016-11-23"></a>2016 年 11 月 23 日リリース
 * **Flow で Power BI アラートに対応** - Power BI データ アラートからフローをトリガーすることで、洞察力を行動に変えます。
 * **モバイル アプリケーションの改善** - フローを、テンプレートの既存のエクスペリエンスから作成するだけでなく、一から作成できるようになりました。 フロー実行の表示時のパフォーマンスも改善されました。
-* **8 つの新しいサービス** - Azure Resource Manager、Azure Queues、Chatter、Disqus、Azure DocumentDB、Cognitive Services Face API、HipChat、Wordpress に接続できるようになりました。
+* **8 つの新しいサービス** - Azure Resource Manager、Azure Queues、Chatter、Disqus、Azure Cosmos DB、Cognitive Services Face API、HipChat、Wordpress に接続できるようになりました。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/power-bi-and-eight-other-services/)。
 
