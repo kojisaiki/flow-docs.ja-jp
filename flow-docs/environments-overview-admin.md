@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/22/2017
 ms.author: sunayv
-ms.openlocfilehash: 631c53aaa19e137e1df82f8070192f6f4271339e
-ms.sourcegitcommit: aee927ab32b5e28ee9b1880b4a292f9c15025f88
+ms.openlocfilehash: cf1a618b9e0ed76147eb4ede2aed42111c66b4a5
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-environments-within-microsoft-flow"></a>Microsoft Flow 内の環境の使用
 
@@ -79,18 +79,20 @@ ms.lasthandoff: 03/28/2018
 ## <a name="create-an-environment"></a>環境を作成する
 
 1. [Microsoft Flow 管理センター](https://admin.flow.microsoft.com)で **[Environments (環境)]** を選択します。 既存の環境がすべて表示されます。![環境](./media/environments-overview-admin/environments-list.png)
-1. **[新しい環境]** を選び、必要な情報を指定します。
+2. **[新しい環境]** を選び、必要な情報を指定します。
 
-   | プロパティ | 説明 |
-   | --- | --- |
-   | 環境名 |「`Human Resources`」や「`Europe flows`」など、環境の名前を入力します。 |
-   | Region (リージョン) |環境をホストする場所を選択します。 最高のパフォーマンスを得るには、ユーザーに最も近いリージョンを使用します。|
-   |環境の種類 | ライセンスに基づいて、環境の種類 ([Production]\(運用\) または [試用版])。| 
+
+   |     プロパティ     |                                                 説明                                                 |
+   |------------------|-------------------------------------------------------------------------------------------------------------|
+   | 環境名 |              「`Human Resources`」や「`Europe flows`」など、環境の名前を入力します。              |
+   |      Region (リージョン)      | 環境をホストする場所を選択します。 最高のパフォーマンスを得るには、ユーザーに最も近いリージョンを使用します。 |
+   | 環境の種類 |                  ライセンスに基づいて、環境の種類 ([Production]\(運用\) または [試用版])。                   |
+
      ![環境設定](./media/environments-overview-admin/new-environment-dialog.png)
-1. **[環境の作成]** をクリックします。
-1. **[データベースの作成]** と **[スキップ]** の 2 つのオプションが表示されます。
-1. **[データベースの作成]** を選ぶと、データベースの **[通貨]** と **[言語]** の指定を求められます。 さらに、サンプル アプリとデータの展開を選ぶこともできます。
-   
+3. **[環境の作成]** をクリックします。
+4. **[データベースの作成]** と **[スキップ]** の 2 つのオプションが表示されます。
+5. **[データベースの作成]** を選ぶと、データベースの **[通貨]** と **[言語]** の指定を求められます。 さらに、サンプル アプリとデータの展開を選ぶこともできます。
+
    ![データベース構成の設定](./media/environments-overview-admin/create-database-dialog2.png)
 
 

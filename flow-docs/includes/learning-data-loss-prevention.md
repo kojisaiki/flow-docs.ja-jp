@@ -1,6 +1,7 @@
 [Microsoft Flow](https://flow.microsoft.com) でワークフローを構築する際に利用できる[サービス](https://flow.microsoft.com/services)の数が増えると、SharePoint や Salesforce のような企業サービスに保存されている企業の重要な機密データを守る必要がでてきます。 会社の機密データを Twitter や Facebook のような消費者向けサービスに公開しないためのポリシーを作成する必要があります。 Microsoft Flow を利用すれば、**データ損失防止** (DLP) ポリシーを簡単に作成できます。ユーザーがフローを作成するとき、会社のデータが共有される消費者向けサービスを厳重に管理できます。  
 
 ## <a name="terms-you-should-get-familiar-with"></a>重要な用語
+
 | 用語 | 説明 |
 | --- | --- |
 | **DLP** |これは Data Loss Prevention (データ損失防止) の省略形です。 DLP ポリシーを作成し、**サービス**間のデータ共有を管理します。 |
