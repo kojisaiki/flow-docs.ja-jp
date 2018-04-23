@@ -1,23 +1,23 @@
 ---
-title: "条件付きの式を使用します。 | Microsoft Docs"
-description: "次のような高度な式を使用する "
-"\"and\"\",": 
-"\"\"or\"\",": 
-"\"\"empty\"\",": 
-"\"\"less\"\"": 
-and: 
-"\"\"greater\"\"": 
-with: 
-microsoft: 
-flow: 
-conditions.": 
-services: 
+title: 条件付きの式を使用します。 | Microsoft Docs
+description: '次のような高度な式を使用する '
+"\"and\"\",": ''
+"\"\"or\"\",": ''
+"\"\"empty\"\",": ''
+"\"\"less\"\"": ''
+and: ''
+"\"\"greater\"\"": ''
+with: ''
+microsoft: ''
+flow: ''
+conditions.": ''
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -25,11 +25,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
-ms.openlocfilehash: a833abf7cb43e6d8a1c67b0f4160c90a4b24545a
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.openlocfilehash: 3a089735cc2d8c9144e18a2765b549b528470d1e
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>複数の値を確認する条件で式を使用する
 このチュートリアルでは、式と**条件**を利用し、**詳細設定モード**で複数の値を比較する方法について学習します。
@@ -74,71 +74,71 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="start-with-a-blank-flow"></a>空のフローから始める
 1. [Microsoft Flow](https://flow.microsoft.com) にサインインします。
-   
+
     ![サインイン](includes/media/modern-approvals/sign-in.png)
 2. **[自分のフロー]** タブを選択します。
-   
+
     ![自分のフローの選択](includes/media/modern-approvals/select-my-flows.png)
 3. **[一から作成]** を選択します。
-   
+
     ![一から作成する](includes/media/modern-approvals/blank-template.png)
 
 ### <a name="add-a-trigger-to-your-flow"></a>トリガーをフローに追加する
 1. **[スケジュール]** を探し、**[スケジュール - 繰り返し]** トリガーを選択します。
-   
+
     ![スケジュール トリガー](includes/media/schedule-trigger/schedule-trigger.png)
 2. 一日一回実行するようにスケジュールを設定します。
-   
+
     ![スケジュールの設定](includes/media/schedule-trigger/set-schedule.png)
 
 ### <a name="select-the-spreadsheet-and-get-all-rows"></a>スプレッドシートを選択し、すべての行を取得する
 1. **[新しいステップ]**  >  **[アクションの追加]** を選択します。
-   
+
     ![新しいステップ](includes/media/new-step/action.png)
 2. **[行]** を探し、**[Excel - 行の取得]** を選択します。
-   
+
     注: 使用しているスプレッドシートに対応する "行の取得" アクションを選択します。 たとえば、Google スプレッドシートを使用している場合、**[Google スプレッドシート - 行の取得]** を選択します。
-   
+
     ![行を取得する](includes/media/new-step/get-excel-rows.png)
 3. **[ファイル名]** ボックスのフォルダー アイコンを選択し、データが含まれるスプレッドシートを探し、選択します。
-   
+
     ![スプレッドシートを選択する](includes/media/new-step/select-spreadsheet.png)
 4. **[テーブル名]** 一覧のデータを含むテーブルを選択します。
-   
+
     ![テーブルを選択する](includes/media/new-step/select-table.png)
 
 ### <a name="check-the-status-column-of-each-row"></a>各行の status 列を確認する
 1. **[新しい手順]** > **[その他]** > **[それぞれへの適用の追加]** の順に選択します。
-   
+
     ![テーブルを選択する](includes/media/new-step/apply-to-each.png)
 2. **Value** トークンを **[以前の手順から出力を選択]** ボックスに追加します。
-   
+
     ![テーブルを選択する](includes/media/apply-to-each/add-value-token.png)
 3. **[条件の追加]** > **[詳細設定モードで編集]** の順に選択します。
 4. 次の **or** 式を追加します。 この **or** 式はテーブル内の各行の値を確認します (式内でアクセスされるとき、行は項目として認識されます)。 **status** 列の値が *completed* **か** *unnecessary* の場合、**or** 式は "true" として評価します。
-   
+
     **or** 式は次のように表示されます。
-   
+
     ````@or(equals(item()?['status'], 'unnecessary'), equals(item()?['status'], 'completed'))````
-   
+
     **条件**カードは次のイメージのようになります。
-   
+
     ![or 式のイメージ](./media/use-expressions-in-conditions/or-expression.png)
 
 ### <a name="delete-matching-rows-from-the-spreadsheet"></a>一致する行をスプレッドシートから削除する
 1. 条件の **[IF YES, DO NOTHING]** 分岐で **[アクションの追加]** を選択します。
 2. **[行の削除]** を探し、**[Excel - 行の削除]** を選択します。
-   
+
     ![行の削除のイメージ](includes/media/new-step/select-delete-excel-row.png)
 3. **[ファイル名]** ボックスで、削除するデータが含まれるスプレッドシート ファイルを探し、選択します。
 4. **[テーブル名]** 一覧で、データを含むテーブルを選択します。
 5. **[行 ID]** ボックスに**行 ID** トークンを入力します。
-   
+
     ![スプレッドシート ファイル](includes/media/new-step/delete-excel-row.png)
 
 ### <a name="name-the-flow-and-save-it"></a>フローに名前を付け、保存する
 1. フローに名前を付け、**[フローの作成]** ボタンを選択します。
-   
+
     ![フローを保存する](./media/use-expressions-in-conditions/name-and-save.png)
 
 ### <a name="run-the-flow-with-the-or-expression"></a>or 式を含むフローを実行する
@@ -201,10 +201,11 @@ Status 列が "completed" か "unnecessary" の行からデータがすべて削
 
 **and** 式と **less** 式を併用します。評価する条件が 2 つあるためです。
 
-| 評価する条件 | 使用する式 | 例 |
-| --- | --- | --- |
-| 全額が支払われたか? |greater |@greater(item()?['Due'], item()?['Paid']) |
-| 期日到達まで 1 日未満になっているか? |less |@less(item()?['DueDate'], addDays(utcNow(),1)) |
+
+|          評価する条件          | 使用する式 |                    例                     |
+|-----------------------------------------|-------------------|------------------------------------------------|
+|   全額が支払われたか?    |      greater      |   @greater(item()?['Due'], item()?['Paid'])    |
+| 期日到達まで 1 日未満になっているか? |       less        | @less(item()?['DueDate'], addDays(utcNow(),1)) |
 
 ## <a name="combine-the-greater-and-less-expressions-in-an-and-expression"></a>and 式の中で greater 式と less 式を組み合わせます
 **greater** 式を利用し、全額を支払っていない同僚を特定します。**less** 式を利用し、期日到達まで 1 日未満になっているか判定します。 次に、**[電子メールの送信]** アクションを利用し、期日到達まで 1 日未満になっても全額を支払っていない同僚に催促のメールを送信します。
