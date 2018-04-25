@@ -1,13 +1,13 @@
 ---
-title: "データのフィルターとコピー | Microsoft Docs"
-description: "Microsoft Flow を使用して、データをフィルターし、ソースからターゲットにコピーする方法を学習します"
-services: 
+title: データのフィルターとコピー | Microsoft Docs
+description: Microsoft Flow を使用して、データをフィルターし、ソースからターゲットにコピーする方法を学習します
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.openlocfilehash: 7c182328c341043ffc155a679f39bcbc2130a0bc
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Microsoft Flow を使用するデータのフィルターとコピー
 このチュートリアルでは、新しい項目または変更された項目のソースを監視し、それらの変更をターゲットにコピーするフローを作成する方法を示します。 ユーザーがある場所にデータを入力する場合に、チームで別の場所または形式のデータが必要な場合、このようなフローを作成できます。
@@ -106,7 +106,7 @@ Microsoft Flow に慣れている場合は、以下の簡単な手順を使用�
     ![条件を構成する](media/odata-filters/configure-condition.png)
 5. **[詳細設定モードでの編集]** を選択します。
    
-    詳細設定モードが開くと、ボックスに **@equals(body('Get_rows')?['value'], 0)** という式が表示されます。 **body('Get_items')?['value']** 関数の周りに **length()** を追加して、この式を編集します。 式全体は、**@equals(length(body('Get_rows')?['value']), 0)** のようになります。
+    詳細設定モードが開くと、ボックスに **\@equals(body('Get_rows')?['value'], 0)** という式が表示されます。 **body('Get_items')?['value']** 関数の周りに **length()** を追加して、この式を編集します。 式全体は、**@equals(length(body('Get_rows')?['value']), 0)** のようになります。
    
     **条件**カードは次のイメージのようになります。
    

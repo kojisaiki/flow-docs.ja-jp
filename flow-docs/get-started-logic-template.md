@@ -1,13 +1,13 @@
 ---
-title: "テンプレートからフローを作成する | Microsoft Docs"
-description: "複数の組み込みテンプレートのいずれかを使ってフローを作成します。"
-services: 
+title: テンプレートからフローを作成する | Microsoft Docs
+description: 複数の組み込みテンプレートのいずれかを使ってフローを作成します。
+services: ''
 suite: flow
 documentationcenter: na
 author: aftowen
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: anneta
-ms.openlocfilehash: 876723b62274f3a306c0a8472095b131e223408b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b755d9abe70740a97ad85aaa60b8a3f4685a7b26
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-flow-from-a-template-in-microsoft-flow"></a>Microsoft Flow でテンプレートからフローを作成する
 多くの組み込みテンプレートのいずれかからフローを作成します。組み込みテンプレートでは、たとえば、Office 365 で上司からのメールを受け取ったときに Slack メッセージが送信されるようにすることができます。
@@ -54,7 +54,7 @@ ms.lasthandoff: 10/15/2017
 1. イベントのタイトル バーを選択して展開し、カスタマイズします (たとえば、必要な電子メールにフィルターを指定します)。
 2. 入力を必要とするアクションが自動的に展開されます。
    
-    たとえば、\[**Post message**] \(メッセージの投稿) アクションは、*@username* などのチャネルを入力する必要があるため展開されます。 メッセージの内容をカスタマイズすることもできます。 既定で、メッセージには件名のみが含まれていますが、その他の情報を含めることもできます。
+    たとえば、**[Post message]\(メッセージの投稿\)** アクションは、*\@username* などのチャネルを入力する必要があるため展開されます。 メッセージの内容をカスタマイズすることもできます。 既定で、メッセージには件名のみが含まれていますが、その他の情報を含めることもできます。
    
     ![Slack のチャネルの指定](./media/get-started-logic-template/specify-keyword.png)
 3. 画面上部でフローの名前を指定して、**[フローの作成]** を選択します。
