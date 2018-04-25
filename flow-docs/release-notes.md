@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/12/2018
+ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
-ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
+ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -44,6 +44,39 @@ ms.lasthandoff: 03/23/2018
 3. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
 
 ## <a name="whats-new"></a>新機能
+
+### <a name="release-2018-04-12"></a>2018 年 4 月 12 日リリース
+
+- **フローから PowerApps にデータが返されます** - PowerApps でビルドされたアプリから呼び出すことができるフローを構築して、データをアプリに戻すことができます。 視覚的なドラッグ アンド ドロップのフロー デザイナーを使用して、アプリに必要なロジックを構築できます。 
+- **配列の入力に複数レコードが追加されます** - 複数の添付ファイルを電子メールに追加する場合などに使用できるリスト ビルダーが Microsoft Flow に追加されました。
+- **以前の実行データでフローをテストできます** - 以前のフロー実行のトリガー データでフローをテストできる新しい [フローのテスト] ボタンがデザイナーに追加されました。
+- **新しい workflow() フィールド** - 環境名とフローの表示名に workflow() 式でアクセスできるようになりました。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/return-data-to-powerapps/)。
+
+### <a name="release-2018-04-04"></a>2018 年 4 月 4 日リリース
+
+- **Common Data Service での承認** - 最新バージョンのアプリ向け Common Data Service に最新の承認が構築されます。 つまり、CDS コネクタとの間で送受信する承認の状態を読み取るフローを構築することができます。
+- **Apply to each によるエラーの検出** - ループ内に大量の項目がある場合でも、フロー実行ビューでエラーのループに直接移動します。
+- **承認の再割り当て** - 受け取った承認を組織内の別のユーザーに割り当てて、承認を委任することができます。 
+- **会議室の一覧** - Office 365 の Outlook Connector で、組織の会議室データを取得するアクションが追加されました。
+- **フローのボタンの詳細表示** - 共有されているフローを実行すると、そのフローで使用されるすべてのアクションが表示されるようになりました。
+- **英国のリージョン** - 英国でのデータを格納するための環境を作成できるようになりました。
+- **2 つの新しいコネクタ** - AtBot Admin と Marketing Content Hub のサポートが追加されました。
+- **新しいドキュメントのランディング ページ** - ドキュメントのランディング ページが更新され、その対象が初心者か、中級者か、上級者かによってグループ化されるようになりました。 
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/approvals-in-cds-and-seven-updates/)。
+
+### <a name="release-2018-03-13"></a>2018 年 3 月 13 日リリース
+
+- **承認履歴** - 応答、送信したコメント、正確な発生時刻を含む、送信済みの承認依頼がすべて表示されます。
+- **4 つの新しいコネクタ** - Excel Online (Business)、Excel Online (OneDrive)、Azure SQL Data Warehouse、および Pitney Bowes Tax Calculator が追加されました。
+- **動的コンテンツのツールヒント** - 動的コンテンツにマウスを合わせることで、アクションの内容を表示したり、完全な式エディターを開かずに式をプレビューしたりできます。
+- **同時実行制御** - 指定したワークフローに一度に 1 つの実行のみが含まれるように、同時実行制御が有効になります。
+- **指数近似の再試行** - 新しい種類の再試行ポリシーでは、再試行が指数関数的な間隔で行われます。
+- **アクセシビリティへの準拠** - Microsoft Flow がどのようにアクセシビリティの基準を満たすかについて説明した、新しい準拠ドキュメントをリリースしました。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/approval-history-accessibility/)。
 
 ### <a name="release-2018-02-09"></a>2018 年 2 月 9 日リリース
 
