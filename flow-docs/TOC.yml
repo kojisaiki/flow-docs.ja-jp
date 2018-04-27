@@ -54,6 +54,8 @@
       href: all-assigned-must-approve.md
     - name: 統合された承認
       href: common-data-model-approve.md
+    - name: 書式設定承認要求
+      href: approvals-markdown-support.md
 - name: モバイル アプリの使用
   items:
     - name: フローを作成する
@@ -110,6 +112,16 @@
       href: prevent-data-loss.md
     - name: データ グループの概要
       href: introduction-to-data-groups.md
+- name: DSR 要求に対応する
+  items:
+    - name: 概要
+      href: gdpr-dsr-summary.md
+    - name: 検出要求
+      href: gdpr-dsr-discovery.md
+    - name: エクスポート要求
+      href: gdpr-dsr-export.md
+    - name: 削除要求
+      href: gdpr-dsr-delete.md
 - name: 参照
   items:
     - name: リージョンの概要
