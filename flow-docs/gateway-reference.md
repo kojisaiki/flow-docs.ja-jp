@@ -1,13 +1,13 @@
 ---
-title: "オンプレミス データ ゲートウェイについて | Microsoft Docs"
-description: "オンプレミス データ ゲートウェイに関する参考、インストール、トラブルシューティング情報"
-services: 
+title: オンプレミス データ ゲートウェイについて | Microsoft Docs
+description: オンプレミス データ ゲートウェイに関する参考、インストール、トラブルシューティング情報
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
-manager: anneta
-editor: 
-tags: 
+manager: KFile
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: get-started-article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
-ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
+ms.openlocfilehash: 3ff4148f88c145df1db5e8ec8468138fe7413a6a
+ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Microsoft Flow のオンプレミス データ ゲートウェイについて
 オンプレミス データ ゲートウェイと Microsoft Flow を利用し、Microsoft SQL Server などのオンプレミス データ ソースに安全に接続します。
@@ -141,6 +141,10 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 オンプレミス データ ゲートウェイは、Windows サービスのログオン資格情報に *NT SERVICE\PBIEgwService* を使用するよう構成されています。 既定では、この資格情報に、サービスとしてログオンする権限があります。 これは、ゲートウェイのインストール先コンピューターとの関連で存在します。
 
 これは、オンプレミスのデータ ソースへの接続に使用するアカウントでも、クラウド サービスへのサインインに使用する職場または学校アカウントでもありません。
+
+## <a name="tenant-level-administration"></a>テナント レベルの管理
+
+現時点では、テナント管理者は他のユーザーがインストールして構成したすべてのゲートウェイを 1 箇所から管理することはできません。  テナント管理者には、組織内のユーザーがインストールするすべてのゲートウェイに対して自分を管理者として追加するようユーザーに求めることをお勧めします。 このようにすれば、[ゲートウェイ設定] ページまたは [PowerShell コマンド](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)を使って組織内のすべてのゲートウェイを管理できます。
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 ### <a name="general-questions"></a>一般的な質問
