@@ -1,13 +1,13 @@
 ---
-title: "承認ワークフローの自動化の簡略化  | Microsoft Docs"
-description: "SharePoint、Dynamics CRM、Salesforce、One Drive for Business、Zendesk、または WordPress と統合される承認ワークフローを自動化します。"
-services: 
+title: 承認ワークフローの自動化の簡略化  | Microsoft Docs
+description: SharePoint、Dynamics CRM、Salesforce、One Drive for Business、Zendesk、または WordPress と統合される承認ワークフローを自動化します。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,13 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: f6fc61a25dadba50c4906310b0562d32c11f8e73
-ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
+ms.openlocfilehash: bd89bca994a77072815a73ba1cbc7ba1db6955d3
+ms.sourcegitcommit: e52f04b5953240d71d726c0e3373740cc59292dc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>Microsoft Flow を使用して承認ワークフローを作成してテストする
+
 Microsoft Flow では、SharePoint、Dynamics CRM、Salesforce、OneDrive for Business、Zendesk、WordPress など、複数のサービスにわたり文書やプロセスの承認を管理できます。
 
 承認ワークフローを作成するには、**[承認 - 承認を開始]** アクションを任意のフローに追加します。 このアクションを追加すると、フローでドキュメントまたはプロセスの承認を管理できるようになります。 たとえば、請求書、作業指示書または販売見積りを承認する、ドキュメントの承認フローを作成できます。 また、休暇申請、超過作業時間、出張計画を承認する、プロセスの承認フローを作成することもできます。
@@ -49,12 +50,13 @@ SharePoint Online リストで次の列を作成します。
 
    ![SharePoint Online リストの列。](./media/modern-approvals/sharepoint-list-fields.png)
 
-SharePoint Online リストの名前と URL をメモします。 後で **[SharePoint - 新しい項目が作成されたとき]** トリガーを構成するときに、この項目が必要になります。
+SharePoint Online リストの名前と URL をメモします。 後で **[SharePoint - 項目が作成されたとき]** トリガーを構成するときに、この項目が必要になります。
 
 ## <a name="create-your-flow-from-the-blank-template"></a>空白のテンプレートからフローを作成する
 [!INCLUDE [sign-in-and-create-flow-from-blank-template](includes/sign-in-and-create-flow-from-blank-template.md)]
 
 ## <a name="add-a-trigger"></a>トリガーの追加
+
 [!INCLUDE [add-trigger-when-sharepoint-item-created](includes/add-trigger-when-sharepoint-item-created.md)]
 
 **[サイト アドレス]** と **[リスト名]** は、このチュートリアルで先に示された項目です。
@@ -62,6 +64,7 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 ![SharePoint 情報](./media/modern-approvals/select-sharepoint-site-info.png)
 
 ## <a name="add-a-profile-action"></a>プロファイル アクションの追加
+
 1. **[新しいステップ]** を選択し、**[アクションの追加]** を選択します。
    
     ![新しいステップ](./media/modern-approvals/select-sharepoint-add-action.png)
@@ -76,14 +79,20 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
     ![フローの保存](./media/modern-approvals/save.png)
 
 ## <a name="add-an-approval-action"></a>承認アクションの追加
+
 [!INCLUDE [add-an-approval-action](includes/add-an-approval-action.md)]
 
-注: このアクションを実行すると、**[割り当て先ユーザー/グループ]** ボックス内の電子メール アドレスに承認要求が送信されます。
+> [!NOTE]
+> このアクションを実行すると、**[担当者]** ボックス内の電子メール アドレスに承認要求が送信されます。
+>
+>
 
 ## <a name="add-a-condition"></a>条件の追加
+
 [!INCLUDE [add-approval-condition-response](includes/add-approval-condition-response.md)]
 
 ## <a name="add-an-email-action-for-approvals"></a>承認に電子メール アクションを追加する
+
 休暇申請が承認された場合に電子メールを送信するには、次のステップに従います。
 
 [!INCLUDE [add-action-to-send-email-when-vacation-approved](includes/add-action-to-send-email-when-vacation-approved.md)]
@@ -91,21 +100,30 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
    ![承認された電子メールのテンプレートを構成する](./media/sequential-modern-approvals/yes-email-config.png)
 
 ## <a name="add-an-update-action-for-approved-requests"></a>承認された要求の更新アクションを追加する
+
 [!INCLUDE [add-action-to-update-sharepoint-with-approval](includes/add-action-to-update-sharepoint-with-approval.md)]
 
-注: **[サイト アドレス]**、**[リスト名]**、**[ID]**、および **[タイトル]** は必須です。
+> [!NOTE]
+> **[サイト アドレス]**、**[リスト名]**、**[ID]**、および **[タイトル]** は必須です。
+>
+>
 
 ![アイテムの更新の構成](./media/modern-approvals/configure-update-item.png)
 
 ## <a name="add-an-email-action-for-rejections"></a>却下に電子メール アクションを追加する
+
 [!INCLUDE [add-action-to-send-email-when-vacation-rejected](includes/add-action-to-send-email-when-vacation-rejected.md)]
 
 ![却下された要求を構成する](./media/modern-approvals/configure-rejected-email.png)
 
 ## <a name="add-update-action-for-rejected-requests"></a>却下された要求に更新アクションを追加する
+
 [!INCLUDE [add-action-to-update-sharepoint-with-rejection](includes/add-action-to-update-sharepoint-with-rejection.md)]
 
-   注: **[サイト アドレス]**、**[リスト名]**、**[ID]**、および **[タイトル]** は必須です。
+   > [!NOTE]
+   > **[サイト アドレス]**、**[リスト名]**、**[ID]**、および **[タイトル]** は必須です。
+   >
+   >
 
 ![アイテムの更新カード](./media/modern-approvals/configure-update-item-no.png)
 
@@ -120,11 +138,13 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 これでフローが作成されました。テストしてみましょう。
 
 ## <a name="request-an-approval"></a>承認の要求
+
 [!INCLUDE [request-vacation-approval](includes/request-vacation-approval.md)]
 
 これでフローの作成およびテストが終了したので、フローの使い方を他のユーザーに知らせてください。
 
 ## <a name="learn-more"></a>詳細については、こちらをご覧ください
+
 * [承認待ちの要求](approve-reject-requests.md)を表示し、管理する
 * [シーケンシャル承認フロー](sequential-modern-approvals.md)を作成する
 * [並列承認フローを作成する](parallel-modern-approvals.md)

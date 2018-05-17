@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
+ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -44,6 +44,14 @@ ms.lasthandoff: 04/16/2018
 3. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
 
 ## <a name="whats-new"></a>新機能
+
+### <a name="release-2014-05-01"></a>2014 年 5 月 1 日リリース
+
+- **承認メッセージ内のリッチ テキスト** - Markdown を使って、送信する承認の詳細を書式設定します。
+- **複数の選択入力を含むボタン** - 複数選択リストを使って複数の値を一度に収集するフロー ボタンを構築します。
+- **より広いフローで作業する** - Microsoft Flow モバイル アプリは横向きビューをサポートするようになり、Web デザイナーには水平スクロール バーがあります。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/rich-approvals-text-and-multiselect/)。
 
 ### <a name="release-2018-04-12"></a>2018 年 4 月 12 日リリース
 
