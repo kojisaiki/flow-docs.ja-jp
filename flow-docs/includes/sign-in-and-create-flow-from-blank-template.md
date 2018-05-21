@@ -8,3 +8,5 @@
    
     ![一から作成する](media/modern-approvals/blank-template.png)
 
+4. **[一から作成]** ボタンを選択します。
+
