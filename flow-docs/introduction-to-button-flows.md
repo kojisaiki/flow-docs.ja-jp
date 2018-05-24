@@ -1,13 +1,13 @@
 ---
-title: "ボタン フローで反復タスクを自動化および実行する方法 | Microsoft Docs"
-description: "ボタン フローの概要を説明します。"
-services: 
+title: ボタン フローで反復タスクを自動化および実行する方法 | Microsoft Docs
+description: ボタン フローの概要を説明します。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 01/30/2017
 ms.author: deonhe
 ms.openlocfilehash: 558570733819e1fde6c1845ed5ca9debe9232c88
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="introducing-button-flows"></a>ボタン フローの概要
 ## <a name="what-are-button-flows"></a>ボタン フローとは
@@ -118,7 +118,7 @@ Flow アプリで次の操作を行います。
 ## <a name="manage-button-flows"></a>ボタン フローを管理する
 ボタンは完全に制御できます。時と場所に関係なく、ボタンを有効/無効にしたり、編集したり、削除したりできます。 モバイル アプリまたはフロー ポータルから、**[My flows]** (マイ フロー) を選択し、フローの管理を開始します。    
 
-Flow アプリの**[My flows]** (マイ フロー) タブで:
+Flow アプリの **[My flows]** (マイ フロー) タブで:
 
 1. 管理するフローを選択します。    
    ![概要画像](./media/introduction-to-button-flows/trigger-button-4.png)   

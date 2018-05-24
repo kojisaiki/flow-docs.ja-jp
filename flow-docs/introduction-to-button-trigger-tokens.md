@@ -1,13 +1,13 @@
 ---
-title: "ボタン トリガー トークンの概要 | Microsoft Docs"
-description: "Microsoft ボタン フローのボタン トリガー トークンについて紹介します。"
-services: 
+title: ボタン トリガー トークンの概要 | Microsoft Docs
+description: Microsoft ボタン フローのボタン トリガー トークンについて紹介します。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/12/2016
 ms.author: deonhe
-ms.openlocfilehash: 4b0e6d7187d12c7257bce4715c3549caf19ce093
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: c3231811e5318b1fe941e005012c2890c83f6e76
+ms.sourcegitcommit: 8bf92483780a5682777dd9fb73be8c2fb0e78dc4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>ボタン トリガー トークンの概要
 ## <a name="what-are-button-trigger-tokens"></a>ボタン トリガー トークンとは
@@ -92,5 +92,5 @@ ms.lasthandoff: 10/15/2017
 ## <a name="next-steps"></a>次のステップ
 * [ボタン フローを共有する](share-buttons.md)
 * [ボタン フローについて](introduction-to-button-flows.md)  
-* [フローについて](guided-learning/learning-introducing-flow.md)
+* [フローについて](guided-learning/get-started.yml?tutorial-step=1)
 

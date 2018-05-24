@@ -1,13 +1,13 @@
 ---
-title: "他のユーザーとボタンを共有します。 | Microsoft Docs"
-description: "他のユーザーも同じボタンを使用して時間を節約できるように、ボタンを共有します。"
-services: 
+title: 他のユーザーとボタンを共有します。 | Microsoft Docs
+description: 他のユーザーも同じボタンを使用して時間を節約できるように、ボタンを共有します。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 2804c683defb94f87c40452a27382bc143c11f10
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="share-button-flows-in-microsoft-flow"></a>Microsoft Flow でボタン フローを共有する
 Microsoft Flow モバイル アプリでは、[ボタン フロー](introduction-to-button-flows.md) (ボタン) を組織内の他のユーザーまたはグループと共有できます。 ボタンを共有すると、共有するユーザーまたはグループが自分のボタンを実行する場合と同じようにボタンを実行できます。 他のユーザーが共有したボタンへの[リンクを共有する](share-buttons.md#re-share-a-button)こともできます。 いつでもボタンの[共有を停止](share-buttons.md#stop-sharing-a-button)できます。
@@ -44,7 +44,7 @@ Microsoft Flow モバイル アプリの **[ボタン]** タブからボタン�
 1. 共有するボタンの横にある小さなアイコンをタップします。
    
     ![ボタンの共有](./media/share-buttons/share-button-flows-buttons-tab.png)
-2. **[Button users]** (ボタンのユーザー) ページで**[Invite others]** (他のユーザーを招待) をタップします。
+2. **[Button users]** (ボタンのユーザー) ページで **[Invite others]** (他のユーザーを招待) をタップします。
    
     ![ボタンの共有](./media/share-buttons/share-button-flows-button-users.png)
 3. ボタンを共有するグループまたはユーザーを検索して選択します。
@@ -100,7 +100,7 @@ Microsoft Flow モバイル アプリの **[ボタン]** タブからボタン�
     ![ボタンの共有を停止する](./media/share-buttons/share-button-flows-remove-user-result.png)
 
 ## <a name="monitor-the-run-history"></a>実行履歴を監視する
-すべての実行履歴は、ボタンの共有相手により開始された実行も含めて、Microsoft Flow モバイル アプリのボタンの作成者の**[アクティビティ]** タブにのみ表示されます。
+すべての実行履歴は、ボタンの共有相手により開始された実行も含めて、Microsoft Flow モバイル アプリのボタンの作成者の **[アクティビティ]** タブにのみ表示されます。
 
 ## <a name="use-shared-buttons"></a>共有ボタンを使用する
 他のユーザーから共有されたボタンを実行するには、**[ボタンの追加]** ページから **[ボタン]** タブにボタンを追加する必要があります。
@@ -129,7 +129,7 @@ Microsoft Flow モバイル アプリの **[ボタン]** タブからボタン�
 1. **[ボタン]** タブで、不要になったボタンの横にある **[...]** をタップします。
    
     ![ボタンを削除する](./media/share-buttons/share-button-flows-added-shared-button.png)
-2. 表示されるメニューで**[削除]** をタップします。
+2. 表示されるメニューで **[削除]** をタップします。
 
 これだけです。 そのボタンは、Microsoft Flow アプリの **[ボタン]** タブに表示されなくなります。
 

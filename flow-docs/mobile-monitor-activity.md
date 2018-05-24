@@ -1,13 +1,13 @@
 ---
-title: "携帯電話からのアクティビティの監視 | Microsoft Docs"
-description: "各フローが成功または失敗した回数、各実行が発生した時間、およびその所要時間を表示します"
-services: 
+title: 携帯電話からのアクティビティの監視 | Microsoft Docs
+description: 各フローが成功または失敗した回数、各実行が発生した時間、およびその所要時間を表示します
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: a9318a1571d46635babbb0b061ff65734ad172fe
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="monitor-activity-in-microsoft-flow-from-your-phone"></a>携帯電話からの Microsoft Flow でのアクティビティの監視
 各フローが成功または失敗した回数の要約を表示します。この回数は、今日、昨日、およびその前の日付に対して表示されます。 また、実行された時間、各ステップの所要時間、失敗したかどうか、失敗した場合はその理由など、各実行の詳細を確認します。
