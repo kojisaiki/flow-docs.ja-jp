@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 99a66520b5a922b4945c9d3c94c7a5c053df98ee
-ms.sourcegitcommit: a0435b92fa7f5dedff3b0ff806836c7a07309fd2
+ms.openlocfilehash: 4fa6af7557fdbae46db5eb74a82a9d30a991e93b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="frequently-asked-questions"></a>よく寄せられる質問
 ## <a name="audience-and-strategy"></a>対象ユーザーと戦略
@@ -131,3 +131,7 @@ Microsoft Flow は、承認、ドキュメントの校閲、オンボード/オ�
 ### <a name="what-pricing-plans-do-you-offer"></a>どのような価格プランが用意されていますか。
 Microsoft Flow には、無料と有料の両方のサービス レベルが用意されています。 [価格の詳細については、こちらをご覧ください](billing-questions.md)。
 
+## <a name="learn-more"></a>詳細については、こちらをご覧ください
+
+* Microsoft Flow の[ガイド付き学習ツアー](guided-learning/index.yml)を見る
+* [ファースト ステップ ガイド](getting-started.md)で Microsoft Flow の基礎を学習する

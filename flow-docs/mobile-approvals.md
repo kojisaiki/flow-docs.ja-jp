@@ -1,13 +1,13 @@
 ---
-title: "モバイル デバイスで要求を承認する | Microsoft Docs"
-description: "モバイル デバイスを使用して、Microsoft Flow で作成された要求を承認します。"
-services: 
+title: モバイル デバイスで要求を承認する | Microsoft Docs
+description: モバイル デバイスを使用して、Microsoft Flow で作成された要求を承認します。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: 18546c044dc823d703544c48f5cda76a3581e99f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 2b856dfa75e0acb7eb83525c4d64d070315b5735
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-microsoft-flow"></a>Microsoft Flow を使用してモバイル デバイスで要求を承認する
 フローによって承認者として識別された場合、Microsoft Flow 用のモバイル アプリがインストール済みであると、承認を要求されるたびにプッシュ通知が届きます。
@@ -52,7 +52,7 @@ ms.lasthandoff: 10/15/2017
 承認待ちの要求がない場合は、[承認フロー](modern-approvals.md)を作成し、自分自身を承認者として設定し、フローをトリガーします。 フローがトリガーされ承認の要求が送信されると、その数秒後に、承認センターに承認要求が表示されます。
 
 ## <a name="approve-requests-and-leave-an-optional-comment"></a>要求を承認し、必要に応じてコメントを残す
-1. 承認待ちの要求を表示していない場合は、上記の手順に従って[すべての承認待ちの要求を表示](mobile-approvals.md#view-pending-approval-requests)します。
+1. そのようにしていない場合は、上記の手順に従って[承認待ちの要求を表示](mobile-approvals.md#view-pending-requests)します。
 2. 承認する要求に対して **[承認]** を選択します。
    
     ![承認を選択する](./media/mobile-approvals/select-approve.png)

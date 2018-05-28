@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 06e327963a44f74141492ec14f2bef7cab802b79
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: 9b2447ce0a7c9bc353e47ee1edb4bea55f2c49f4
+ms.sourcegitcommit: f9be24c533003146d75e5a7fa6e40356d4ce47d7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow での制限事項と構成
 このトピックでは、現時点でのフローに関する制限事項と構成の詳細について説明します。
@@ -31,7 +31,8 @@ ms.lasthandoff: 04/26/2018
 
 | Name (名前) | 制限 |
 | --- | --- |
-| 要求タイムアウト |120 秒 |
+| 同期呼び出しの要求タイムアウト |120 秒 |
+| 非同期呼び出しの要求タイムアウト|構成可能。 最大 30 日。 |
 
 ### <a name="message-size"></a>メッセージ サイズ
 
@@ -55,6 +56,7 @@ ms.lasthandoff: 04/26/2018
 | ストレージのリテンション期間 |30 日 |これは、実行の開始時点からです。 |
 | 最小繰り返し間隔 |1 分 | |
 | 最大繰り返し間隔 |500 日 | |
+| 実行履歴の最大リテンション期間 |28 日。GDPR ごとの規則。 | |
 
 ## <a name="looping-and-debatching-limits"></a>ループおよびバッチ解除の制限
 1 つのフロー実行に対する制限は次のとおりです。
