@@ -15,16 +15,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 923fd1fc573586871d506a66aaa2b09d5b5dc9da
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
+ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/01/2018
+ms.locfileid: "34689378"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Dynamics 365 (オンライン) を使用したフローの作成
 Dynamics 365 コネクタを使用すると、Dynamics 365 またはその他のサービスでイベントが発生し、これにより Dynamics 365 またはその他のサービスでアクションが実行されたときに、開始されるフローを作成することができます。 
 
 Microsoft Flow では、お気に入りのアプリとサービスの間のワークフローを自動化して、ファイルの同期、通知の受信、データ収集などを行うことができます。 詳細については、「[Microsoft Flow を使ってみる](getting-started.md)」をご覧ください。
+
+> [!IMPORTANT] 
+> フロー トリガーを起動するには、フローと共に Dynamics 365 顧客エンゲージメント エンティティが使用する**変更の追跡**を有効にする必要があります。 詳細については、「[変更の追跡を有効にしてデータの同期をコントロールする](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization)」をご覧ください。 
 
 ## <a name="create-a-flow-from-a-template"></a>テンプレートからフローを作成する
 さまざまなテンプレートが用意されています。このいずれかを使用してフローを作成することができます。次に例を示します。

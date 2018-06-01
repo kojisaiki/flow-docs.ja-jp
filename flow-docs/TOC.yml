@@ -122,6 +122,18 @@
       href: gdpr-dsr-export.md
     - name: 削除要求
       href: gdpr-dsr-delete.md
+- name: Microsoft アカウントの DSR 要求
+  items:
+    - name: 概要
+      href: gdpr-dsr-summary-msa.md
+    - name: 検出要求
+      href: gdpr-dsr-discovery-msa.md
+    - name: エクスポート要求
+      href: gdpr-dsr-export-msa.md
+    - name: 削除要求
+      href: gdpr-dsr-delete-msa.md
+    - name: 終了要求
+      href: gdpr-dsr-accountclose-msa.md
 - name: 参照
   items:
     - name: リージョンの概要
