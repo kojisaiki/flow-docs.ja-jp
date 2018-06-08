@@ -1,13 +1,13 @@
 ---
-title: "電子メールのプロパティに基づいてフローを実行します。 | Microsoft Docs"
-description: "電子メールの件名、差出人アドレス、受信者などのプロパティに基づいてフローを開始します。"
-services: 
+title: 電子メールのプロパティに基づいてフローを実行します。 | Microsoft Docs
+description: 電子メールの件名、差出人アドレス、受信者などのプロパティに基づいてフローを開始します。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 395cb9bc1d58e50e5ac8ebac9afaed544f3261ec
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440012"
 ---
 # <a name="trigger-a-flow-based-on-email-properties"></a>電子メールのプロパティに基づいてフローをトリガーする
 これらの電子メール プロパティの 1 つまたは複数が指定した条件を満たすときに実行されるフローを作成するには、**[新しい電子メールが届いたとき]** トリガーを使用します。
@@ -55,7 +56,7 @@ ms.lasthandoff: 10/15/2017
 
 [!INCLUDE [sign-in-use-blank-select-email-trigger-and-inbox-folder](includes/sign-in-use-blank-select-email-trigger-and-inbox-folder.md)]
 
-1. **Subject Filter\ (件名フィルター)** ボックスで、フローを使用して着信電子メールのフィルターを適用するテキストを入力します。
+1. **[Subject Filter] (件名フィルター)** ボックスで、フローを使用して着信電子メールのフィルターを適用するテキストを入力します。
    
      この例では、件名に「lottery」(宝くじ) という語が含まれる電子メールに注目します。
    
@@ -63,7 +64,7 @@ ms.lasthandoff: 10/15/2017
 
 [!INCLUDE [add-mobile-notification-action](includes/add-mobile-notification-action.md)]
 
-1. 先ほど指定した **[Subject Filter]\(件名フィルター)** に一致する電子メールが届いたときに受信するモバイル通知の詳細を入力します。
+1. 先ほど指定した **[Subject Filter] (件名フィルター)** に一致する電子メールが届いたときに受信するモバイル通知の詳細を入力します。
    
     ![通知の詳細](./media/email-triggers/email-triggers-4.png)
 
@@ -80,7 +81,7 @@ ms.lasthandoff: 10/15/2017
 
 [!INCLUDE [sign-in-use-blank-select-email-trigger-and-inbox-folder](includes/sign-in-use-blank-select-email-trigger-and-inbox-folder.md)]
 
-1. 送信者の電子メール アドレスを **[From]\(差出人)** に入力します。
+1. 送信者の電子メール アドレスを **[From] (差出人)** に入力します。
    
      このアドレスから送信されたすべての電子メールに対してアクションが実行されます。
    
@@ -110,7 +111,7 @@ ms.lasthandoff: 10/15/2017
 
 [!INCLUDE [sign-in-use-blank-select-email-trigger-and-specific-folder](includes/sign-in-use-blank-select-email-trigger-and-specific-folder.md)]
 
-1. 特定の電子メールの振り分け先としてルールで指定したフォルダーを選択します。 すべての電子メール フォルダーを表示するには、最初に **[Show Picker]\(ピッカーの表示)** アイコンを選択します。これは、**[新しい電子メールが届いたとき]** カードの **[フォルダー]** ボックスの右側にあります。
+1. 特定の電子メールの振り分け先としてルールで指定したフォルダーを選択します。 すべての電子メール フォルダーを表示するには、最初に **[Show Picker] (ピッカーの表示)** アイコンを選択します。これは、**[新しい電子メールが届いたとき]** カードの **[フォルダー]** ボックスの右側にあります。
    
     ![フォルダーの選択](./media/email-triggers/email-triggers-2.png)
 

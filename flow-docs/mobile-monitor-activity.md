@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: a9318a1571d46635babbb0b061ff65734ad172fe
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440156"
 ---
 # <a name="monitor-activity-in-microsoft-flow-from-your-phone"></a>携帯電話からの Microsoft Flow でのアクティビティの監視
 各フローが成功または失敗した回数の要約を表示します。この回数は、今日、昨日、およびその前の日付に対して表示されます。 また、実行された時間、各ステップの所要時間、失敗したかどうか、失敗した場合はその理由など、各実行の詳細を確認します。

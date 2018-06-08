@@ -1,13 +1,13 @@
 ---
-title: "フローでの承認待ち | Microsoft Docs"
-description: "フローでは、外部イベントが発生するのを待ってから、アクションを実行できます。たとえば、ユーザーが変更を承認または拒否してから、意思決定の通知を送信することができます。"
-services: 
+title: フローでの承認待ち | Microsoft Docs
+description: フローでは、外部イベントが発生するのを待ってから、アクションを実行できます。たとえば、ユーザーが変更を承認または拒否してから、意思決定の通知を送信することができます。
+services: ''
 suite: flow
 documentationcenter: na
 author: merwanhade
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/15/2018
 ms.author: merwanhade
 ms.openlocfilehash: b75cacf14da7d1b339e8a2f9e35eece389c2a6f7
-ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29563160"
 ---
 # <a name="wait-for-approval-in-microsoft-flow"></a>Microsoft Flow での承認待ち
 

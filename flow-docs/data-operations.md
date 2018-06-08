@@ -1,13 +1,13 @@
 ---
-title: "データ操作を理解する | Microsoft Docs"
-description: "作成、結合、選択、配列のフィルター処理、HTML テーブル作成、CSV テーブル作成など、Microsoft Flow による操作の実行について説明します。"
-services: 
+title: データ操作を理解する | Microsoft Docs
+description: 作成、結合、選択、配列のフィルター処理、HTML テーブル作成、CSV テーブル作成など、Microsoft Flow による操作の実行について説明します。
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 08/02/2017
 ms.author: deonhe
 ms.openlocfilehash: aa3f61d09cb5e9b8d07124838883da9b5b9794ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440912"
 ---
 # <a name="use-data-operations-with-microsoft-flow"></a>Microsoft Flow によるデータ操作を利用する
 このチュートリアルでは、Microsoft Flow で頻繁に使用するデータ操作について説明します。作成、結合、選択、配列のフィルター処理、テーブルの作成、JSON の解析など、フロー作成時のデータ操作に使用できる操作です。

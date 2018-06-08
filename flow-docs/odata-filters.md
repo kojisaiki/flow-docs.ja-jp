@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 7c182328c341043ffc155a679f39bcbc2130a0bc
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31008072"
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Microsoft Flow を使用するデータのフィルターとコピー
 このチュートリアルでは、新しい項目または変更された項目のソースを監視し、それらの変更をターゲットにコピーするフローを作成する方法を示します。 ユーザーがある場所にデータを入力する場合に、チームで別の場所または形式のデータが必要な場合、このようなフローを作成できます。

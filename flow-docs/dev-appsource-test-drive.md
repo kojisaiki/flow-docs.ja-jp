@@ -1,13 +1,13 @@
 ---
-title: "AppSource で顧客がフローを体験できるようにする | Microsoft Docs"
-description: "AppSource を使用して、顧客とアプリを共有し、潜在顧客を創出します。"
-services: 
+title: AppSource で顧客がフローを体験できるようにする | Microsoft Docs
+description: AppSource を使用して、顧客とアプリを共有し、潜在顧客を創出します。
+services: ''
 suite: flow
 documentationcenter: na
 author: linhtranms
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 05/09/2017
 ms.author: litran
 ms.openlocfilehash: 41d53a6f7382365dfcabbc98a2fa362d465720fa
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439652"
 ---
 # <a name="let-customers-test-drive-your-flows-on-appsource"></a>AppSource で顧客がフローを体験できるようにする
 アプリと Microsoft Flow がどのように統合するかを顧客に見てもらい、 お客様と Microsoft Flow の統合を共有し、潜在顧客を作り出す手段として、[AppSource.com](https://appsource.microsoft.com) で体験版ソリューションが提供されるようになりました。
@@ -34,5 +35,5 @@ ms.lasthandoff: 10/15/2017
 ユーザーに読み取り専用アクセス権を付与できるデータ ソースを用意したら、Microsoft Flow をアプリケーションに組み込むことができます。 [組み込みについて詳しくは、こちらをご覧ください](embed-flow-dev.md)。 アプリケーションに固有のテンプレートがよくわかるように、検索機能を使用できます。 たとえば、アプリケーションが Dynamics 365 にデータを作成する場合、データを取得する Dynamics 365 テンプレートを強調してユーザーにメールを送ることができます。 
 
 ## <a name="how-do-i-list-my-test-drive-solution-on-appsourcecom"></a>AppSource.com に体験版ソリューションを表示する方法
-アプリの準備ができたら、AppSource.com で公開します。そのための手順を始めるには、flow.microsoft.com で[申し込みフォーム](https://flow.microsoft.com/partners/get-listed/)を作成してください。申し込むと、AppSource.com で公開するためにアプリを送信する方法が記載されたメールを受け取ります。
+アプリの準備ができたら、AppSource.com で公開します。 そのための手順を始めるには、flow.microsoft.com で[申し込みフォーム](https://flow.microsoft.com/partners/get-listed/)を作成してください。 申し込むと、AppSource.com で公開するためにアプリを送信する方法が記載されたメールを受け取ります。
 

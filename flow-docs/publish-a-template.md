@@ -1,13 +1,13 @@
 ---
-title: "フロー テンプレートの送信 | Microsoft Docs"
-description: "フローをテンプレートとして送信すると、他の組織がテンプレート ギャラリー内でそのフローを見つけ、使用することができるようになります。"
-services: 
+title: フロー テンプレートの送信 | Microsoft Docs
+description: フローをテンプレートとして送信すると、他の組織がテンプレート ギャラリー内でそのフローを見つけ、使用することができるようになります。
+services: ''
 suite: flow
 documentationcenter: na
 author: sunaysv
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/10/2017
 ms.author: sunayv
 ms.openlocfilehash: c265556631d19cb3c9179454bcf3b8a26e88651b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442046"
 ---
 # <a name="submit-a-template-to-the-microsoft-flow-gallery"></a>Microsoft Flow ギャラリーへのテンプレートの送信
 Microsoft Flow のテンプレートのギャラリーへのフロー テンプレートの送信 テンプレートを使用することで、ユーザーはフローをより簡単に作成できるだけでなく、フローの恩恵を受ける他のシナリオを想定することもできます。 

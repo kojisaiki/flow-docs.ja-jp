@@ -1,13 +1,13 @@
 ---
-title: "フローを作成してタスクを自動化する | Microsoft Docs"
-description: "フローを作成して、イベント (SharePoint リストに行を追加するなど) が発生したときに 1 つ以上のアクション (メールの送信など) を自動的に実行します。"
-services: 
+title: フローを作成してタスクを自動化する | Microsoft Docs
+description: フローを作成して、イベント (SharePoint リストに行を追加するなど) が発生したときに 1 つ以上のアクション (メールの送信など) を自動的に実行します。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: get-started-article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/28/2018
 ms.author: deonhe
 ms.openlocfilehash: 911be014dd6f57a80be7c65d87cb2d5d475c88e1
-ms.sourcegitcommit: 2dcb94f85c0029f920329c861b6a0f1f8972c191
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29716278"
 ---
 # <a name="create-a-flow-in-microsoft-flow"></a>Microsoft Flow でのフローの作成
 

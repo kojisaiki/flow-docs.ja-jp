@@ -1,13 +1,13 @@
 ---
-title: "Common Data Service を使用した承認ループの作成 | Microsoft Docs"
-description: "Dropbox に追加されたファイルをレビュー担当者が承認または却下できるように連携するエンティティ、フロー、アプリを作成します。"
-services: 
+title: Common Data Service を使用した承認ループの作成 | Microsoft Docs
+description: Dropbox に追加されたファイルをレビュー担当者が承認または却下できるように連携するエンティティ、フロー、アプリを作成します。
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
 ms.openlocfilehash: f56b109cc0263c8464d6d7475421ab32af8888d5
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29351340"
 ---
 # <a name="build-an-approval-loop-by-using-microsoft-flow-and-the-microsoft-common-data-service"></a>Microsoft Flow と Microsoft Common Data Service を使用した承認ループの作成
 Common Data Service を使用すると、フローから独立しているデータベースに情報が格納されるフローを作成できます。 その最も良い例が、承認に関するものです。 承認の状態をエンティティに格納すると、フローはそれを基盤にして動作することができます。

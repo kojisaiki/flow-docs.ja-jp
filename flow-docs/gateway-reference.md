@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
 ms.openlocfilehash: fc69517beb24d50432c1cbed216f28cfc0f862fb
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34453264"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Microsoft Flow のオンプレミス データ ゲートウェイについて
 オンプレミス データ ゲートウェイと Microsoft Flow を利用し、Microsoft SQL Server などのオンプレミス データ ソースに安全に接続します。
@@ -135,7 +136,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 ドメインではなく IP アドレスをホワイトリストに指定する必要がある場合は、[Microsoft Azure Datacenter IP Ranges の一覧](https://www.microsoft.com/download/details.aspx?id=41653)をダウンロードして使用できます。 場合によっては、Azure Service Bus の接続が完全修飾ドメイン名ではなく IP アドレスで行われる可能性があります。
 
 ## <a name="sign-in-account"></a>サインイン アカウント
-ユーザーは、職場または学校アカウントでサインインします。 これは組織のアカウントです。 Office 365 サービスにサインアップしても、勤務先メール アドレスを指定しなかった場合は、nancy@contoso.onmicrosoft.com のようになります。クラウド サービス内では、お使いのアカウントが Azure Active Directory (AAD) のテナント内に保存されます。 ほとんどの場合、AAD アカウントの UPN はメール アドレスと一致します。
+ユーザーは、職場または学校アカウントでサインインします。 これは組織のアカウントです。 Office 365 サービスにサインアップしても、勤務先メール アドレスを指定しなかった場合は、nancy@contoso.onmicrosoft.com のようになります。 クラウド サービス内では、お使いのアカウントが Azure Active Directory (AAD) のテナント内に保存されます。 ほとんどの場合、AAD アカウントの UPN はメール アドレスと一致します。
 
 ## <a name="windows-service-account"></a>Windows サービス アカウント
 オンプレミス データ ゲートウェイは、Windows サービスのログオン資格情報に *NT SERVICE\PBIEgwService* を使用するよう構成されています。 既定では、この資格情報に、サービスとしてログオンする権限があります。 これは、ゲートウェイのインストール先コンピューターとの関連で存在します。

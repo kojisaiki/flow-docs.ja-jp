@@ -1,13 +1,13 @@
 ---
-title: "フローに他の所有者を追加し、チーム フローを作成する方法 | Microsoft Docs"
-description: "Microsoft Flow を使うと、反復的なタスクを簡単に自動化できます。 ユーザーまたはグループを所有者として追加し、共同作業によりフローの設計および管理ができます。"
-services: 
+title: フローに他の所有者を追加し、チーム フローを作成する方法 | Microsoft Docs
+description: Microsoft Flow を使うと、反復的なタスクを簡単に自動化できます。 ユーザーまたはグループを所有者として追加し、共同作業によりフローの設計および管理ができます。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 04/21/2017
 ms.author: deonhe
 ms.openlocfilehash: d4e8de2f9f67c07861297e079948a5336ff66e7f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439688"
 ---
 # <a name="create-team-flows"></a>チーム フローを作成する
 組織内の他のユーザーを所有者として追加することにより、チーム フローを作成します。 チーム フローのすべての所有者は、次の操作を実行できます。

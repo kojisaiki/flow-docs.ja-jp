@@ -1,13 +1,13 @@
 ---
-title: "携帯電話からのフローの管理 | Microsoft Docs"
-description: "フローの一覧を表示し、有効または無効にして、各フローのイベントの所要時間 (秒単位)、アクションの所要時間 (秒単位)、および実行履歴を表示します"
-services: 
+title: 携帯電話からのフローの管理 | Microsoft Docs
+description: フローの一覧を表示し、有効または無効にして、各フローのイベントの所要時間 (秒単位)、アクションの所要時間 (秒単位)、および実行履歴を表示します
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: 4a04fec70ae70ff17ddf6e1f93e6461ec432e8d2
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440102"
 ---
 # <a name="manage-flows-in-microsoft-flow-from-your-phone"></a>携帯電話からの Microsoft Flow でのフローの管理
 作成したすべてのフローの一覧と、各フローのイベントとアクションを表示します。また、そのフローを有効または無効にしたり、実行履歴を確認したりします。

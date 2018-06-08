@@ -1,13 +1,13 @@
 ---
-title: "携帯電話からのフローの作成 | Microsoft Docs"
-description: "テンプレートからフローを作成します。たとえば、指定したアドレスからメールを受け取るとプッシュ通知を送信するテンプレートから作成します"
-services: 
+title: 携帯電話からのフローの作成 | Microsoft Docs
+description: テンプレートからフローを作成します。たとえば、指定したアドレスからメールを受け取るとプッシュ通知を送信するテンプレートから作成します
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/18/2016
 ms.author: adiregev
 ms.openlocfilehash: 27a2001e3fa154f9354ef5ad888e194f30b3d6ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440300"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-microsoft-flow"></a>Microsoft Flow を使用した携帯電話からのフローの作成
 テンプレートを使用して、携帯電話からフローを作成します。テンプレートを見つけるには、サービスの一覧から検索するか、カテゴリを参照するか、キーワードを指定します。 このトピックの手順では、マネージャーからメールを受け取るとプッシュ通知を携帯電話に送信するフローを作成します。

@@ -3,7 +3,7 @@
 * Office 365 Outlook と Office 365 ユーザー アカウント。
 
 > [!NOTE]
-> このチュートリアルでは、SharePoint Online と Office 365 Outlook を使用しますが、Zendesk、Salesforce、Gmail などの、その他のサービスを使用することもできます。
+> このチュートリアルでは、SharePoint Online と Office 365 Outlook を使用しますが、Zendesk、Salesforce、Gmail など、その他のサービスを使用することもできます。
 > 
 > 
 

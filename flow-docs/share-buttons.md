@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 2804c683defb94f87c40452a27382bc143c11f10
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442262"
 ---
 # <a name="share-button-flows-in-microsoft-flow"></a>Microsoft Flow でボタン フローを共有する
 Microsoft Flow モバイル アプリでは、[ボタン フロー](introduction-to-button-flows.md) (ボタン) を組織内の他のユーザーまたはグループと共有できます。 ボタンを共有すると、共有するユーザーまたはグループが自分のボタンを実行する場合と同じようにボタンを実行できます。 他のユーザーが共有したボタンへの[リンクを共有する](share-buttons.md#re-share-a-button)こともできます。 いつでもボタンの[共有を停止](share-buttons.md#stop-sharing-a-button)できます。

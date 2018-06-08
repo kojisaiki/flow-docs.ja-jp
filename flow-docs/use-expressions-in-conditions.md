@@ -26,10 +26,11 @@ ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
 ms.openlocfilehash: 3a089735cc2d8c9144e18a2765b549b528470d1e
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31008639"
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>複数の値を確認する条件で式を使用する
 このチュートリアルでは、式と**条件**を利用し、**詳細設定モード**で複数の値を比較する方法について学習します。

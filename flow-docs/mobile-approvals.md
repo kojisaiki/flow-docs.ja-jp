@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
 ms.openlocfilehash: 2b856dfa75e0acb7eb83525c4d64d070315b5735
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440192"
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-microsoft-flow"></a>Microsoft Flow を使用してモバイル デバイスで要求を承認する
 フローによって承認者として識別された場合、Microsoft Flow 用のモバイル アプリがインストール済みであると、承認を要求されるたびにプッシュ通知が届きます。
