@@ -1,13 +1,13 @@
 ---
-title: "管理センターを使用して環境およびデータ ポリシーを管理します。 | Microsoft Docs"
-description: "テナントや環境の管理者は、Microsoft Flow 管理センターを使って、Microsoft Flow の展開のデータ ポリシーと環境を管理します。"
-services: 
+title: 管理センターを使用して環境およびデータ ポリシーを管理します。 | Microsoft Docs
+description: テナントや環境の管理者は、Microsoft Flow 管理センターを使って、Microsoft Flow の展開のデータ ポリシーと環境を管理します。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 10/31/2017
 ms.author: deonhe
 ms.openlocfilehash: 368b208a6f1d47f76a6f195edcd8055a03c06800
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23981323"
 ---
 # <a name="the-admin-center"></a>管理センター
 
@@ -29,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="access-the-admin-center"></a>管理センターにアクセスする
 
-* https://admin.flow.microsoft.com に移動し、Microsoft Flow 管理センターにアクセスします。
+* Microsoft Flow 管理センターへは、https://admin.flow.microsoft.com からアクセスします。
 
 ## <a name="environments"></a>環境
 

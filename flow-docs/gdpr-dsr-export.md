@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 4/17/2018
+ms.date: 4/24/2018
 ms.author: keweare
-ms.openlocfilehash: 1e1fe346ba6ffb264985da0115714246a621ef5a
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: 5b813bbd8ba9b4e5a778d9fa424704b61ed6dd31
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552067"
 ---
 # <a name="responding-to-gdpr-data-subject-export-requests-for-microsoft-flow"></a>Microsoft Flow に対する GDPR データ主体のエクスポート要求への応答
 
@@ -39,16 +40,15 @@ Microsoft Flow では、特定のユーザーの個人データを検索およ�
 |-----------------|------------------|-------------------|
 |システム生成ログ|[Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)|
 |実行履歴|Microsoft Flow 作成者ポータル||
-|ユーザー ジョブ|| |
 |フロー|Microsoft Flow 作成者ポータル||
 |フローのアクセス許可| Microsoft Flow 作成者ポータルおよび Microsoft Flow 管理センター||
-|ユーザーの詳細|| |
-|接続|Microsoft Flow 作成者ポータル| |
-|接続のアクセス許可|Microsoft Flow 作成者ポータル| |
-|カスタム コネクタ|Microsoft Flow 作成者ポータル| |
-|カスタム コネクタのアクセス許可|Microsoft Flow 作成者ポータル| |
-|ゲートウェイ|Microsoft Flow 作成者ポータル|オンプレミス ゲートウェイ PowerShell コマンドレット|
-|ゲートウェイのアクセス許可|Microsoft Flow 作成者ポータル|
+|ユーザーの詳細||PowerApps コマンドレット|
+|接続|Microsoft Flow 作成者ポータル|PowerApps コマンドレット |
+|接続のアクセス許可|Microsoft Flow 作成者ポータル|PowerApps コマンドレット |
+|カスタム コネクタ|Microsoft Flow 作成者ポータル|PowerApps コマンドレット |
+|カスタム コネクタのアクセス許可|Microsoft Flow 作成者ポータル|PowerApps コマンドレット |
+|ゲートウェイ|Microsoft Flow 作成者ポータル|オンプレミス データ ゲートウェイ PowerShell コマンドレット|
+|ゲートウェイのアクセス許可|Microsoft Flow 作成者ポータル|オンプレミス データ ゲートウェイ PowerShell コマンドレット|
 
 ## <a name="export-a-flow"></a>フローをエクスポートする
 
@@ -105,10 +105,35 @@ Microsoft Excel またはテキスト エディターで開いて結果をさら
     ![接続の表示](./media/gdpr-dsr-export/show-connections.png)
 1. 結果をコピーし、Microsoft Word などのドキュメント エディターに貼り付けます。
 
+PowerApps 管理者 PowerShell コマンドレット
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all connections for the user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnection -CreateBy $userId | ConvertTo-Json |Out-File -FilePath "UserConnections.txt"
+```
+
 ## <a name="export-a-list-of-a-users-connection-permissions"></a>ユーザーの接続アクセス許可の一覧をエクスポートする
 
 ユーザーは、[PowerApps PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871804)の Get-ConnectionRoleAssignment 機能を使用して、アクセスできるすべての接続に対する接続のロールの割り当てをエクスポートできます。
-![接続のアクセス許可のエクスポート](./media/gdpr-dsr-export/export-connection-permissions.png)
+
+```PowerShell
+Add-PowerAppsAccount
+Get-ConnectionRoleAssignment | ConvertTo-Json | Out-File -FilePath "ConnectionPermissions.txt"
+```
+PowerApps 管理者 PowerShell コマンドレット
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all connection permissions for the specified user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnectionRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | Out-File -FilePath "ConnectionPermissions.txt" 
+```
 
 ## <a name="export-a-users-custom-connectors"></a>ユーザーのカスタム コネクタをエクスポートする
 
@@ -125,13 +150,41 @@ Microsoft Excel またはテキスト エディターで開いて結果をさら
 
 Microsoft Flow で提供されるエクスペリエンスだけでなく、[PowerApps PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871804)の Get-Connector 機能を使って、すべてのカスタム コネクタをエクスポートすることもできます。
 
-![カスタム コネクタのエクスポート PowerShell](./media/gdpr-dsr-export/export-custom-connectors-powershell.png)
+~~~~
+Add-PowerAppsAccount
+Get-Connector -FilterNonCustomConnectors | ConvertTo-Json | Out-File -FilePath "CustomConnectors.txt"
+~~~~
+
+PowerApps 管理者 PowerShell コマンドレット
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all custom connectors for user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnector -CreatedBy $userId | ConvertTo-Json | Out-File -FilePath "UserCustomConnectors.txt"  
+```
 
 ## <a name="export-a-users-custom-connector-permissions"></a>ユーザーのカスタム コネクタのアクセス許可をエクスポートする
 
 ユーザーは、[PowerApps PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871804)の Get-ConnectorRoleAssignment 機能を使って、作成したすべてのカスタム コネクタのアクセス許可をエクスポートできます。
 
-![カスタム コネクタのアクセス許可のエクスポート PowerShell](./media/gdpr-dsr-export/export-connector-permissions.png)
+```PowerShell
+Add-PowerAppsAccount
+Get-ConnectorRoleAssignment | ConvertTo-Json | Out-File -FilePath "CustomConnectorPermissions.txt"
+```
+
+PowerApps 管理者 PowerShell コマンドレット
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all connection permissions for the specified user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnectorRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | Out-File -FilePath "CustomConnectorPermissions.txt"   
+```
 
 ## <a name="export-approval-history"></a>承認履歴をエクスポートする
 
@@ -144,3 +197,18 @@ Microsoft Flow の承認履歴は、ユーザーが受信または送信した�
 1. 一覧に、ユーザーが受け取った承認が表示されます。 ユーザーは、**[受信]** の隣の下向き矢印を選択してから、**[送信済み]** を選択することで、自分が送信した承認を表示できます
 
     ![受信した承認の表示](./media/gdpr-dsr-export/view-received-approvals.png)
+
+## <a name="export-user-details"></a>ユーザーの詳細をエクスポートする
+ユーザーの詳細では、ユーザーと特定のテナント間のリンクが提供されます。 管理者は、**Get AdminFlowUserDetails** コマンドレットを呼び出し、ユーザーのオブジェクト ID で渡すことで、この情報をエクスポートすることができます。
+
+PowerApps 管理者 PowerShell コマンドレット
+
+```PowerShell
+Add-PowerAppsAccount
+
+Get-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
+```
+
+## <a name="export-gateway-settings"></a>ゲートウェイ設定をエクスポートする
+オンプレミス データ ゲートウェイのデータ主体エクスポート要求への応答に関しては、[こちら](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration)を参照してください。
+

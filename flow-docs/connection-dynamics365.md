@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
-ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
+ms.openlocfilehash: 2db995eafaf8e73af7cd29b8a2469d4abaab2356
+ms.sourcegitcommit: 7d04ee86361fe5d70ee89cde06d01754ada757b5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2018
-ms.locfileid: "34689378"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799673"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Dynamics 365 (オンライン) を使用したフローの作成
 Dynamics 365 コネクタを使用すると、Dynamics 365 またはその他のサービスでイベントが発生し、これにより Dynamics 365 またはその他のサービスでアクションが実行されたときに、開始されるフローを作成することができます。 
@@ -91,6 +91,11 @@ Microsoft Flow では、お気に入りのアプリとサービスの間のワ�
 8. **[リスト ID]** で、**[受信トレイ]** を選択します。
 9. **[タイトル]** で、動的コンテンツ ウィンドウの **[サブジェクト]** を選択します。
 10. **[フローの作成]** をクリックまたはタップします。  
+
+## <a name="trigger-based-logic"></a>トリガー ベースのロジック
+**レコードの作成時**、**レコードの更新時**、**レコードの削除時**などのトリガーによって、イベントの発生から数分以内にフローが開始されます。  ごくまれに、フローがトリガーされるまでに最大 2 時間かかることがあります。
+
+トリガーが発生すると、フローは通知を受け取りますが、フローはアクションの実行時に存在するデータに対して実行されます。  たとえば、新しいレコードが作成されたときにフローがトリガーされ、フローが実行される前にレコードを 2 回更新した場合、フローは最新のデータに対して 1 回だけ実行されます。
 
 ## <a name="specify-advanced-options"></a>詳細なオプションを指定する
 フローにステップを追加する場合は、**[詳細オプションの表示]** をクリックまたはタップして、フロー内でのデータのフィルター処理の方法を制御するフィルターまたは並べ替えクエリを追加することができます。

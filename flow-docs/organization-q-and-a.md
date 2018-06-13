@@ -1,13 +1,13 @@
 ---
-title: "組織における Flow サインアップの Q&A | Microsoft Docs"
-description: "Office 365 テナントにおける Flow のライセンス、管理、およびユーザー サインアップに関してよくある質問と回答"
-services: 
+title: 組織における Flow サインアップの Q&A | Microsoft Docs
+description: Office 365 テナントにおける Flow のライセンス、管理、およびユーザー サインアップに関してよくある質問と回答
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 12/05/2016
 ms.author: stepsic
 ms.openlocfilehash: f8807ca0941761018c92a385c26f427e69ededcb
-ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442496"
 ---
 # <a name="flow-in-your-organization-qa"></a>組織における Flow の Q & A
 このトピックでは、組織のユーザーが Flow を使用する方法と、管理者が Flow サービスを制御する方法について説明します。
@@ -44,7 +45,7 @@ Microsoft Flow は個人やチームを支援するパブリック クラウド 
 ### <a name="can-i-block-another-person-from-signing-up-for-flow"></a>他のユーザーが Flow にサインアップすることを禁止できますか?
 Microsoft Flow は完全なパブリック クラウド サービスです。世界中のすべてのユーザーが Flow にサインアップし、Flow を使って日常のタスクを自動化できます。 Microsoft Flow を使用するとき、Office 365 アカウントを用意すること、使用することは要求されません。 このため、現時点では、他のユーザーが Flow を使うのを禁止するメカニズムはありません (世界中のすべてのユーザーがメール アドレスに関係なく使用できます)。
 
-ただし、誰かが Microsoft Flow にサインアップするとき、組織内ではサポートしないことを選択した場合、そのユーザーが会社にコストを発生させることはありません。 個人が Microsoft Flow に新規登録するとき、その関係は、Bing、Wunderlist、OneDrive、Outlook.com のような Microsoft の他のクラウド サービスと同様に、個人と Microsoft の間の関係になります。Microsoft Flow を個人で利用するとき、組織がサービスの提供者として解釈されることは決してありません。
+ただし、誰かが Microsoft Flow にサインアップするとき、組織内ではサポートしないことを選択した場合、そのユーザーが会社にコストを発生させることはありません。 個人が Microsoft Flow に新規登録するとき、その関係は、Bing、Wunderlist、OneDrive、Outlook.com のような Microsoft の他のクラウド サービスと同様に、個人と Microsoft の間の関係になります。 Microsoft Flow を個人で利用するとき、組織がサービスの提供者として解釈されることは決してありません。
 
 最後になりますが、会社が Microsoft Flow 内の組織専用データの使用を制限する場合、データ損失防止 (DLP) ポリシーでそれを実行できます。
 
@@ -137,7 +138,7 @@ Microsoft Flow は、個人または組織の一員として利用できます�
 1. 管理するテナント ドメインと一致する電子メール アドレス ドメインを使って Flow にサインアップすることで、テナントに参加します。 たとえば、Microsoft が contoso.com テナントを作成した場合は、@contoso.com で終わる電子メール アドレスでテナントに参加します。
 2. ドメインの所有権を確認することによって、管理コントロールを要求します。テナントに参加した後は、ドメインの所有権を確認することによって自分自身を管理者の役割に昇格させることができます。 そのためには次のようにします。    
    
-   1. [https://portal.office.com](https://portal.office.com/Start?sku=flow_free) にアクセスします。
+   1. [https://portal.office.com](https://portal.office.com/Start?sku=flow_free) に移動します。
    2. 左上のアプリ起動ツール アイコンを選んで、[管理者] を選びます。
    3. **[Become the admin]** (管理者になる) ページで説明を読み、**[Yes, I want to be the admin]** (はい、管理者になります) を選びます。  
       

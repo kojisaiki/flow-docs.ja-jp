@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/12/2018
+ms.date: 06/04/2018
 ms.author: stepsic
-ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
-ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
+ms.openlocfilehash: 61c6382a35a55ca18dbfbce5b5b6fe38dc6ee0f2
+ms.sourcegitcommit: 3f7f5a941466485cd16e78239fcfd89d71f501e0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755577"
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -45,7 +46,17 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="whats-new"></a>新機能
 
-### <a name="release-2014-05-01"></a>2014 年 5 月 1 日リリース
+### <a name="release-2018-05-21"></a>2018 年 5 月 21 日リリース
+
+- **SharePoint リストとライブラリによって "所有されている" フロー** - SharePoint リストとライブラリを操作するフローは、それらのリストまたはライブラリと共有することができます。 そのため、個人やグループと共有されるのではなく、リストにアクセスできるすべてのユーザーと共有されます。 ユーザーがリストまたはライブラリに追加または削除されると、それに従ってメンバーシップも自動的に変更されます。
+- **エラーの詳細分析** - フロー内で発生するすべてのエラーに関する情報が掲載された新しい埋め込みレポートです。
+- **Office 365 グループとのフローの共有** - Office 365 の最新のグループをフローの所有者にすることができます。また、グループ内のすべてのユーザーがフローを実行できるように、Office 365 グループとボタン フローを共有することができます。
+- **SharePoint コネクタの改善** - 2 つの新しい SharePoint コネクタ機能があります。項目またはファイルが削除されるときにフローをトリガーする機能と、SharePoint REST API がサポートする任意の HTTP エンドポイントを呼び出す機能です。
+- **2 つの新しいコネクタ** - Azure Data Factory と MailParser のサポートが追加されました
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/share-with-sharepoint-office-365/)。
+
+### <a name="release-2018-05-01"></a>2018 年 5 月 1 日リリース
 
 - **承認メッセージ内のリッチ テキスト** - Markdown を使って、送信する承認の詳細を書式設定します。
 - **複数の選択入力を含むボタン** - 複数選択リストを使って複数の値を一度に収集するフロー ボタンを構築します。
