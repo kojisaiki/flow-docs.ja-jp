@@ -30,7 +30,7 @@ ms.locfileid: "23981323"
 
 ## <a name="access-the-admin-center"></a>管理センターにアクセスする
 
-* Microsoft Flow 管理センターへは、https://admin.flow.microsoft.com からアクセスします。
+* Microsoft Flow 管理センターへは、 https://admin.flow.microsoft.com からアクセスします。
 
 ## <a name="environments"></a>環境
 
