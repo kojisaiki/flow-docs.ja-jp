@@ -1,4 +1,4 @@
-1. [Microsoft Flow](https://flow.microsoft.com) にサインインし、**[自分のフロー]** タブを選択します。
+1. [Microsoft Flow](https://flow.microsoft.com) にサインインし、**[マイ フロー]** タブを選択します。
 2. **[一から作成]** を選択します。
    
     ![空のフロー](media/email-triggers/email-triggers-create-blank.png)
