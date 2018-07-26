@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: f7ceaa76ddf4e1980ad8144a6152fc8211c3880b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 70206e0ed6c2b59d0dfffa0c4608ba47e0fac1dc
+ms.sourcegitcommit: ca875127f607034d7ef6a3fe270fc48e4f7eeee6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561312"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39175134"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Microsoft Flow に対する GDPR データ主体の削除要求への応答
 
@@ -258,10 +258,10 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 
 1. 環境が組織内のどのユーザーによっても使われていないことを確認した場合は、環境を削除できます。
 1. 環境がまだ必要であると判断した場合は、環境を削除せず、自分自身 (または、組織内の別のユーザー) を環境管理者として追加できます。
-    > [!IMPORTANT]
-    > 環境を削除すると、すべてのアプリ、フロー、接続などを含む、環境内のすべてのリソースが完全に削除されます。したがって、削除する前に、環境の内容を確認してください。
-    >
-    >
+> [!IMPORTANT]
+> 環境を削除すると、すべてのアプリ、フロー、接続などを含む、環境内のすべてのリソースが完全に削除されます。したがって、削除する前に、環境の内容を確認してください。
+>
+>
 
 ## <a name="give-access-to-a-users-environments-from-the-microsoft-flow-admin-center"></a>Microsoft Flow 管理センターからユーザーの環境へのアクセス権を付与する
 
