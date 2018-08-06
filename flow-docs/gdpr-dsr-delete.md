@@ -73,7 +73,7 @@ Microsoft Flow では、組織の日常業務の重要な一部であるオー�
 
 * Common Data Service for Apps の導入により、環境内にデータベースが作成された場合、環境のアクセス許可とモデル駆動型アプリのアクセス許可が、Common Data Service for Apps データベース インスタンス内のレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
 
-** 管理者は、Microsoft フロー管理センターからアクセス権を割り当てられている場合、Microsoft Flow 作成者ポータルからのみ、これらのリソースにアクセスできます。
+\*\*管理者は、Microsoft フロー管理センターからアクセス権を割り当てられている場合、Microsoft Flow 作成者ポータルからのみ、これらのリソースにアクセスできます。
 
 ## <a name="manage-delete-requests"></a>削除要求を管理する
 
