@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 4fa6af7557fdbae46db5eb74a82a9d30a991e93b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: af179e30c3b8b7c6d4200f10f122f0d928526f1b
+ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34453310"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39718306"
 ---
 # <a name="frequently-asked-questions"></a>よく寄せられる質問
 ## <a name="audience-and-strategy"></a>対象ユーザーと戦略
@@ -80,7 +80,7 @@ Microsoft Flow は最初から 100 以上のデータ ソースに接続でき�
 Office 365、Twitter、SharePoint、OneDrive、Dropbox、SQL Server など、Microsoft とサード パーティの 100 以上の標準的なサービスに接続することができます。 PowerApps 向けの Common Data Service や Salesforce などのプレミアム サービスに接続することもできます。
 
 ### <a name="how-do-i-connect-to-a-rest-api-in-my-flow"></a>フローで REST API に接続する方法を教えてください。
-[カスタム コネクタ](register-custom-api.md)を作成することで、JSON を使用し、10 を超える認証方法のうち少なくとも 1 つをサポートしている任意の REST API に接続できます。
+[カスタム コネクタ](developer/register-custom-api.md)を作成することで、JSON を使用し、10 を超える認証方法のうち少なくとも 1 つをサポートしている任意の REST API に接続できます。
 
 ### <a name="how-do-i-connect-to-sql-server-and-other-on-premises-data-sources"></a>SQL Server やその他のオンプレミス データ ソースに接続する方法を教えてください。
 [オンプレミスのデータ ゲートウェイ](gateway-manage.md)を使用すると、ローカル ネットワーク上のサービスに接続できます。
@@ -129,7 +129,7 @@ Microsoft Flow は、承認、ドキュメントの校閲、オンボード/オ�
 ### <a name="will-microsoft-flow-still-have-a-free-or-trial-option"></a>Microsoft Flow の無料版または試用版のオプションはありますか。
 はい。 ユーザー権限が制限された無料版を使用することも、Microsoft Flow の 90 日間試用版にサインアップすることもできます。 試用期間中は、いつでもサブスクリプションをアクティブにできます。
 
-### <a name="what-pricing-plans-do-you-offer"></a>どのような価格プランが用意されていますか。
+### <a name="what-pricing-plans-do-you-offer"></a>どのような価格プランのオファーがありますか。
 Microsoft Flow には、無料と有料の両方のサービス レベルが用意されています。 [価格の詳細については、こちらをご覧ください](billing-questions.md)。
 
 ## <a name="learn-more"></a>詳細については、こちらをご覧ください

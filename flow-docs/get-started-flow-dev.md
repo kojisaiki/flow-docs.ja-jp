@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/22/2017
 ms.author: barathb
-ms.openlocfilehash: a3f1e21cfbf00749a0ef09c0363da162f0419f42
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 1bcdbf3772ab2481b15bd224523dff74afc53101
+ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439706"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39718283"
 ---
 # <a name="start-to-build-with-microsoft-flow"></a>Microsoft Flow を使用した作成の開始
 
@@ -56,11 +56,11 @@ Microsoft Flow から接続したい Web サービスがある場合は、最初
 
 ## <a name="embed-the-flow-experience-into-your-website-or-app"></a>Web サイトまたはアプリにフロー エクスペリエンスを埋め込む
 
-アプリ内に Microsoft Flow を[埋め込んで](embed-flow-dev.md)、ご利用のアプリと Microsoft Flow がサポートする他のすべてのサービスをコンテキスト内で深く統合することができます。 たとえば、次のことが可能です。
+アプリ内に Microsoft Flow を[埋め込んで](developer/embed-flow-dev.md)、ご利用のアプリと Microsoft Flow がサポートする他のすべてのサービスをコンテキスト内で深く統合することができます。 たとえば、次のことが可能です。
 
 * サービスに関連するすべてのテンプレートを参照し、ユーザーがテンプレートを選択できるようにする。
 * ユーザーがアプリに関連付けたフローを管理する。
 
 ## <a name="next-steps"></a>次のステップ
 
-Microsoft Flow をアプリに[埋め込む](embed-flow-dev.md)方法を確認してください。
+Microsoft Flow をアプリに[埋め込む](developer/embed-flow-dev.md)方法を確認してください。
