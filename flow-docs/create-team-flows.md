@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/21/2017
 ms.author: deonhe
-ms.openlocfilehash: d4e8de2f9f67c07861297e079948a5336ff66e7f
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: ec7801f249ce4f3a1e33a6092726a6574a2e6d4c
+ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439688"
+ms.lasthandoff: 08/06/2018
+ms.locfileid: "39520010"
 ---
 # <a name="create-team-flows"></a>チーム フローを作成する
 組織内の他のユーザーを所有者として追加することにより、チーム フローを作成します。 チーム フローのすべての所有者は、次の操作を実行できます。
@@ -64,6 +64,10 @@ ms.locfileid: "23439688"
     ![新しい所有者](./media/create-team-flows/addowner4.png)
    
      これでチーム フローが作成されました。
+
+##<a name="add-a-list-as-a-co-owner"></a>共同所有者として一覧を追加する
+
+SharePoint の一覧の編集アクセス権を持つすべてのユーザーが自動的にフローに編集アクセスできるように、一覧を共同所有者としてフローに追加することができます。 フローが共有されると、フローへのリンクを簡単に配布できます。
 
 ## <a name="remove-an-owner"></a>所有者を削除する
 > [!IMPORTANT]
