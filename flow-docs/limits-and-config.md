@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/31/2018
+ms.date: 06/19/2018
 ms.author: stepsic
-ms.openlocfilehash: 0595fa9113d85c6517392149f510a3a11df36061
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+ms.openlocfilehash: dcdd82b358737867372c1adece907158fa2ee77b
+ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39519872"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "43774300"
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow での制限事項と構成
 このトピックでは、現時点でのフローに関する制限事項と構成の詳細について説明します。
@@ -46,7 +46,9 @@ ms.locfileid: "39519872"
 
 | Name (名前) | 制限 |
 | --- | --- |
-| 再試行回数 |4 |
+| 再試行回数 |90 | 既定値は 4 です。 既定値を変更するにはアクションの設定を使用します | 
+| 再試行の最大遅延 |1 日 | |
+| 再試行の最小遅延 |5 秒 | |
 
 ## <a name="run-duration-and-retention"></a>実行の継続時間とリテンション期間
 1 つのフロー実行に対する制限は次のとおりです。
@@ -64,10 +66,12 @@ ms.locfileid: "39519872"
 
 | Name (名前) | 制限 | 備考 |
 | --- | --- | --- |
-| ForEach 項目 |5,000 |必要に応じて、フィルター アクションを使って大きい配列をフィルター処理できます。 |
+| Apply to each 項目 |100,000 |100,000 を利用可能なのは Premium プランのみです。 それ以外の場合は 5,000 に制限されます。 必要に応じて、フィルター アクションを使って大きい配列をフィルター処理できます。 |
 | Until 反復 |5,000 | |
-| SplitOn 項目 |5,000 | |
-| ForEach 並列処理 |1 | |
+| SplitOn 項目 |100,000 |Apply to each と同様、Premium プランでない限り 5,000 に制限されます。 |
+| Apply to each 並列処理 |50 |既定では、ループは順序どおりに実行されます (基本的に並列処理は 1 です)。 並列では最大 50 まで構成できます。 |
+| 5 分あたりのアクション実行数 | 100,000 | 必要に応じて、複数のフローにワークロードを分散することもできます。 |
+| アクションの同時発信数 | ~2,500 | 必要に応じて、同時要求の数を減らすか、継続時間を短縮します。 | 
 
 ## <a name="definition-limits"></a>定義の制限
 1 つのフローに対する制限は次のとおりです。

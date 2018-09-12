@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/04/2018
+ms.date: 07/21/2018
 ms.author: stepsic
-ms.openlocfilehash: 61c6382a35a55ca18dbfbce5b5b6fe38dc6ee0f2
-ms.sourcegitcommit: 3f7f5a941466485cd16e78239fcfd89d71f501e0
+ms.openlocfilehash: 063fd316f1c4e1679935fb7a83560441d2704701
+ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755577"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "43774283"
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -45,6 +45,35 @@ ms.locfileid: "34755577"
 3. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
 
 ## <a name="whats-new"></a>新機能
+
+### <a name="release-2018-07-23"></a>2018 年 7 月 23 日リリース
+
+- **Excel からのフローの構築と実行** - 新しい **[フロー]** ボタン (リボンの **[データ]** タブからアクセス) を使用して、Flow から Excel のテーブル データ上でオートメーションを作成してトリガーできます。 データ処理またはデータのコピー/インポートを自動化します。
+- **ビジネス プロセス フローの作成** - ビジネス プロセス フローとは、Common Data Service for Apps に基づく、ステートフルかつヒューマン インタラクティブな新しい種類のフローです。 これらの新しいフローを使用して、ユーザーが従う一連のステージと手順を定義します。 ユーザーは、必要に応じて、前に進んだり後ろに戻ったりできます。
+- **Outlook Web App での Microsoft To-Do のフローの作成** - Outlook Web App で \@メンションされたユーザーには、フローを作成するためのショートカットが表示されます。 このフローでは、電子メールのコンテンツに基づき、Microsoft To-Do で \@メンションされたユーザーのタスクが自動的に作成されます。
+- **SharePoint ビューのサポート** - SharePoint コネクタで、トリガーとアクションでの特定の SharePoint ビューの選択がサポートされるようになりました。 これによって列が、選択したビュー内にあるフィールドのみにフィルター処理されます。
+- **4 つの新しいコネクタ** - 追加 Azure IoT Central - 拡張性の高い IoT SaaS (サービスとしてのソフトウェア) ソリューション - Survey 123、LMS365、ProjectWise Design Integration。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/excel-bpf-todo-and-more/)。
+
+### <a name="release-2018-06-29"></a>2018 年 6 月 29 日リリース
+
+- **SharePoint に組み込まれる承認の要求フロー** - SharePoint でファイルや項目を選択すると、新しい**承認の要求**フローが表示されます。 このフローは構成や設定を必要とせず、1 回のクリックで承認要求を送信します。
+- **2 つの新しいコネクタ** - Cloud Connect Studio と PoliteMail が追加されました。
+- **履歴と作成ページの機能強化** - 実行履歴の一覧に正確な実行時間が含まれます。また、作成ページに新しいチュートリアル ビデオが追加されます。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/request-sign-off-four-connectors/)。
+
+### <a name="release-2018-06-08"></a>2018 年 6 月 8 日リリース
+
+- **PowerShell コマンドレット** - フローの作成者とテナント管理者の両方が、PowerShell を使用して各自の Flow をプログラムで管理できるようになりました。
+- **Teams Flow ボットの機能強化** - Microsoft Teams の Flow ボットで、フロー ボタンの実行とフローの説明を行うことができるようになりました。
+- **3 つの新しいコネクタ** - Marketo、ElasticOCR、DynamicSignal のサポートが追加されました。 
+- **追加の共有情報** - フローを共有するか、共有フローを実行するときに、詳細情報が追加されました。これにより、他のユーザーが受け取るアクセス許可を正確に確認できます。
+- **SharePoint URL の自動トリミング** - ブラウザーで SharePoint URL をコピーして貼り付ける場合、サイトを超える追加のテキストが含まれる場合があります。サイトにのみ接続できるように、このテキストは自動的に削除されます。
+- **GDPR 要求に関するドキュメント** - 企業組織がデータ主体の権利要求を処理するための、包括的なガイドとツールセットを作成しました。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/powershell-flow-bot-marketo/)。
 
 ### <a name="release-2018-05-21"></a>2018 年 5 月 21 日リリース
 
@@ -80,7 +109,7 @@ ms.locfileid: "34755577"
 - **承認の再割り当て** - 受け取った承認を組織内の別のユーザーに割り当てて、承認を委任することができます。 
 - **会議室の一覧** - Office 365 の Outlook Connector で、組織の会議室データを取得するアクションが追加されました。
 - **フローのボタンの詳細表示** - 共有されているフローを実行すると、そのフローで使用されるすべてのアクションが表示されるようになりました。
-- **英国のリージョン** - 英国でのデータを格納するための環境を作成できるようになりました。
+- **イギリスのリージョン** - イギリスでのデータを格納するための環境を作成できるようになりました。
 - **2 つの新しいコネクタ** - AtBot Admin と Marketing Content Hub のサポートが追加されました。
 - **新しいドキュメントのランディング ページ** - ドキュメントのランディング ページが更新され、その対象が初心者か、中級者か、上級者かによってグループ化されるようになりました。 
 
