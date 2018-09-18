@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: b2cf6c52a2cbaf06fc638fe8fc898689e6d523c4
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "29351304"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690823"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Common Data Service を使用するフローの作成
 [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/) を使用するフローを作成することにより、ビジネス データの統合ビューで運用効率を向上させます。 組織の適切な標準ビジネス エンティティ (販売、購買、顧客サービス、生産性など) から成る、このセキュリティで保護されたビジネス データベースをデプロイします。 組織データを 1 つ以上の[カスタム エンティティ](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)に格納します。このエンティティには、Microsoft Excel や Salesforce などの外部データ ソースに比べて、いくつかの利点があります。

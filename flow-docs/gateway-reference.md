@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: fc69517beb24d50432c1cbed216f28cfc0f862fb
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 95081295bfe0fd6c904876aaf70974575a7986c1
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34453264"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690907"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Microsoft Flow のオンプレミス データ ゲートウェイについて
 オンプレミス データ ゲートウェイと Microsoft Flow を利用し、Microsoft SQL Server などのオンプレミス データ ソースに安全に接続します。

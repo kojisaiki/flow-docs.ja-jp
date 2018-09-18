@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
-ms.openlocfilehash: c021f4fee692863bdeaa71d2d49901fbb603aa31
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 94af3389301f40aa5caaa46eda98c8b1c9be0228
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39519964"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689803"
 ---
 # <a name="trigger-a-flow-based-on-email-properties"></a>電子メールのプロパティに基づいてフローをトリガーする
 次の電子メール プロパティの 1 つまたは複数が指定した条件を満たすときに実行されるフローを作成するには、**[新しい電子メールが届いたとき]** トリガーを使用します。

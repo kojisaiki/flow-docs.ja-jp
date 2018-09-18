@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 016673948ffaeaf98e81cc2c561d9ff9f5f627e4
-ms.sourcegitcommit: 4a8d11e1768cd0ca96a60b6f5548a68c0c8999e5
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 0197d117f2e7a7e22dbe77e64111b21dc890f83b
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38949444"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44688998"
 ---
 # <a name="manage-approval-requests-in-microsoft-flow"></a>Microsoft Flow で承認要求を管理する
 Microsoft Flow では、[承認ワークフロー プロセス](modern-approvals.md)を簡単に自動化できます。 このチュートリアルでは、Microsoft Flow から送信された承認要求を表示、承認、却下する方法について説明します。

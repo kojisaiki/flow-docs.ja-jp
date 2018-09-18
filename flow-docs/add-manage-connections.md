@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/15/2017
 ms.author: stepsic
-ms.openlocfilehash: c0e115732e26bdeb0d7e4c3c60e1aa6c63e0ffc1
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: bdfa1072bca2afc7c608a4dbf68b8f598dff89f1
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439778"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689113"
 ---
 # <a name="manage-connections-in-microsoft-flow"></a>Microsoft Flow での接続の管理
 Microsoft Flow で接続を作成する場合、フローを作成しながら、データに簡単にアクセスすることができます。 Microsoft Flow には、SharePoint、SQL Server、Office 365、OneDrive for Business、Salesforce、Excel、Dropbox、Twitter など、よく使用される接続が含まれています。 接続は PowerApps と共有されるため、一方の製品で接続を作成すると、その接続は他方の製品にも表示されます。

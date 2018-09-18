@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/20/2017
 ms.author: stepsic
-ms.openlocfilehash: f6c936cbf5a2bd481adb52ec9b01545fb9ba7b0b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 9dd2aed8b8cdb1f0a8e673c5466291f60baaf41d
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23442118"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689389"
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>フローへの複数のアクションと詳細オプションの追加
 同じトリガーに対して 1 つ以上の詳細オプションと複数のアクションを追加して、フローをカスタマイズします。 たとえば、電子メール メッセージを高い優先度で送信する詳細オプションを追加します。 SharePoint リストに項目が追加されたときに電子メールを送信するほか、同じ情報を含むファイルを Dropbox に作成します。

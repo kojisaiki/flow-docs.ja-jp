@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: 532d3c1affe899da3125e9f512b21bf3e39ca25e
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+search.app:
+- Flow
+- Powerplatform
+search.audienceType:
+- admin
+ms.openlocfilehash: 77ce6e368c8cb54d360ebeaa32f1f649e30aa297
+ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39520079"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727184"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Microsoft Flow に対する GDPR データ主体の削除要求への応答
 
@@ -276,7 +281,7 @@ Common Data Service for Apps の導入により、環境内にデータベース
 環境でのユーザーのアクセス許可の削除について詳しくは、「[Microsoft Flow 内の環境の使用](https://docs.microsoft.com/flow/environments-overview-admin)」をご覧ください。
 
 ## <a name="delete-gateway-settings"></a>ゲートウェイ設定を削除する
-オンプレミス データ ゲートウェイのデータ主体の削除要求への応答に関しては、[こちら](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration)を参照してください。
+オンプレミス データ ゲートウェイのデータ主体の削除要求への応答に関しては、[こちら](https://docs.microsoft.com/power-bi/service-gateway-onprem#tenant-level-administration)を参照してください。
 
 ## <a name="delete-user-details"></a>ユーザーの詳細を削除する
 ユーザーの詳細では、ユーザーと特定のテナント間のリンクが提供されます。 このコマンドを実行する前に、このユーザーのすべてのフローを再割り当てまたは削除していることを確認します。 完了したら、管理者は **Remove-AdminFlowUserDetails** コマンドレットを呼び出し、ユーザーのオブジェクト ID を渡すことで、ユーザーの詳細を削除できます。

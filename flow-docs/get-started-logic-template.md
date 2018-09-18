@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: anneta
-ms.openlocfilehash: b755d9abe70740a97ad85aaa60b8a3f4685a7b26
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 52aae570f65eaae537f548e686f437592eb5ef03
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31008382"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689458"
 ---
 # <a name="create-a-flow-from-a-template-in-microsoft-flow"></a>Microsoft Flow でテンプレートからフローを作成する
 多くの組み込みテンプレートのいずれかからフローを作成します。組み込みテンプレートでは、たとえば、Office 365 で上司からのメールを受け取ったときに Slack メッセージが送信されるようにすることができます。

@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/16/2017
 ms.author: deonhe
-ms.openlocfilehash: 37f1ce939db23694bcd92e7f1af75bf6c474be91
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 914fe6d84bb63e1f3e184794d34fbfd58ad30963
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23440462"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690171"
 ---
 # <a name="use-the-apply-to-each-action-in-microsoft-flow-to-process-a-list-of-items-periodically"></a>Microsoft Flow の Apply to each アクションを使用して項目の一覧を定期的に処理する
 受信トレイに新しいメールが到着したときなど、多くのトリガーはイベントに基づいてフローをすぐに開始できます。 このようなトリガーは便利ですが、定義されているスケジュールでデータ ソースを照会し、データ ソース内の項目のプロパティに基づいて特定のアクションを行うようなフローを実行したいこともあります。 そのような処理のために、スケジュール (1 日 1 回など) に従ってフローを開始し、**Apply to each** などのループ アクションを使って項目の一覧を処理することができます。 たとえば、**Apply to each** を使うと、データベースのレコードや、Microsoft SharePoint の項目の一覧を更新できます。

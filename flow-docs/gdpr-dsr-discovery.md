@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: 9f950da1b62eac66b35a667f307917f704eb9133
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+search.app:
+- Flow
+- Powerplatform
+search.audienceType:
+- admin
+ms.openlocfilehash: 9ec66eefdbf2f6b6a9047678e9c29cb66900eda2
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31823194"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44688929"
 ---
 # <a name="responding-to-gdpr-data-subject-discovery-requests-for-microsoft-flow"></a>Microsoft Flow に対する GDPR データ主体の検出要求への応答
 
@@ -35,7 +40,7 @@ DSR への応答の最初のステップは、要求の主体である個人デ�
 |アクティビティ フィード| 実行状態、エラー、通知など、フロー アクティビティの要約を提供します。|
 |ユーザー ジョブ|ユーザーには表示されない、フロー実行のためにユーザーに代わって実行されるシステム ジョブ。|
 |フロー|フローに対して存在するワークフロー ロジック。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/flow/get-started-logic-flow)|
-|フロー アクセス許可|フローは、他のユーザーと共有したり、他のユーザーに再割り当てしたりできます。 アクセス許可リストはすべてのフローに存在します。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/flow/frequently-asked-questions#can-i-share-the-flows-i-create)|
+|フローのアクセス許可|フローは、他のユーザーと共有したり、他のユーザーに再割り当てしたりできます。 アクセス許可リストはすべてのフローに存在します。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/flow/frequently-asked-questions#can-i-share-the-flows-i-create)|
 |ユーザーの詳細|ユーザーが見ることはできない、フローの実行をサポートする詳細情報。|
 |接続|コネクタによって使用され、API、システム、データベースなどに接続できます。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/flow/add-manage-connections)|
 |接続のアクセス許可|特定の接続のアクセス許可。 [詳細については、こちらをご覧ください](https://docs.microsoft.com/flow/add-manage-connections)|

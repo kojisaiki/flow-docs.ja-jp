@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: ffce0a2fcc77d2bf2ff132e589410cc032bf63fd
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 9a054ab8179d4c2a06cbab95cd2633088bbf7458
+ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39519895"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727207"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Dynamics 365 (オンライン) を使用したフローの作成
 Dynamics 365 コネクタを使用すると、Dynamics 365 またはその他のサービスでイベントが発生し、これにより Dynamics 365 またはその他のサービスでアクションが実行されたときに、開始されるフローを作成することができます。 
@@ -56,7 +61,7 @@ Microsoft Flow では、お気に入りのアプリとサービスの間のワ�
      このチュートリアルでは、**[潜在顧客]** を選択します。
    
     ![フロー詳細](./media/connection-dynamics365/flow-details.png)
-    > [重要] Dynamics 365 エンティティでフローをトリガーするためには、エンティティの定義の変更追跡が有効になっている必要があります。 「[変更の追跡を有効にしてデータ同期を制御する](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization)」をご覧ください。
+    > [重要] Dynamics 365 エンティティでフローをトリガーするためには、エンティティの定義の変更追跡が有効になっている必要があります。 「[変更の追跡を有効にしてデータ同期を制御する](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization)」をご覧ください。
     
 7. **[新しいステップ]** をクリックまたはタップし、**[アクションの追加]** をクリックまたはタップします。
 8. **[Dynamics 365 – 新しいレコードの作成]** をクリックまたはタップします。

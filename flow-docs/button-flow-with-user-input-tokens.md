@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 483837a013b5fa0c8dfa27d2ed3a1e3481c36c5b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: f0e075a63331a70c32fd87a25ad0b3fdb7cf043b
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34308719"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689964"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>ユーザー入力のあるボタン フローの概要
 ボタン フローを作成すると、ボタンをタップするだけで日常的なタスクを実行することができます。 フローの実行時に使用される特定の詳細をユーザーが指定できるようにすることで、フローをカスタマイズできます。 このトピックでは、ユーザーからの入力を受け取るボタン フローを作成する手順、さらにボタン フローを実行して、ユーザー入力を指定する方法を明らかにする手順を説明します。
