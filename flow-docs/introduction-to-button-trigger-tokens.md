@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4746fa74911126f3e23ed009dd109a2766dae12a
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: dc1b93553938221c3f1c995b63b984cfff913c06
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690930"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711613"
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>ボタン トリガー トークンの概要
 ## <a name="what-are-button-trigger-tokens"></a>ボタン トリガー トークンとは
@@ -97,6 +97,4 @@ ms.locfileid: "44690930"
 
 ## <a name="next-steps"></a>次のステップ
 * [ボタン フローを共有する](share-buttons.md)
-* [ボタン フローについて](introduction-to-button-flows.md)  
-* [フローについて](guided-learning/get-started.yml?tutorial-step=1)
-
+* [ボタン フローについて](introduction-to-button-flows.md)

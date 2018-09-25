@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f0e075a63331a70c32fd87a25ad0b3fdb7cf043b
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: f87b0d93b912799a4977f347d89b12421cf42e70
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689964"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711567"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>ユーザー入力のあるボタン フローの概要
 ボタン フローを作成すると、ボタンをタップするだけで日常的なタスクを実行することができます。 フローの実行時に使用される特定の詳細をユーザーが指定できるようにすることで、フローをカスタマイズできます。 このトピックでは、ユーザーからの入力を受け取るボタン フローを作成する手順、さらにボタン フローを実行して、ユーザー入力を指定する方法を明らかにする手順を説明します。
@@ -122,7 +122,6 @@ ms.locfileid: "44689964"
 
 ## <a name="next-steps"></a>次のステップ
 * [ボタン フローを共有する](share-buttons.md)
-* [フローについて](guided-learning/get-started.yml?tutorial-step=1)  
 * [ボタン フローについて](introduction-to-button-flows.md)  
 * [トリガー トークンのあるボタン フローについて](introduction-to-button-trigger-tokens.md)  
 
