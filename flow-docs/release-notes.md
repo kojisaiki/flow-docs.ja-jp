@@ -13,14 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/21/2018
+ms.date: 08/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 063fd316f1c4e1679935fb7a83560441d2704701
-ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 244f3f072dd0250d4c9c4a8c62760009f54a6a45
+ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "43774283"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727253"
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -45,6 +50,29 @@ ms.locfileid: "43774283"
 3. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
 
 ## <a name="whats-new"></a>新機能
+
+### <a name="release-2018-08-31"></a>2018 年 8 月 31 日リリース
+
+- **サンプル データを使用してフローをテストする** - Microsoft Flow デザイナー内で構築するときに、コネクタからのサンプル データを使用して、フローをテストします。 サンプル データでフローをテストするときは、運用環境に展開したときに意図したとおりにフローが実行することを確認します。
+- **5 つの新しいコネクタ** - 5 つの新しい管理コネクタ PowerApps for App Makers、Power platform for Admins、PowerApps for Admins、Microsoft Flow for Admins、Microsoft School Data Sync を追加しました。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/test-data-management-connectors/)。
+
+### <a name="release-2018-08-24"></a>2018 年 8 月 24 日リリース
+
+- **新しいカレンダー同期テンプレート** - Google カレンダーと Office 365 または Outlook.com の間でイベントをコピーする新しいカレンダー テンプレート。
+- **SharePoint の複数値のサポート** - SharePoint の Choice、Person、または Lookup 型の複数値フィールド読み取りと書き込み。
+- **組織内の他のユーザーに代わって承認を送信する** - たとえば、フローを作成したユーザーの代わりに、SharePoint リストでファイルをアップロードしたユーザー。
+- **入力型のボタンの追加** - 数値型とはい/いいえ型の 2 つの新しい入力型ボタン。
+- **コネクタの更新** - 新しい NetDocuments コネクタ、Azure コネクタなどの機能強化。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/button-types-more/)。
+
+### <a name="release-2018-08-02"></a>2018 年 8 月 2 日リリース
+
+Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の機能と更新にいち早くアクセスする方法です。 最新の機能にいち早くアクセスするには、だけを作成し、プレビュー リージョンに環境を作成して使用するだけです。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/flow-preview-program/)。
 
 ### <a name="release-2018-07-23"></a>2018 年 7 月 23 日リリース
 
