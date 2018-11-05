@@ -2,7 +2,7 @@
 layout: HubPage
 hide_bc: true
 title: Microsoft Flow のドキュメント | Microsoft Docs
-description: Microsoft Flow は、お気に入りのアプリとサービスの間のワークフローを自動化し、ファイルの同期、通知の受信、データ収集などを行うサービスです。
+description: Microsoft Flow は、お気に入りのアプリとサービス間の自動ワークフローを作成し、ファイルの同期、通知の受信、データ収集などを行うサービスです。
 keywords:
 - Microsoft Flow
 - ワークフロー
@@ -16,12 +16,17 @@ ms.date: 03/28/2018
 ms.topic: hub-page
 ms.reviewer:
 - karann-msft
-ms.openlocfilehash: 05bf99aa91b5cfe8635cc7be72669b4d1012ef49
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 03eebb10c1155894b9dc1db5a0283cd72d78a1ae
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34479760"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711590"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -56,16 +61,16 @@ ms.locfileid: "34479760"
                     <a href="#start-all"></a>
                     <ul id="start-all" class="cardsC">
                         <li>
-                            <a href="./guided-learning/index.yml">
+                            <a href="https://docs.microsoft.com/learn/paths/automate-process-using-flow">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage  bgdAccent1">
-                                                <img src="media/index/guidedlearningtour.svg" alt="Take a guided learning tour" /><br/>                                            </div>
+                                                <img src="media/index/guidedlearningtour.svg" alt="Learn Microsoft Flow" /><br/>                                            </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>ガイド付き学習ツアーを見る</h3>
+                                            <h3>Microsoft Flow について</h3>
                                             <p>順序に沿ったコースで学習を進め、Microsoft Flow の広範かつ強力な機能について理解します。</p>
                                         </div>
                                     </div>
@@ -391,6 +396,44 @@ ms.locfileid: "34479760"
                                         <div class="cardText">
                                             <h3>Logic Apps でフローを展開する</h3>
                                             <p>Azure Logic Apps では、Microsoft Flow より豊富な機能セットが提供されます。 フローを Logic Apps テンプレートとして保存し、他の Logic Apps リソースと同様に管理するだけです。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/flow/business-process-flows-overview">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Drive data collection and workflow consistency." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>データ収集とワークフローの一貫性の管理</h3>
+                                            <p>業務プロセス フローを使用して、データ収集とワークフローの一貫性を管理します。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/flow/workflow-processes">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Use Common Data Service (CDS) for apps." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>アプリ用 Common Data Service (CDS) の使用</h3>
+                                            <p>ワークフロー プロセスでアプリ用 Common Data Service (CDS) を使用します。</p>
                                         </div>
                                     </div>
                                 </div>

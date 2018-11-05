@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -15,18 +15,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/31/2017
 ms.author: stepsic
-ms.openlocfilehash: 11c8d9846982cfd372df787b6a7c9e6584d61ae5
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: cfd337180d1517df67864e239b611f6283e3af14
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439994"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689780"
 ---
 # <a name="get-started-with-microsoft-flow"></a>Microsoft Flow を使ってみる #
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iMteXfAvDSE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
-ようこそ。 Microsoft Flow は、お気に入りのアプリとサービスの間のワークフローを自動化し、ファイルの同期、通知の受信、データ収集などを行うサービスです。
+ようこそ。 Microsoft Flow は、お気に入りのアプリやサービス間でファイルの同期、通知の受信、データ収集などを行うための自動化されたワークフローを作成するサービスです。
+
+主なフローの種類には、[自動](get-started-logic-flow.md)、[ボタン](introduction-to-button-flows.md)、[スケジュール](run-scheduled-tasks.md)、および[ビジネス プロセス](business-process-flows-overview.md) フローがあります。
+
+Dynamics 365 Customer Engagement カスタマイザーの場合は、従来のアプリ用 Common Data Service プロセスに馴れていることもあります。このプロセスには、[ワークフロー](configure-workflow-steps.md)、[アクション](create-actions.md)、[モバイル タスクフロー](create-mobile-task-flow.md)、および[ダイアログ](use-cds-for-apps-dialogs.md)が含まれます。
 
 まずは[サインアップ](sign-up-sign-in.md)してください。既に Microsoft Flow のアカウントをお持ちの場合は、タブレットやデスクトップ コンピューター、さらにはスマートフォンで[サインイン](https://flow.microsoft.com/signin)できます。
 

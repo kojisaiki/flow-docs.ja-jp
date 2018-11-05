@@ -1,49 +1,101 @@
-- name: Get started
+items:
+- name: 概要
   items:
-    - name: Get started
-      href: getting-started.md
-    - name: サインアップ
-      href: sign-up-sign-in.md
-    - name: テンプレートからフローを作成する
-      href: get-started-logic-template.md
-    - name: ゼロからフローを作成する
-      href: get-started-logic-flow.md
-    - name: チーム フローを作成する
-      href: create-team-flows.md
-    - name: 環境の概要
-      href: environments-overview-maker.md
-    - name: よく寄せられる質問
-      href: frequently-asked-questions.md
-- name: フローを構築する
+  - name: サインアップ
+    href: sign-up-sign-in.md
+  - name: Get started
+    href: getting-started.md
+  - name: ガイド付き学習
+    href: https://docs.microsoft.com/learn/paths/automate-process-using-flow
+  - name: ブラウザーでフローを作成する
+    href: get-started-logic-template.md
+  - name: 電話上でフローを作成する
+    href: mobile-create-flow.md
+  - name: チーム フローを作成する
+    href: create-team-flows.md
+  - name: Common Data Service を使用するフローを作成する
+    href: common-data-model-intro.md
+- name: 自動化されたフロー
   items:
-    - name: アクションを追加する
-      href: multi-step-logic-flow.md
-    - name: 条件の追加
-      href: add-condition.md
-    - name: スケジュールに従ってフローを実行する
-      href: run-scheduled-tasks.md
-    - name: 電子メールでフローをトリガーする
-      href: email-triggers.md
-    - name: 項目のリストを処理する
-      href: apply-to-each.md
-    - name: データ操作を使用する
-      href: data-operations.md
-    - name: データのフィルターとコピー
-      href: odata-filters.md
-    - name: 条件の式を使用する
-      href: use-expressions-in-conditions.md
-    - name: Dynamics 365 でフローを作成する
-      href: connection-dynamics365.md
-    - name: Common Data Service にデータを追加する
-      href: common-data-model-intro.md
-    - name: フローを見る
-      href: see-a-flow-run.md
-    - name: テンプレートを発行する
-      href: publish-a-template.md
-    - name: フローのトラブルシューティング
-      href: fix-flow-failures.md
-- name: 承認フローを作成する
+  - name: ゼロからフローを作成する
+    href: get-started-logic-flow.md
+  - name: 電子メールでフローをトリガーする
+    href: email-triggers.md
+  - name: Dynamics 365 でフローを作成する
+    href: connection-dynamics365.md
+  - name: データのフィルターとコピー
+    href: odata-filters.md
+  - name: Flic を使用する
+    href: flic-button-flows.md
+  - name: bttn を使用する
+    href: bttn-button-flows.md
+- name: ボタン フロー
   items:
+  - name: ボタン フローを作成する
+    href: introduction-to-button-flows.md
+  - name: トリガー トークンを使用してボタン フローを作成する
+    href: introduction-to-button-trigger-tokens.md
+  - name: ユーザー入力のあるボタン フローを作成する
+    href: button-flow-with-user-input-tokens.md
+  - name: ボタンを共有する
+    href: share-buttons.md
+- name: フローをスケジュールする
+  items:
+  - name: スケジュールに従ってフローを実行する
+    href: run-scheduled-tasks.md
+  - name: 項目のリストを処理する
+    href: apply-to-each.md
+- name: 業務プロセス フロー
+  items:
+  - name: 業務プロセス フローの概要
+    href: business-process-flows-overview.md
+  - name: プロセスを標準化する業務プロセス フローを作成する
+    href: create-business-process-flow.md
+  - name: 分岐を使用して業務プロセス フローを強化する
+    href: enhance-business-process-flows-branching.md
+- name: Common Data Service (CDS) for Apps
+  items:
+  - name: クラシック CDS for Apps のワークフロー
+    href: workflow-processes.md
+    items:
+    - name: ワークフローのステージとステップを構成する
+      href: configure-workflow-steps.md
+    - name: ワークフロー プロセスの監視と管理
+      href: monitor-manage-processes.md
+    - name: ワークフロー プロセスのベスト プラクティス
+      href: best-practices-workflow-processes.md
+  - name: クラシック CDS for Apps のアクション
+    items:
+    - name: アクションを使用する
+      href: actions.md
+    - name: カスタム アクションを作成する
+      href: create-actions.md
+    - name: ワークフローからカスタム アクションを構成する
+      href: configure-actions.md
+    - name: ワークフローからカスタム アクションを呼び出す
+      href: invoke-custom-actions-workflow-dialog.md
+  - name: クラシック CDS for Apps のフロー
+    items:
+    - name: モバイル タスク フローを作成する
+      href: create-mobile-task-flow.md
+  - name: クラシック CDS for Apps のダイアログ
+    items:
+    - name: クラシック CDS for Apps のダイアログを使用する
+      href: use-cds-for-apps-dialogs.md
+    - name: クラシック CDS for Apps のダイアログを置換する
+      href: replace-dialogs.md
+- name: 操作方法
+  items:
+  - name: アクションを追加する
+    href: multi-step-logic-flow.md
+  - name: 条件の追加
+    href: add-condition.md
+  - name: データ操作を使用する
+    href: data-operations.md
+  - name: 条件の式を使用する
+    href: use-expressions-in-conditions.md
+  - name: 承認フロー
+    items:
     - name: 1 つの承認
       href: modern-approvals.md
     - name: 連続した承認
@@ -56,64 +108,61 @@
       href: common-data-model-approve.md
     - name: 書式設定承認要求
       href: approvals-markdown-support.md
-- name: モバイル アプリの使用
+  - name: 電話上でフローを管理する
+    href: mobile-manage-flows.md
+  - name: テンプレートを発行する
+    href: publish-a-template.md
+- name: トラブルシューティング
   items:
-    - name: フローを作成する
-      href: mobile-create-flow.md
-    - name: ボタン フローを作成する
-      href: introduction-to-button-flows.md
-    - name: トリガー トークンを使用してボタン フローを作成する
-      href: introduction-to-button-trigger-tokens.md
-    - name: ユーザー入力のあるボタン フローを作成する
-      href: button-flow-with-user-input-tokens.md
-    - name: ボタンを共有する
-      href: share-buttons.md
-    - name: フロー アクティビティを監視する
-      href: mobile-monitor-activity.md
-    - name: フローを管理する
-      href: mobile-manage-flows.md
-- name: 物理デバイスを使用する
+  - name: フローを見る
+    href: see-a-flow-run.md
+  - name: 電話上でフロー アクティビティを監視する
+    href: mobile-monitor-activity.md
+  - name: フローのトラブルシューティング
+    href: fix-flow-failures.md
+- name: データに接続する
   items:
-    - name: Flic を使用する
-      href: flic-button-flows.md
-    - name: bttn を使用する
-      href: bttn-button-flows.md
-- name: 接続
+  - name: 利用可能な接続
+    href: https://go.microsoft.com/fwlink/?linkid=832211
+  - name: 接続を管理する
+    href: add-manage-connections.md
+  - name: ゲートウェイを管理する
+    href: gateway-manage.md
+  - name: ゲートウェイについて理解する
+    href: gateway-reference.md
+- name: 開発者向け
   items:
-    - name: 利用可能な接続
-      href: 'https://go.microsoft.com/fwlink/?linkid=832211'
-    - name: 接続を管理する
-      href: add-manage-connections.md
-    - name: ゲートウェイを管理する
-      href: gateway-manage.md
-    - name: ゲートウェイについて理解する
-      href: gateway-reference.md
-- name: Microsoft Flow の開発
-  items:
-    - name: 企業の開発者、パートナー、ISV のための Microsoft Flow
-      href: dev-enterprise-intro.md
-    - name: カスタム コネクタのビルドと認定
-      href: register-custom-api.md
-    - name: Web サイトとその他のテクノロジを統合する
-      href: embed-flow-dev.md
-    - name: 顧客がフローを体験できるようにする
-      href: dev-appsource-test-drive.md
+  - name: 企業の開発者、パートナー、ISV のための Microsoft Flow
+    href: ./developer/dev-enterprise-intro.md
+  - name: カスタム コネクタのビルドと認定
+    href: ./developer/register-custom-api.md
+  - name: Web サイトとその他のテクノロジを統合する
+    href: ./developer/embed-flow-dev.md
+  - name: 顧客がフローを体験できるようにする
+    href: ./developer/dev-appsource-test-drive.md
+  - name: コードを使用して業務プロセス フローを操作する
+    href: ./developer/business-process-flows-code.md
+    items:
+    - name: 'サンプル: 業務プロセス フローの使用'
+      href: ./developer/sample-work-business-process-flows.md
+  - name: カスタム CDS for Apps ワークフロー アクティビティ
+    href: ./developer/custom-cds-for-apps-workflow-activities.md
 - name: 管理
   items:
-    - name: 組織における Flow の Q & A
-      href: organization-q-and-a.md
-    - name: 料金
-      href: billing-questions.md
-    - name: 管理センターの概要
-      href: admin-center-introduction.md
-    - name: 環境を管理する
-      href: environments-overview-admin.md
-    - name: データ損失の防止に役立つポリシーを設定する
-      href: prevent-data-loss.md
-    - name: データ グループの概要
-      href: introduction-to-data-groups.md
-- name: DSR 要求に対応する
-  items:
+  - name: 組織における Flow の Q & A
+    href: organization-q-and-a.md
+  - name: 料金
+    href: billing-questions.md
+  - name: 管理センターの概要
+    href: admin-center-introduction.md
+  - name: 環境を管理する
+    href: environments-overview-admin.md
+  - name: データ損失の防止に役立つポリシーを設定する
+    href: prevent-data-loss.md
+  - name: データ グループの概要
+    href: introduction-to-data-groups.md
+  - name: DSR 要求に対応する
+    items:
     - name: 概要
       href: gdpr-dsr-summary.md
     - name: 検出要求
@@ -122,8 +171,8 @@
       href: gdpr-dsr-export.md
     - name: 削除要求
       href: gdpr-dsr-delete.md
-- name: Microsoft アカウントの DSR 要求
-  items:
+  - name: Microsoft アカウントの DSR 要求
+    items:
     - name: 概要
       href: gdpr-dsr-summary-msa.md
     - name: 検出要求
@@ -136,9 +185,25 @@
       href: gdpr-dsr-accountclose-msa.md
 - name: 参照
   items:
-    - name: リージョンの概要
-      href: regions-overview.md
-    - name: 制限事項と構成
-      href: limits-and-config.md
-    - name: リリース ノート
-      href: release-notes.md
+  - name: リージョンの概要
+    href: regions-overview.md
+  - name: 制限事項と構成
+    href: limits-and-config.md
+  - name: リリース ノート
+    href: release-notes.md
+  - name: よく寄せられる質問
+    href: frequently-asked-questions.md
+- name: 他のユーザーの声
+  items:
+  - name: ウェビナー
+    href: https://flow.microsoft.com/blog/category/webinars/
+  - name: ブログ
+    href: https://flow.microsoft.com/blog/
+  - name: フォーラム
+    href: https://powerusers.microsoft.com/t5/Microsoft-Flow-Community/ct-p/FlowCommunity
+ms.openlocfilehash: 0ea74141e1c80b2f550ca5f43191a40c1b5aad58
+ms.sourcegitcommit: f7985b96afe68b079b7fd4a6d04cd0a042d893e0
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47188526"
