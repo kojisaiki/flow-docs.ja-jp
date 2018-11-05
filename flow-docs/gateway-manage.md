@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 180ff4b54fdf395c8524fd1ff132e9adedf1c848
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: b25f63a3980d21e60b26a0783ac4bf5eb6030cd3
+ms.sourcegitcommit: 282059c82bfcf5896d06043476c34641906e20e3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690378"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49087910"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-microsoft-flow"></a>Microsoft Flow でオンプレミス データ ゲートウェイを管理する
 
@@ -33,16 +33,21 @@ ms.locfileid: "44690378"
 
 ゲートウェイでは、次の接続を通じてオンプレミスのデータに接続することができます。
 
+* Apache Impala
+* 作成するカスタム コネクタ
+* DB2
+* ファイル システム
+* Azure AD での http
+* Informix
+* MySQL
+* Oracle Database
+* PostgreSQL
 * SharePoint
 * SQL Server
-* Oracle
-* Informix
-* ファイル システム
-* DB2
+* Teradata (プレビュー)
 
 > [!IMPORTANT]
 > Microsoft SharePoint データ ゲートウェイは、HTTP トラフィックと HTTPS トラフィックの両方をサポートするようになりました。
-
 
 ## <a name="prerequisites"></a>前提条件
 

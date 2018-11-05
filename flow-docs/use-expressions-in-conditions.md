@@ -1,16 +1,6 @@
 ---
 title: 条件付きの式を使用します。 | Microsoft Docs
-description: '次のような高度な式を使用する '
-"\"and\"\",": ''
-"\"\"or\"\",": ''
-"\"\"empty\"\",": ''
-"\"\"less\"\"": ''
-and: ''
-"\"\"greater\"\"": ''
-with: ''
-microsoft: ''
-flow: ''
-conditions.": ''
+description: Microsoft Flow の条件で、"and"、"or"、"empty"、"less"、"greater" などの高度な式を使用します。
 services: ''
 suite: flow
 documentationcenter: na
@@ -25,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
-ms.openlocfilehash: 3a089735cc2d8c9144e18a2765b549b528470d1e
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 81aa718837fa14615459f3688a282c25cb99bab6
+ms.sourcegitcommit: dc188618c36583b20af3e838d72bd7b020575d7d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31008639"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48874439"
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>複数の値を確認する条件で式を使用する
 このチュートリアルでは、式と**条件**を利用し、**詳細設定モード**で複数の値を比較する方法について学習します。
@@ -49,7 +44,7 @@ ms.locfileid: "31008639"
 |[greater](#use-the-greater-expression)|2 つの引数を受け取り、最初の引数が 2 番目の引数よりも大きい場合は true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greater(10,10)
 |greaterOrEquals|2 つの引数を受け取り、最初の引数が 2 番目の引数と等しいかそれよりも大きい場合は true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greaterOrEquals(10,100)
 |[empty](#use-the-empty-expression)|オブジェクト、配列、文字列が空の場合は true を返します。|次の式は、true を返します。<br>empty('')
-|not|2 つの引数を受け取り、引数が true の場合は true を返します。 <br><b>注</b>: 両方の引数をブール値にする必要があります。|次の式は、true を返します。<br>not(contains('200 Success','Fail'))
+|not|逆のブール値を返します。 |次の式は、true を返します。<br>not(contains('200 Success','Fail'))
 |if|式の結果が true か false の場合、特定の値を返します。|次の式は、"yes" を返します。<br>if(equals(1, 1), 'yes', 'no')
 
 ## <a name="prerequisites"></a>前提条件

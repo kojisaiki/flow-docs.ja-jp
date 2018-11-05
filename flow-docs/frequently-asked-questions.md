@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: af179e30c3b8b7c6d4200f10f122f0d928526f1b
-ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 1d2560a2a15a77a516701bce977c5bed9fbbe1cf
+ms.sourcegitcommit: c8646cff9ca510203cd0414d1be93a7d12e6018d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39718306"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48892406"
 ---
 # <a name="frequently-asked-questions"></a>よく寄せられる質問
 ## <a name="audience-and-strategy"></a>対象ユーザーと戦略
@@ -43,8 +48,23 @@ Microsoft Flow は、PowerApps、Common Data Service、Dynamics 365、Office 365
 ### <a name="what-do-i-need-to-use-microsoft-flow"></a>Microsoft Flow を使用するには何が必要ですか。
 Microsoft Flow の使用には、Web ブラウザーおよび電子メール アドレスのみが必要です。
 
-### <a name="what-browsers-does-microsoft-flow-support"></a>Microsoft Flow ではどのブラウザーがサポートされていますか。
-Microsoft Flow では、Microsoft Edge のほか、Chrome と Safari の最新バージョンがサポートされています。
+### <a name="what-browsers-and-devices-can-i-use-with-microsoft-flow"></a>Microsoft Flow でどのようなブラウザーとデバイスを使用できますか。
+
+Microsoft Flow は、すべての最新のデバイスおよびブラウザーで実行できます。
+
+#### <a name="supported-devices"></a>サポートされているデバイス
+
+Microsoft Flow は、最新のデバイスで正常に実行されます。 モバイル デバイスから Microsoft Flow を管理する必要がある場合は、[iPhone](https://itunes.apple.com/app/microsoft-flow/id1094928825?ls=1&mt=8)、[Android](https://play.google.com/store/apps/details?id=com.microsoft.flow)、および [Windows Phone](https://www.microsoft.com/p/microsoft-flow/9nkn0p5l9n84?rtc=1#activetab=pivot:overviewtab) で利用可能な Microsoft Flow モバイル アプリをお試しください。
+
+#### <a name="supported-browsers"></a>サポートされているブラウザー
+
+オペレーティング システムと互換性のある最新のブラウザーを使用することをお勧めします。 次のブラウザーがサポートされています。
+
+* Microsoft エッジ
+* Internet Explorer 11
+* Safari
+* Chrome
+* Firefox
 
 ### <a name="which-email-addresses-are-supported"></a>メール アドレスとしてサポートされているのは、どのようなものですか。
 Microsoft Flow は、末尾が .gov と .mil 以外のすべてのメール アドレスをサポートしています。  
@@ -113,7 +133,7 @@ Microsoft Flow モバイル アプリは、[Android](https://aka.ms/flowmobiledo
 
 トリガーの種類|説明
 -------|--------
-ポーリング (**繰り返し**トリガーなど)|フローが再度オンになったときに、未処理/保留中のイベントがすべて処理されます。
+ポーリング (**繰り返し**トリガーなど)|フローが再度オンになったときに、未処理/保留中のイベントがすべて処理されます。 保留中の項目を処理しない場合は、フローを削除します。
 Webhook|フローが再度オンになったときに処理されるのは、フローがオンになってから生成される新しいイベントのみです。
 
 ### <a name="what-regions-and-languages-does-microsoft-flow-support"></a>Microsoft Flow ではどのリージョンと言語がサポートされていますか。
@@ -125,6 +145,10 @@ Microsoft Flow は、承認、ドキュメントの校閲、オンボード/オ�
 ### <a name="how-does-microsoft-flow-ensure-that-corporate-data-isnt-accidentally-released-to-social-media-services"></a>Microsoft Flow では企業のデータが誤ってソーシャル メディア サービスに公開されないようにするためにどのような対策が講じられていますか。
 管理者は[データ損失防止ポリシー](prevent-data-loss.md)を作成して、承認されたサービスのみが Microsoft Flow で使用されるようにすることができます。
 
+### <a name="does-microsoft-flow-support-service-accounts"></a>Microsoft Flow ではサービス アカウントはサポートされていますか。
+
+サービス アカウントを使用してフローを作成できますが、サービス アカウントの資格情報が共有されている場合、この操作は推奨されません。
+
 ## <a name="licensing"></a>ライセンス
 ### <a name="will-microsoft-flow-still-have-a-free-or-trial-option"></a>Microsoft Flow の無料版または試用版のオプションはありますか。
 はい。 ユーザー権限が制限された無料版を使用することも、Microsoft Flow の 90 日間試用版にサインアップすることもできます。 試用期間中は、いつでもサブスクリプションをアクティブにできます。
@@ -134,5 +158,5 @@ Microsoft Flow には、無料と有料の両方のサービス レベルが用�
 
 ## <a name="learn-more"></a>詳細については、こちらをご覧ください
 
-* Microsoft Flow の[ガイド付き学習ツアー](guided-learning/index.yml)を見る
+* Microsoft Flow の[ガイド付き学習ツアー](https://docs.microsoft.com/learn/paths/automate-process-using-flow)を見る
 * [ファースト ステップ ガイド](getting-started.md)で Microsoft Flow の基礎を学習する
