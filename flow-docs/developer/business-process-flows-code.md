@@ -14,12 +14,12 @@ search.app:
 - Flow
 search.audienceType:
 - developer
-ms.openlocfilehash: ae3633047bda556058c8e2ec94e6411e7f277e76
-ms.sourcegitcommit: 50ea1cdd763863a2cbc88f9f965bdf9351f1059c
+ms.openlocfilehash: 1283d9d0a8e7f2b9b0495400c5db1f624ef91954
+ms.sourcegitcommit: a505b0aac796960d57fccee92eb18c6566ac9c35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "44691068"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "53007003"
 ---
 # <a name="work-with-business-process-flows-using-code"></a>コードを使用して業務プロセス フローを操作する
 
@@ -46,7 +46,7 @@ ms.locfileid: "44691068"
 <a name="DefineBPF"></a>   
 ## <a name="define-business-process-flow"></a>業務プロセス フローを定義する
   
-ビジュアル業務プロセス フロー デザイナーを使用して、業務プロセス フローを定義します。 詳しくは、[業務プロセス フローの作成](../create-business-process-flow.md)に関する記事をご覧ください。
+ビジュアル業務プロセス フロー デザイナーを使用して、業務プロセス フローを定義します。 詳細情報: [業務プロセス フローを作成する](../create-business-process-flow.md)
 
 既定では、業務プロセス フロー レコードが `Draft` 状態で作成されます。  
 
@@ -54,7 +54,7 @@ ms.locfileid: "44691068"
   
 <a name="ActivateBPF"></a>   
 ## <a name="activate-business-process-flow"></a>業務プロセス フローをアクティブ化する  
- プロセス フローを使用するには、前もってアクティブ化する必要があります。 アクティブ化するには、`Workflow` エンティティの `prvActivateBusinessProcessFlow` 権限を持っている必要があります。 <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> メッセージを使用して、`Workflow` エンティティ レコードの状態を `Activated` に設定します。 詳しくは、「[[更新] を使用して特化された操作を実行する](/dynamics365/customer-engagement/developer/org-service/perform-specialized-operations-using-update)」をご覧ください。 
+ プロセス フローを使用するには、前もってアクティブ化する必要があります。 アクティブ化するには、`Workflow` エンティティの `prvActivateBusinessProcessFlow` 権限を持っている必要があります。 <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> メッセージを使用して、`Workflow` エンティティ レコードの状態を `Activated` に設定します。 詳細情報: [[更新] を使用して特化された操作を実行する](/dynamics365/customer-engagement/developer/org-service/perform-specialized-operations-using-update) 
 
  > [!NOTE]
  > 業務プロセス フロー デザイナーを使用して、業務プロセス フローをアクティブ化することもできます。 
@@ -65,7 +65,7 @@ ms.locfileid: "44691068"
   
  たとえば、業務プロセス フロー定義の名前として "My Custom BPF" を指定し、アクティブ ソリューションのために既定の発行者 (新規) を使用している場合、プロセスのインスタンスを格納するために作成されたカスタム エンティティの名前は "new_mycustombpf" になります。  
   
- `uniquename` 値が業務プロセス フロー定義で使用できない場合、たとえば業務プロセス フローが以前のバージョンのソリューションからインポートされた場合など、カスタム エンティティの既定名は "*\<activesolutionprefix>*\_bpf\_*<GUID_BPF_Definition>*: になります。  
+ `uniquename` の値が業務プロセス フロー定義に対して存在しない場合、たとえば業務プロセス フローが以前のバージョンのソリューションからインポートされた場合は、カスタム エンティティの既定名が"`\<activesolutionprefix>_bpf_<GUID_BPF_Definition>`: になります。  
   
 > [!IMPORTANT]
 >  サンプルの業務プロセス フロー レコードは、システム エンティティを使用して、対応する業務プロセス フロー インスタンス レコードを格納します。  
@@ -74,10 +74,10 @@ ms.locfileid: "44691068"
 
 業務プロセス フローのエンティティの名前を取得するには、次のいずれかの方法を使用します。
 
-- **UI の使用**: カスタマイズの UI を使用して、業務プロセス フローのエンティティを参照します。
+- **UI を使用**: カスタマイズの UI を使用して、業務プロセス フローのエンティティを一覧から選択します。
 
     ![](media/bpf-entity-name.png)
-- **Web API の使用**: 次の要求を使用します。
+- **Web API を使用**: 次の要求を使用します。
 
     **要求**
 
@@ -97,8 +97,8 @@ ms.locfileid: "44691068"
          }
       ]
     }
-
-- **Using the Organization service**: Use the following code sample:
+    ```
+- **組織サービスを使用**: 次のコード サンプルを使用します。
 
     ```c#
     QueryExpression query = new QueryExpression
@@ -119,35 +119,35 @@ ms.locfileid: "44691068"
         }
     };
     Workflow Bpf = (Workflow)_serviceProxy.RetrieveMultiple(query).Entities[0]; 
-
+    ```
 > [!NOTE]
-> The <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsBPFEntity> property is `true` for business process flow entities. You can retrieve all the business process flow entities in your instance by running the following Web API request:
+> <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsBPFEntity> プロパティは、業務プロセス フローのエンティティに対しては `true` となります。 インスタンス内の業務プロセス フロー エンティティをすべて取得するには、次の Web API 要求を実行します。
 > ```http
 > GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=SchemaName,LogicalName,DisplayName&$filter=IsBPFEntity eq true HTTP/1.1
 > ```
 
 <a name="BPFSecurity"></a>   
-## Manage security for business process flows
+## <a name="manage-security-for-business-process-flows"></a>業務プロセス フローのセキュリティを管理する
 
-The custom entity that is automatically created on activating a business process flow to store business process flow instances adheres to the standard security model as for any other custom entity in Customer Engagement. This implies that privileges granted on these entities define the runtime permissions for users for business process flows.
+業務プロセス フローをアクティブにしたときに、業務プロセス フローのインスタンスを格納するためのカスタム エンティティが自動的に作成されますが、このエンティティは Customer Engagement の他のカスタム エンティティと同様に標準のセキュリティ モデルに従います。 つまり、そのエンティティに付与された特権に基づいて、実行時に業務プロセス フローのユーザーに付与される許可が定義されます。
 
-The custom business process flow entity has organization scope. The regular create, retrieve, update and delete privileges on this entity define the permission the user would have based on his/her assigned roles. By default, when the business process flow custom entity is created, only **System Administrator** and **System Customizer** security roles are granted access to it, and you must explicitly grant permissions to the new business process flow entity (for example, **My Custom BPF**) for other security roles as required.
+カスタム業務プロセス フロー エンティティのスコープは組織です。 このエンティティに対する通常の作成、取得、更新、削除の特権によって、ユーザーが自分に割り当てられたロールに基づいて持つことになるアクセス許可が定義されます。 既定の設定では、業務プロセス フローのカスタム エンティティが作成されるときにアクセス許可が付与されるセキュリティ ロールは**システム管理者**と**システム カスタマイザー**のみであるため、新しい業務プロセス フローのエンティティ (この例では **My Custom BPF**) にその他のセキュリティ ロールが必要な場合は明示的にアクセス許可を与える必要があります。
 
 ![](media/bpf-privileges.png)
 
 <a name="ManageBPF"></a>   
-## Create, retrieve, update, and delete business process flow entity records (process instances)  
- The custom entity that is automatically created on activating a business process flow definition stores all the process instances for the business process flow definition. The custom entity supports the standard programmatic creation and management of records (process instances) using Web API and CRM 2011 endpoint.
+## <a name="create-retrieve-update-and-delete-business-process-flow-entity-records-process-instances"></a>業務プロセス フローのエンティティ レコード (プロセス インスタンス) の作成、取得、更新、削除  
+ 業務プロセス フロー定義をアクティブにしたときに自動的に作成されるカスタム エンティティに、その業務プロセス フロー定義に対応するすべてのプロセス インスタンスが格納されます。 このカスタム エンティティは、Web API と CRM 2011 エンドポイントを使用する、標準的なプログラミングによるレコード (プロセス インスタンス) の作成と管理をサポートしています。
 
 > [!IMPORTANT]
-> Switching to another process instance for an entity record is only supported through UI (client) or programmatically using information available in this section. You can no longer use the `SetProcess` message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to programmatically switch processes (set another business process flow as the active process instance) for the target entity record. 
+> エンティティ レコードのプロセス インスタンスを別のインスタンスに切り替えることは、UI (クライアント) で行うか、このセクションで示す情報を使用してプログラミングで行うことだけがサポートされています。 `SetProcess` メッセージ (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> または <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) を使用してプログラミングでターゲット エンティティ レコードのプロセスを切り替える (別の業務フローをアクティブなプロセス インスタンスとして設定する) ことはできなくなりました。 
 
- Lets consider the following example where we have a cross-entity business process flow, "My Custom BPF," with 3 stages: S1:Account, S2:Account, and S3:Contact. 
+ 複数のエンティティにまたがる業務プロセス フローがあるとします。名前は "My Custom BPF" で、S1:Account、S2:Account、S3:Contact の 3 つのステージがあります。 
 
  ![](media/sample-bpf.png)
  
-### Retrieve all the records (instances) for a business process flow entity
- If the name of your business process flow entity is "new_mycustombpf", use the following query to retrieve all the records (process instances) for your business process flow entity:  
+### <a name="retrieve-all-the-records-instances-for-a-business-process-flow-entity"></a>1 つの業務プロセス フロー エンティティに対応するレコード (インスタンス) をすべて取得する
+ 業務プロセス フロー エンティティの名前が "new_mycustombpf" の場合に、この業務プロセス フロー エンティティに対応するレコード (プロセス インスタンス) をすべて取得するには次のクエリを使用します。  
   
 ```http
 GET [Organization URI]/api/data/v9.0/new_mycustombpfs HTTP/1.1 
@@ -264,9 +264,9 @@ OData-Version: 4.0
 }
 ```
 
-#### <a name="change-the-state-of-a-process-instance-abort-reactivate-or-finish"></a>プロセス インスタンスの状態 ([中止]、[再アクティブ化]、[完了]) を変更する 
+#### <a name="change-the-state-of-a-process-instance-abort-reactivate-or-finish"></a>プロセス インスタンスの状態を変更する: 中止、再アクティブ化、完了 
 
-プロセス インスタンスの状態は、**[アクティブ]**、**[完了済]**、または **[中止]** のいずれかにすることができます。 状態は、プロセス インスタンス レコードの次の属性によって判別されます。
+プロセス インスタンスの状態は、**[アクティブ]**、**[完了済]**、**[中止]** のいずれかとなります。 状態は、プロセス インスタンス レコードの次の属性によって判別されます。
 
 - **statecode**: プロセス インスタンスの状態が表示されます。
 
@@ -343,7 +343,7 @@ DELETE [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff
   
  業務プロセス フロー インスタンスのアクティブなステージとアクティブなパスの情報を得たら、その情報を使用して、アクティブなパスで前のステージまたは次のステージに移動できます。 前方向へのステージのナビゲーションは順序どおりに行う必要があります。つまり、アクティブなパスの次のステージに前進してください。   
   
- [組織サービス](/dynamics365/customer-engagement/developer/org-service/use-organization-service-read-write-data-metadata)を使用して、これら 2 つの方法とステージ ナビゲーションの使用方法を説明するコードの詳しいサンプルについては、「[Sample: Work with business process flows](sample-work-business-process-flows.md)」(サンプル: 業務プロセス フローの使用) をご覧ください。 
+ [組織サービス](/dynamics365/customer-engagement/developer/org-service/use-organization-service-read-write-data-metadata)を使用してこれら 2 つの方法とステージ ナビゲーションの使用方法を示すサンプル コード全体については、「[サンプル: 業務プロセス フローの使用](sample-work-business-process-flows.md)」をご覧ください。 
 
 <a name="ApplyBPF"></a>   
 ## <a name="apply-business-process-flow-while-creating-an-entity-record"></a>エンティティ レコードの作成時に業務プロセス フローを適用する
@@ -356,7 +356,7 @@ DELETE [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff
 3. システム内のすべての業務プロセス フロー定義には、エンティティごとにグローバルな順序が付けられます。 業務プロセス フローの順序は、**Workflow.ProcessOrder** 属性に格納されます。 1 つのエンティティの業務プロセス フロー定義はこの順序に基づいて並べられ、順序の値が最も小さい定義が選択されます。
 4. また、エンティティ レコードがビジネス アプリ (アプリ モジュール) から作成される場合、もう 1 段階のフィルター処理が適用され、新しいエンティティ レコードに自動的に適用される業務プロセス フローが選択されます。 ユーザーがアプリを使用するとき、ビジネス アプリに割り当てられたセキュリティ ロールによってユーザーがアクセス権を持っている関連エンティティ、業務プロセス フロー、ビューとフォームにしかアクセスできません。 
     - ビジネス アプリに業務プロセス フローが含まれない場合、手順 3 までに説明されたように業務プロセス フローが適用されます。
-    - ビジネス アプリに 1 つ以上の業務プロセス フローが府k間れる場合は、アプリに存在する業務プロセス フローのみが適用できます。 このケースでは、ユーザーがビジネス アプリのコンテキストを使用しているとき、手順 3 の業務プロセス フローの一覧がフィルター処理されて、アプリ モジュール内に存在するビジネス アプリに含まれるものだけに絞り込まれ、プロセスの順序に基づいて並べ替えられます。 
+    - ビジネス アプリに 1 つ以上の業務プロセス フローが含まれる場合は、アプリに存在する業務プロセス フローのみが適用できます。 このケースでは、ユーザーがビジネス アプリのコンテキストを使用しているとき、手順 3 の業務プロセス フローの一覧がフィルター処理されて、アプリ モジュール内に存在するビジネス アプリに含まれるものだけに絞り込まれ、プロセスの順序に基づいて並べ替えられます。 
     - 業務プロセス フローがエンティティのビジネス アプリで使用できない場合、またはユーザーがアクセス権を持っていない場合、業務プロセス フローは新しいエンティティ レコードに適用されません。
 
 業務プロセス フローが新しいエンティティ レコードに自動的に適用されるという既定ロジックをオーバーライドできます。 これを行うには、新しいエンティティ レコードを作成するときにエンティティの **ProcessId** 属性を、次のいずれかの値に設定します。
@@ -370,9 +370,9 @@ DELETE [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff
 
 ## <a name="legacy-process-related-attributes-in-entities"></a>エンティティにおける従来のプロセス関連の属性
 
-業務プロセス フローに対応するエンティティの従来のプロセス関連の属性 (**ProcessId**、**StageId**、**TraversedPath** など) は、既に非推奨になっています。 ターゲット エンティティ レコードに対してこのような従来のプロセス関連の属性を操作すると、業務プロセス フローの状態の一貫性を保証できません。サポートされるシナリオ "***ではありません***"。 お勧めの方法は、「[Create, retrieve, update, and delete business process flow entity records (process instances)](#create-retrieve-update-and-delete-business-process-flow-entity-records-process-instances)」(業務プロセス フロー エンティティ レコード (プロセス インスタンス) の作成、取得、更新、削除) セクションで前に説明したように業務プロセス フロー エンティティの属性を使用することです。
+業務プロセス フローに対応するエンティティの従来のプロセス関連の属性 (**ProcessId**、**StageId**、**TraversedPath** など) は、既に非推奨になっています。 ターゲット エンティティ レコードに対してこのような従来のプロセス関連の属性を操作すると、業務プロセス フローの状態の一貫性を保証できません。サポートされるシナリオ "***ではありません***"。 お勧めの方法は、前の「[業務プロセス フロー エンティティ レコード (プロセス インスタンス) の作成、取得、更新、削除](#create-retrieve-update-and-delete-business-process-flow-entity-records-process-instances)」で説明したように業務プロセス フロー エンティティの属性を使用することです。
 
-唯一の例外は、前のセクション「[Apply business process flow while creating an entity record](#ApplyBPF)」(エンティティ レコードの作成時に業務プロセス フローを適用する) で説明したように、エンティティ レコードの作成時に **ProcessId** 属性をプログラミングによって変更して、業務プロセス フローの新規レコードへの既定の適用をオーバーライドすることです。
+唯一の例外は、前の「[エンティティ レコードの作成時に業務プロセス フローを適用する](#ApplyBPF)」で説明したように、新規レコードへの業務プロセス フローの既定の適用をオーバーライドするためにエンティティ レコードの作成時に **ProcessId** 属性をプログラミングによって変更することです。
 
 <a name="BKMK_clientSideScript"></a>   
 ## <a name="client-side-programmability-support-for-business-process-flows"></a>業務プロセス フローに関するクライアント側でのプログラミングのサポート  

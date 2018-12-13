@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 95081295bfe0fd6c904876aaf70974575a7986c1
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 8baaf85ae07d2763886eb1ffda0141e4804cb630
+ms.sourcegitcommit: 8a36a3211e76b2b1a4a3154bc41e12a87dc3c288
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690907"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53179819"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Microsoft Flow のオンプレミス データ ゲートウェイについて
 オンプレミス データ ゲートウェイと Microsoft Flow を利用し、Microsoft SQL Server などのオンプレミス データ ソースに安全に接続します。
@@ -123,14 +123,14 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 ファイアウォールが Azure Service Bus から Azure データ センターへの接続をブロックしている場合もあります。 そのような場合は、これらのデータ センターでお住まいの地域の [IP アドレス](https://www.microsoft.com/download/details.aspx?id=41653)すべてをホワイトリストに指定 (ブロック解除) します。
 
 ## <a name="configure-ports"></a>ポートの構成
-このゲートウェイは、Azure Service Bus に対する送信接続を作成します。 通信は、送信ポート TCP 443 (既定)、5671、5672、9350 ～ 9354 で行われます。 このゲートウェイには受信ポートが必要ありません。
+このゲートウェイは、Azure Service Bus に対する送信接続を作成します。 通信は、送信ポート TCP 443 (既定)、5671、5672、9350 から 9354 で行われます。 このゲートウェイには受信ポートが必要ありません。
 
 ハイブリッド ソリューションの詳細については、[こちら](https://azure.microsoft.com/documentation/articles/service-bus-fundamentals-hybrid-solutions/)を参照してください。
 
 | ドメイン名 | 送信ポート | 説明 |
 | --- | --- | --- |
 | *.analysis.windows.net |443 |HTTPS |
-| *.login.windows.net |443 |HTTPS |
+| *.login.microsoftonline.com |443 |HTTPS |
 | *.servicebus.windows.net |5671 ～ 5672 |Advanced Message Queuing Protocol (AMQP) |
 | *.servicebus.windows.net |443、9350 ～ 9354 |TCP を経由する Service Bus Relay 上のリスナー (Access Control のトークン取得には 443 が必要) |
 | *.frontend.clouddatahub.net |443 |HTTPS |
@@ -164,23 +164,23 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 * ファイル システム
 * DB2
 
-**質問:** SQL Azure など、クラウド内のデータ ソースにはゲートウェイが必要ですか。
-**回答:** いいえ。 ゲートウェイは、オンプレミスのデータ ソースのみに接続します。
+**質問:** クラウド内のデータ ソース (たとえば SQL Azure) にはゲートウェイが必要ですか。
+**回答:** できません。 ゲートウェイは、オンプレミスのデータ ソースのみに接続します。
 
 **質問:** 実際の Windows サービスはどのように呼ばれていますか。
 **回答:** [サービス] では、このゲートウェイは **Power BI Enterprise Gateway サービス**という名前で表示されます。
 
 **質問:** クラウドからゲートウェイへの受信接続はありますか。
-**回答:** いいえ。 ゲートウェイは、Azure Service Bus への送信接続を使用します。
+**回答:** できません。 ゲートウェイは、Azure Service Bus への送信接続を使用します。
 
 **質問:** 送信接続をブロックしたらどうなりますか。 何を開く必要がありますか。
 **回答:** ゲートウェイで使用する[ポート](gateway-reference.md#configure-ports)とホストを確認してください。
 
 **質問:** ゲートウェイをデータ ソースと同じコンピューターにインストールする必要がありますか。
-**回答:** いいえ。 ゲートウェイは、指定された接続情報を使用してデータ ソースに接続します。 この意味では、ゲートウェイをクライアント アプリケーションと考えてください。 ゲートウェイで必要なのは、指定されたサーバー名に接続できることだけです。
+**回答:** できません。 ゲートウェイは、指定された接続情報を使用してデータ ソースに接続します。 この意味では、ゲートウェイをクライアント アプリケーションと考えてください。 ゲートウェイで必要なのは、指定されたサーバー名に接続できることだけです。
 
 **質問:** ゲートウェイからデータ ソースに対してクエリを実行するための待ち時間はどのくらいですか。 最適なアーキテクチャは何ですか。
-**回答:** ネットワーク待ち時間を短縮するには、できる限りデータ ソースの近くにゲートウェイをインストールしてください。 実際のデータ ソース上にゲートウェイをインストールできると、発生する待ち時間は最小限に抑えられます。 データ センターについても検討してください。 たとえば、サービスで米国西部のデータ センターを使用していて、SQL Server を Azure VM でホストしている場合は、この Azure VM も米国西部に配置することをお勧めします。 そうすることで、待ち時間が最小限に抑えられ、Azure VM での送信料金が回避されます。
+**回答:** ネットワーク待ち時間を短縮するには、ゲートウェイをできる限りデータ ソースの近くにインストールしてください。 実際のデータ ソース上にゲートウェイをインストールできると、発生する待ち時間は最小限に抑えられます。 データ センターについても検討してください。 たとえば、サービスで米国西部のデータ センターを使用していて、SQL Server を Azure VM でホストしている場合は、この Azure VM も米国西部に配置することをお勧めします。 そうすることで、待ち時間が最小限に抑えられ、Azure VM での送信料金が回避されます。
 
 **質問:** ネットワーク帯域幅に関する要件はありますか。
 **回答:** ネットワーク接続に十分なスループットを確保することをお勧めします。 環境はどれも異なるため、送信されるデータの量によって結果に影響があります。 ExpressRoute を使用すると、オンプレミスと Azure データ センター間にある程度のスループットを保証できるようになります。
@@ -188,7 +188,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 サードパーティ製のツール [Azure Speed Test アプリ](http://azurespeedtest.azurewebsites.net/)を使用すると、スループットを計ることができます。
 
 **質問:** ゲートウェイ Windows サービスを Azure Active Directory アカウントで実行できますか。
-**回答:** いいえ。 Windows サービスには、有効な Windows アカウントが必要です。 既定では、サービスの SID *NT SERVICE\PBIEgwService* を使用して実行されます。
+**回答:** できません。 Windows サービスには、有効な Windows アカウントが必要です。 既定では、サービスの SID *NT SERVICE\PBIEgwService* を使用して実行されます。
 
 **質問:** 結果はどのようにクラウドに送信されますか。
 **回答:** 結果は Azure Service Bus を利用して送信されます。 詳細については、「[ゲートウェイのしくみ](gateway-reference.md#how-the-gateway-works)」を参照してください。
@@ -200,15 +200,15 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 **質問:** ゲートウェイで高可用性のシナリオを実現するためのプランはありますか。
 **回答:** はい、高可用性は[利用できるようになっています](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each)。
 
-**質問:** 障害復旧にはどのオプションを使用できますか。
+**質問:** ディザスター リカバリーにはどのオプションを使用できますか。
 **回答:** ゲートウェイの復元または移動には、回復キーを使用できます。
 
 **質問:** 回復キーの利点は何ですか。
-**回答:** ゲートウェイの設定を移行したり、回復したりできます。
+**回答:** ゲートウェイの設定を移行または復元するための方法となります。
 
 ### <a name="troubleshooting-questions"></a>トラブルシューティングに関する質問
 **質問:** ゲートウェイ ログはどこにありますか。
-**回答:** このトピックの後半にある「[ツール](gateway-reference.md#tools)」を参照してください。
+**回答:** このトピックで後述する「[ツール](gateway-reference.md#tools)」を参照してください。
 
 **質問:** オンプレミスのデータ ソースにどのようなクエリが送信されているかを確認する方法を教えてください。
 **回答:** クエリ トレースを有効にすることができます。このトレースには、送信されるクエリが含まれます。 トラブルシューティングが完了したら、忘れずに元の値に戻してください。 クエリ トレースを有効な状態にしておくと、ログの容量が大きくなります。

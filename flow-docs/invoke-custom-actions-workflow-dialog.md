@@ -2,7 +2,7 @@
 title: ワークフローからカスタム アクションを呼び出す | MicrosoftDocs
 description: ワークフローからカスタム アクションを呼び出す方法について説明します
 ms.custom: ''
-ms.date: 06/27/2018
+ms.date: 11/22/2018
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -22,16 +22,16 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8b2904632f4b3bf097275906d917e686cace67ba
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: e4dbedbd8157f2dd1814bbbbd080a6b366c04938
+ms.sourcegitcommit: a505b0aac796960d57fccee92eb18c6566ac9c35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44688518"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "53006980"
 ---
 # <a name="invoke-custom-actions-from-a-workflow"></a>ワークフローからカスタム アクションを呼び出す
 
-ワークフローには、ビジネス シナリオをサポートするさまざまな機能があります。 ワークフロー内から、作成、更新、削除など、あるレコードに対する基本的な SDK アクションを呼び出すことで、かなりのビジネス シナリオが解決されます。 しかしながら、ワークフロー内から直接呼び出されるカスタム アクションの力をワークフローの機能と結合する場合、コードを記述する必要なく、まったく新しい範囲のビジネス シナリオがアプリケーションに追加されます。  
+ワークフローには、ビジネス シナリオをサポートするさまざまな機能があります。 レコードに対する基本的なデータ操作アクション (作成、更新、削除など) をワークフローの中から呼び出すことによって、かなりのビジネス シナリオが解決されます。 しかしながら、ワークフロー内から直接呼び出されるカスタム アクションの力をワークフローの機能と結合する場合、コードを記述する必要なく、まったく新しい範囲のビジネス シナリオがアプリケーションに追加されます。  
   
  それでは、カスタム アクションがワークフローから呼び出されるシナリオを見てみましょう。 特定の営業案件の割引が 20% を超えたときにマネージャーの承認を要求するカスタム アクションを呼び出します。  
   
