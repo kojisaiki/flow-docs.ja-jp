@@ -29,7 +29,7 @@ ms.locfileid: "44690085"
 ---
 # <a name="introducing-button-flows"></a>ボタン フローの概要
 ## <a name="what-are-button-flows"></a>ボタン フローとは
-ボタンを 1 回押すだけで実行したい反復作業は多く存在します。 たとえば、毎日のチーム同期への参加を知らせるメールを簡単に送信できれば便利です。あるいは、その日のチェックインがほかに予定されていない旨の通知を受けた後、自分のコード ベースの新しい Visual Studio Online ビルドを開始することがあります。 ボタン フローを利用すれば、モバイル デバイスのボタンをタップするだけでこのような作業を完了できます。
+ボタンを 1 回押すだけで実行したい反復作業は多く存在します。 たとえば、毎日のチーム同期への参加するようリマインドするメールを簡単に送信できれば便利です。あるいは、その日に予定されているチェックインがこれ以上ないことが通知できれば、コード ベースの新しい Visual Studio Online ビルドを開始できるかもしれません。 ボタン フローを利用すれば、モバイル デバイスのボタンをタップするだけでこのような作業を遂行できます。
 
 **注** ボタン フローは、モバイル デバイスまたは Flow ポータルから作成できます。  
   ![概要画像](./media/introduction-to-button-flows/buttons-montage.png)  
@@ -39,7 +39,7 @@ ms.locfileid: "44690085"
 
 ## <a name="create-a-button"></a>ボタンを作成する
 ### <a name="prerequisites"></a>前提条件
-* Flow へのアクセス。 アクセスは監理者より提供されます。
+* Flow へのアクセス。 アクセスは管理者より提供されます。
 * コネクタを利用してボタンを作成するためのアクセス許可があるアカウント。 たとえば、Dropbox にアクセスするボタンを作成するには、Dropbox アカウントが必要になります。
 
 ### <a name="from-the-portal"></a>ポータルから
@@ -92,7 +92,7 @@ Flow アプリで次の操作を行います。
    ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-7.png)  
 8. しばらくすると、ボタン フローが作成されます。 **[SEE MY FLOW]** (自分のフローを見る) を選択します:   
    ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-8.png)  
-9. **[My flows]** (マイ フロー) タブですべてのフローを表示する  
+9. **[My flows]** (マイ フロー) タブ上ですべてのフローを表示できます
    ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-9.png)  
 
 おめでとうございます。ボタン フローが作成されました。 これで Flow アプリの **[ボタン]** タブから、時と場所に関係なく、このボタン フローを実行できます。 "ボタン" を押すだけで実行されます。 現在のところ、Flow アプリは Android と iOS のモバイル デバイスで利用できます。  
