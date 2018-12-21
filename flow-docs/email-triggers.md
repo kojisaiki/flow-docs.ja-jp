@@ -46,7 +46,7 @@ ms.locfileid: "44689803"
 > 
 > 
 
-次のチュートリアルでは、**[新しい電子メールが届いたとき]** トリガーですべてのプロパティをチェックします。 詳細については、[課金についてよく寄せられる質問](billing-questions.md#what-counts-as-a-run)と[料金](https://ms.flow.microsoft.com/pricing/)のページを参照してください。
+次のチュートリアルでは、**[新しい電子メールが届いたとき]** トリガーですべてのプロパティを照合します。 詳細については、[課金についてよく寄せられる質問](billing-questions.md#what-counts-as-a-run)と[料金](https://ms.flow.microsoft.com/pricing/)のページを参照してください。
 
 ## <a name="prerequisites"></a>前提条件
 * [Microsoft Flow](https://flow.microsoft.com) へのアクセス権を持つアカウント
