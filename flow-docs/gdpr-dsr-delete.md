@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 77ce6e368c8cb54d360ebeaa32f1f649e30aa297
-ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
+ms.openlocfilehash: 9edad8ef0aa4e51292bddc5dc59c90ae84223de2
+ms.sourcegitcommit: ade400bab38f85071d4c8bf6a5380f561f12f2f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45727184"
+ms.lasthandoff: 12/11/2018
+ms.locfileid: "53248847"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Microsoft Flow に対する GDPR データ主体の削除要求への応答
 
@@ -55,7 +55,7 @@ Microsoft Flow では、組織の日常業務の重要な一部であるオー�
 
 * **Web サイト アクセス:** [PowerApps 管理センター](https://admin.powerapps.com/)または [Microsoft Flow 管理センター](https://admin.flow.microsoft.com/)にサインインします
 
-* **PowerShell アクセス:** [PowerApps 管理者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871804) 
+* **PowerShell アクセス:**[PowerApps 管理者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871804) 
 
 次に示すのは、リソースの種類ごとに各個人データの種類を削除するために管理者が使用できるエクスペリエンスの詳細です。
 
@@ -175,6 +175,7 @@ $deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
 Get-AdminConnection -CreatedBy $deleteDsrUserId | Remove-AdminConnection 
 
 ```
+
 ## <a name="delete-the-users-permissions-to-shared-connections"></a>共有接続に対するユーザーのアクセス許可を削除する
 
 PowerApps 作成者 PowerShell コマンドレット
@@ -281,11 +282,12 @@ Common Data Service for Apps の導入により、環境内にデータベース
 環境でのユーザーのアクセス許可の削除について詳しくは、「[Microsoft Flow 内の環境の使用](https://docs.microsoft.com/flow/environments-overview-admin)」をご覧ください。
 
 ## <a name="delete-gateway-settings"></a>ゲートウェイ設定を削除する
+
 オンプレミス データ ゲートウェイのデータ主体の削除要求への応答に関しては、[こちら](https://docs.microsoft.com/power-bi/service-gateway-onprem#tenant-level-administration)を参照してください。
 
 ## <a name="delete-user-details"></a>ユーザーの詳細を削除する
-ユーザーの詳細では、ユーザーと特定のテナント間のリンクが提供されます。 このコマンドを実行する前に、このユーザーのすべてのフローを再割り当てまたは削除していることを確認します。 完了したら、管理者は **Remove-AdminFlowUserDetails** コマンドレットを呼び出し、ユーザーのオブジェクト ID を渡すことで、ユーザーの詳細を削除できます。
 
+ユーザーの詳細では、ユーザーと特定のテナント間のリンクが提供されます。 このコマンドを実行する前に、このユーザーのすべてのフローを再割り当てまたは削除していることを確認します。 完了したら、管理者は **Remove-AdminFlowUserDetails** コマンドレットを呼び出し、ユーザーのオブジェクト ID を渡すことで、ユーザーの詳細を削除できます。
 
 PowerApps 管理者 PowerShell コマンドレット
 ```PowerShell
@@ -297,14 +299,18 @@ Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
 > ユーザーがまだ個別またはチームのフローを所有している場合、このコマンドではエラーが返されます。 これを解決するには、このユーザーの残りのフローとチーム フローをすべて削除し、もう一度コマンドを実行します。
 >
 >
+
 ## <a name="delete-the-user-from-azure-active-directory"></a>Azure Active Directory からユーザーを削除する
+
 上記の手順が完了したら、最後の手順として、[Office 365 Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) で参照できる Azure データ主体の要求の GDPR ドキュメントの手順に従って、Azure Active Directory 用のユーザーのアカウントを削除します。
 
 ## <a name="delete-the-user-from-unmanaged-tenant"></a>アンマネージド テナントからユーザーを削除する
+
 アンマネージド テナントのメンバーの場合は、[職場または学校のプライバシー ポータル](https://go.microsoft.com/fwlink/?linkid=873123)から**アカウントの削除**アクションを実行する必要があります。
 
 マネージドまたはアンマネージド テナントのユーザーであるかどうかを識別するには、次の操作を実行します。
-1. URL 内の電子メールを必ず自分のものに置き換え、ブラウザーで [ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1) の URL を開きます。
+
+1. URL 内の電子メールを必ず自分のものに置き換え、ブラウザーで [https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1) の URL を開きます。
 1. **アンマネージド テナント**のメンバーである場合、応答に `"IsViral": true` が表示されます。
 
     {
@@ -318,4 +324,3 @@ Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
     }
 
 1. それ以外の場合は、マネージド テナントに属しています。
-
