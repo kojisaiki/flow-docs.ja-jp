@@ -20,16 +20,16 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 0d948cdf5bce01aa5c18955645774dbcf455ba1b
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 50466c2cf51593a4e34796fdf1d7a285eb63d462
+ms.sourcegitcommit: 31b578972f00e6ab2e50ea0b674142199b3b7a35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690858"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54905691"
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>Microsoft Flow を使用して承認ワークフローを作成してテストする
 
-Microsoft Flow では、SharePoint、Dynamics CRM、Salesforce、OneDrive for Business、Zendesk、WordPress など、複数のサービスにわたり文書やプロセスの承認を管理できます。
+Microsoft Flow では、SharePoint、Dynamics 365、Salesforce、OneDrive for Business、Zendesk、WordPress など、複数のサービスにわたりドキュメントやプロセスの承認を管理できます。
 
 承認ワークフローを作成するには、**[承認 - 承認を開始]** アクションを任意のフローに追加します。 このアクションを追加すると、フローでドキュメントまたはプロセスの承認を管理できるようになります。 たとえば、請求書、作業指示書または販売見積りを承認する、ドキュメントの承認フローを作成できます。 また、休暇申請、超過作業時間、出張計画を承認する、プロセスの承認フローを作成することもできます。
 

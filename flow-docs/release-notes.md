@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 244f3f072dd0250d4c9c4a8c62760009f54a6a45
-ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
+ms.openlocfilehash: db8a8c99344b93ad981a26d5174e99385d2a3f82
+ms.sourcegitcommit: 31b578972f00e6ab2e50ea0b674142199b3b7a35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45727253"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54905748"
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -37,24 +37,43 @@ ms.locfileid: "45727253"
 2. 高度な条件または式はどのようにして使えばよいですか。
    
    * [条件の追加に関する記事](add-condition.md)をご覧ください。
-   * フローに複数のケースが必要な場合は、既存の条件から **[条件の追加]** をクリックまたはタップします。
+   * フローに複数のケースが必要な場合は、既存の条件内から **[条件の追加]** を選択します。
    * 高度な式を作成するには、[Logic Apps の関数](https://docs.microsoft.com/rest/api/logic/definition-language)を参照してください。
 3. Office 365 ではライセンスはどのように機能しますか?
    
    * Office 365 ユーザーの場合は、Microsoft Flow for Office 365 プランでフル アクセスを取得します。 詳細については、[Microsoft Flow の料金プラン](https://flow.microsoft.com/pricing/)をご覧ください。
    * 管理者の場合は、Office 365 などで [Microsoft Flow ライセンス](organization-q-and-a.md)に関する情報をご覧ください。
 
-## <a name="known-issues-and-resolutions"></a>既知の問題と解決策
+## <a name="known-issues"></a>既知の問題
 1. [マイ サイト] にある、種類が *カスタム リスト* 以外の SharePoint リストがサポートされていません。 この問題を回避するには、標準的な SharePoint サイトにカスタム リストを作成します。
-2. SharePoint リストの分類フィールドにフローを書き込むことはできません。 この問題が修正されるまでは、単純な文字列フィールドを使用することをお勧めします。
-3. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
+2. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
 
 ## <a name="whats-new"></a>新機能
+
+> [!IMPORTANT]
+>
+> **リリース ノートのお知らせ**
+>
+> Microsoft Flow の今後リリースされる機能と最近リリースされた機能については、
+>[2018 年 10 月のリリース ノートをご覧ください](https://docs.microsoft.com/business-applications-release-notes/October18/microsoft-flow/)。 計画に利用できるあらゆる詳細情報を網羅しています。 さらなる詳細については、[各週のリリース](https://docs.microsoft.com/business-applications-release-notes/powerplatform/released-versions/flow)とそこに含まれている機能および機能強化を確認してください。
+>
+> 2018 年 10 月より前のリリース ノートは今後の参考用にここに残されますが、新しいリリースはすべてこのページではなく上記の場所にのみ追加されます。
+
+### <a name="release-2018-09-24"></a>2018 年 9 月 24 日リリース
+
+- **ヘルプとサポートへの管理者アクセス** - Power プラットフォームの管理センターで Microsoft Flow のサポート チケットを開き、ワークフローの失敗に関する追加の詳細を指定します。
+- **Flow コミュニティの再設計** - Flow コミュニティで必要な情報をより簡単に検索できるようになりました。
+- **Microsoft Teams コネクタの機能強化** - チャネルに新しいメッセージがあるときにフローを実行できるようにする、Microsoft Teams 用の新しいトリガー。
+- **SharePoint アクションの追加** - ファイルの移動を始めとする新しいアクションが SharePoint コネクタに追加されました。
+- **新しい管理者の分析レポート** - 環境とテナントに関する広範な分析がビジネス アプリケーション プラットフォームの管理センターに追加されました。
+- **Power Query の統合** - 作成者が SQL Server からデータのマッシュアップを形成できるようにする Power Query エクスペリエンスを構築中です。
+
+このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/support-tickets-teams-sharepoint/)。
 
 ### <a name="release-2018-08-31"></a>2018 年 8 月 31 日リリース
 
 - **サンプル データを使用してフローをテストする** - Microsoft Flow デザイナー内で構築するときに、コネクタからのサンプル データを使用して、フローをテストします。 サンプル データでフローをテストするときは、運用環境に展開したときに意図したとおりにフローが実行することを確認します。
-- **5 つの新しいコネクタ** - 5 つの新しい管理コネクタ PowerApps for App Makers、Power platform for Admins、PowerApps for Admins、Microsoft Flow for Admins、Microsoft School Data Sync を追加しました。
+- **5 つの新しいコネクタ** - 5 つの新しい管理コネクタ:PowerApps for App Makers、Power platform for Admins、PowerApps for Admins、Microsoft Flow for Admins、Microsoft School Data Sync が追加されました。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/test-data-management-connectors/)。
 
@@ -63,7 +82,7 @@ ms.locfileid: "45727253"
 - **新しいカレンダー同期テンプレート** - Google カレンダーと Office 365 または Outlook.com の間でイベントをコピーする新しいカレンダー テンプレート。
 - **SharePoint の複数値のサポート** - SharePoint の Choice、Person、または Lookup 型の複数値フィールド読み取りと書き込み。
 - **組織内の他のユーザーに代わって承認を送信する** - たとえば、フローを作成したユーザーの代わりに、SharePoint リストでファイルをアップロードしたユーザー。
-- **入力型のボタンの追加** - 数値型とはい/いいえ型の 2 つの新しい入力型ボタン。
+- **ボタンの入力型の追加** - ボタンに 2 つの新しい入力型:数値と "はい/いいえ" が追加されました。
 - **コネクタの更新** - 新しい NetDocuments コネクタ、Azure コネクタなどの機能強化。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/button-types-more/)。
@@ -76,7 +95,7 @@ Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の�
 
 ### <a name="release-2018-07-23"></a>2018 年 7 月 23 日リリース
 
-- **Excel からのフローの構築と実行** - 新しい **[フロー]** ボタン (リボンの **[データ]** タブからアクセス) を使用して、Flow から Excel のテーブル データ上でオートメーションを作成してトリガーできます。 データ処理またはデータのコピー/インポートを自動化します。
+- **Excel からのフローの構築と実行** - 新しい **[フロー]** ボタン (リボンの **[データ]** タブからアクセス) を使用して、Microsoft Flow から Excel のテーブル データ上でオートメーションを作成してトリガーできます。 データ処理またはデータのコピー/インポートを自動化します。
 - **ビジネス プロセス フローの作成** - ビジネス プロセス フローとは、Common Data Service for Apps に基づく、ステートフルかつヒューマン インタラクティブな新しい種類のフローです。 これらの新しいフローを使用して、ユーザーが従う一連のステージと手順を定義します。 ユーザーは、必要に応じて、前に進んだり後ろに戻ったりできます。
 - **Outlook Web App での Microsoft To-Do のフローの作成** - Outlook Web App で \@メンションされたユーザーには、フローを作成するためのショートカットが表示されます。 このフローでは、電子メールのコンテンツに基づき、Microsoft To-Do で \@メンションされたユーザーのタスクが自動的に作成されます。
 - **SharePoint ビューのサポート** - SharePoint コネクタで、トリガーとアクションでの特定の SharePoint ビューの選択がサポートされるようになりました。 これによって列が、選択したビュー内にあるフィールドのみにフィルター処理されます。
@@ -148,7 +167,7 @@ Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の�
 - **承認履歴** - 応答、送信したコメント、正確な発生時刻を含む、送信済みの承認依頼がすべて表示されます。
 - **4 つの新しいコネクタ** - Excel Online (Business)、Excel Online (OneDrive)、Azure SQL Data Warehouse、および Pitney Bowes Tax Calculator が追加されました。
 - **動的コンテンツのツールヒント** - 動的コンテンツにマウスを合わせることで、アクションの内容を表示したり、完全な式エディターを開かずに式をプレビューしたりできます。
-- **同時実行制御** - 指定したワークフローに一度に 1 つの実行のみが含まれるように、同時実行制御が有効になります。
+- **コンカレンシー制御** - 指定したワークフローに一度に 1 つの実行のみが含まれるように、コンカレンシー制御が有効になります。
 - **指数近似の再試行** - 新しい種類の再試行ポリシーでは、再試行が指数関数的な間隔で行われます。
 - **アクセシビリティへの準拠** - Microsoft Flow がどのようにアクセシビリティの基準を満たすかについて説明した、新しい準拠ドキュメントをリリースしました。
 
@@ -233,7 +252,7 @@ Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の�
 - **入れ子になった Apply to each** - 他の Apply to each コンテナー アクションに Apply to each アクションを追加し、フィルター処理や選択ができます。
 - **日付と時刻のアクション** - ローカル時刻の取得、および時間の追加、減算、書式設定のための新しいアクション。
 - **4 つの新しいコネクタ** - Content Moderator、Docparser、Microsoft Kaizala、Pitney Bowes Data Validation が追加されました。
-- **接続エクスペリエンスの向上** - 接続が切れたときの Flow ポータルでの通知と、より充実した接続の詳細情報。
+- **接続エクスペリエンスの向上** - 接続が切れたときの Microsoft Flow ポータルでの通知と、より充実した接続の詳細情報。
 - **外出先コレクション** - [外出先で作業する](https://flow.microsoft.com/collections/onthego/)ための新しいテンプレート コレクション。
 - **メール アドレスのボタン入力** - ユーザーがボタンを実行したときに、ユーザーからメール アドレスを収集します。
 - **ファイルのボタン入力** - ユーザーがボタンを実行したときに、写真などのアップロードされたファイルをユーザーから取得します。
@@ -257,7 +276,7 @@ Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の�
 
 - **最初のリリースでの SharePoint のより深い統合** - レビュー フロー用の新しい "標準" 送信と、初期リリース テナントのフローを実行するときに入力を収集するためのフロー パネルがあります。
 - **Dynamics 365 for Customer Engagement** - フローが Dynamics 365 for Customer Engagement の UI に統合されました。
-- **Microsoft セキュリティ センター** - フローが Microsoft セキュリティ センターに一覧表示され、HIPAA、ISO、SOC などの認定が示されます。
+- **Microsoft セキュリティ センター** - Microsoft Flow が Microsoft セキュリティ センターに一覧表示され、HIPAA、ISO、SOC などの認定が示されます。
 - **使用状況の分析** - すべてのフローには、基本的な使用状況分析機能を備えた Power BI ダッシュボードが埋め込まれています。
 - **初期リリースでの監査ログ** - 初期リリース テナントのすべてのフロー管理イベントが、Office 365 セキュリティ/コンプライアンス センターに記録されます。
 - **6 つの新しいコネクタ** - LinkedIn、Office 365 Groups、Skype for Business、Adobe Sign、Bizzy、Azure Log Analytics Data Collection が追加されました。
@@ -375,13 +394,13 @@ Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の�
 * **カスタム API Webhook の作成** - カスタム コネクタの開発者は、Webhook でカスタム API にトリガーを追加できるようになりました。
 * **管理センターでのフロー所有者の管理** - 環境の管理者は、Microsoft Flow 管理センターでフローの所有者を管理できます。
 * **コネクタのドキュメントの参照** - [docs.microsoft.com にコネクタの完全なリファレンス](https://docs.microsoft.com/Connectors/)が公開されました。
-* **2 つのパートナー サービス** - Nexmo と Paylocity という 2 つの新しいパートナー サービスがリリースされました。
+* **2 つのパートナー サービス** - 2 つの新しいパートナー サービス:Nexmo と Paylocity がリリースされました。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/canada-mailboxes-aad)。
 
 ### <a name="release-2017-04-27"></a>2017 年 4 月 27 日リリース
 * **並列ステップでのフロー構築** - 並列実行によりフローを作成します。2 つ以上のステップを同時に実行できることになります。
-* **新しく 5 つのサービスをサポート** - 新しい 5 つのサービスとは、承認、ベンチマーク電子メール、カプセル CRM、LiveChat、Outlook Customer Manager です。
+* **新しく 5 つのサービスをサポート** - 5 つの新しいサービス:Approvals、Benchmark Email、Capsule CRM、LiveChat、Outlook Customer Manager。
 * **操作の再試行を監視** - Microsoft Flow はサービスでエラーがある場合に再試行します。 自動再試行の回数と、その詳細を確認できるようになりました。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/parallel-actions/)。
@@ -404,7 +423,7 @@ Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の�
 ### <a name="release-2017-04-03"></a>2017 年 4 月 3 日リリース
 * **Windows Phone ベータ版** - Windows Phone アプリのベータ プログラムで、Windows Phone にアプリのプレビューを入手できるようになりました。 [詳しくはこちら](https://flow.microsoft.com/blog/windows-phone-app-beta-is-now-available/)。
 * **Muhimbi PDF** - Muhimbi PDF で Microsoft Word ファイルから PDF への変換、透かしの追加、文書のマージなどができるようになりました。 [詳しくはこちら](https://flow.microsoft.com/blog/convert-files-using-muhimbi/)。
-* **物理ボタンからフローをトリガーする** - Shortcut Labs の Flic、The Button Corporation の Bttn という物理ボタン領域の 2 つの主要製品との提携を発表しました。 [詳しくはこちら](https://flow.microsoft.com/blog/physical-buttons/)。
+* **物理ボタンからフローをトリガーする** - 物理ボタン業界をリードする 2 つの製品:Shortcut Labs の Flic と、The Button Corporation の Bttn との提携を発表しました。 [詳しくはこちら](https://flow.microsoft.com/blog/physical-buttons/)。
 
 ### <a name="release-2017-03-22"></a>2017 年 3 月 22 日リリース
 * **フローのコピーを作成する** - フローのコピーを作成して、下書きバージョンで作業したり、過去に作成したフローを複製したりできるようになりました。
@@ -426,7 +445,7 @@ Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の�
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/new-updates-custom-api/)。
 
 ### <a name="release-2017-02-27"></a>2017 年 2 月 27 日リリース
-* **フロー ボタンのトリガー** - フロー ボタンを Microsoft Flow Web サイトからトリガーできるようになりました。 フローの一覧を表示したら、[...] メニューを選択し、[今すぐ実行] コマンドを選択します。
+* **フロー ボタンのトリガー** - フロー ボタンを Microsoft Flow から直接トリガーできるようになりました。 フローの一覧を表示したら、[...] メニューを選択し、[今すぐ実行] コマンドを選択します。
 * **5 つの新しいサービス** - Oracle Database、Intercom、FreshBooks、LeanKit および WebMerge のサポートが追加されました。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/trigger-flow-buttons-web/)。
@@ -506,7 +525,7 @@ Microsoft Flow でご利用いただけるサービスに DocuSign (電子署名
 
 ### <a name="release-2016-11-15"></a>2016 年 11 月 15 日リリース
 * **Microsoft Flow パートナー プログラム** - Microsoft Flow に認定パートナー プログラムが導入されました。世界中の Microsoft Flow とつながり、さまざまな会社の才能と経験を活用できます。
-* **6 つの新しいサービス** - Asana、Campfire、EasyRedmine、JIRA、Redmine、Vimeo という 6 個のサービスを今週リリースします。
+* **6 つの新しいサービス** - また、6 個のサービス:Asana、Campfire、EasyRedmine、JIRA、Redmine、Vimeo を今週リリースします。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/partner-program-six-new-services/)。
 
@@ -629,7 +648,7 @@ Microsoft Flow に統合された Microsoft Common Data Service のパブリッ�
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/may-updates-to-microsoft-flow/)。
 
 ### <a name="release-2016-05-07"></a>2016 年 5 月 7 日リリース
-Microsoft Project Online と Mailchimp の Mandrill の 2 つの新しいサービスを追加しました。 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/announcing-microsoft-flow-webinars/)。
+2 つの新しいサービス:Microsoft Project Online と Mailchimp の Mandrill が追加されました。 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/announcing-microsoft-flow-webinars/)。
 
 ### <a name="release-2016-04-27---public-preview"></a>2016 年 4 月 27 日リリース - パブリック プレビュー
 [Microsoft PowerApps](https://powerapps.microsoft.com) の一環として Logic フローを使用すると、Microsoft Flow プレビュー リリースの新機能をいくつか使用できます。

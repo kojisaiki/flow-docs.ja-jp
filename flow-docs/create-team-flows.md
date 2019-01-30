@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 238ef8eac80d3259981cb11cc21e3b05eb83e0ec
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: fb9f95845a6b516bfb83ed476929d8682098601f
+ms.sourcegitcommit: 4bd9fa4a9549a1830644f68cbf9ba50ed0ef8e19
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689734"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55204941"
 ---
 # <a name="create-team-flows"></a>チーム フローを作成する
 組織内の他のユーザーを所有者として追加することにより、チーム フローを作成します。 チーム フローのすべての所有者は、次の操作を実行できます。
@@ -70,11 +70,12 @@ ms.locfileid: "44689734"
    
      これでチーム フローが作成されました。
 
-##<a name="add-a-list-as-a-co-owner"></a>共同所有者として一覧を追加する
+## <a name="add-a-list-as-a-co-owner"></a>共同所有者として一覧を追加する
 
 SharePoint の一覧の編集アクセス権を持つすべてのユーザーが自動的にフローに編集アクセスできるように、一覧を共同所有者としてフローに追加することができます。 フローが共有されると、フローへのリンクを簡単に配布できます。
 
 ## <a name="remove-an-owner"></a>所有者を削除する
+
 > [!IMPORTANT]
 > Microsoft Flow サービスへのアクセスに資格情報が使われている所有者を削除する場合、フローが引き続き正常に実行されるように、接続の資格情報を更新する必要があります。
 > 
@@ -93,7 +94,20 @@ SharePoint の一覧の編集アクセス権を持つすべてのユーザーが
    
     ![ユーザーの削除終了](./media/create-team-flows/removeowner4.png)
 
+
+## <a name="update-connection-owner"></a>接続の所有者の更新
+
+既存の所有者を削除した場合、フロー内の接続の所有者を変更することが必要となる場合があります。 次の手順に従って、フローの所有者を切り替えます。
+
+1. 更新する接続が含まれているフローを、**[チームのフロー]** のリストから選択します。
+1. **[所有者]** のリストから **[すべて表示]** を選択します。
+1. **[使用中の接続]** のリストから **[接続の管理]** を選択します。
+1. 更新したい接続を検索し、選択します。
+1. **[...]** (その他のコマンド) を選択し、**[アカウントの切り替え]** を選択します。
+1. 接続に別のアカウントを使用するための手順に従います。
+
 ## <a name="embedded-and-other-connections"></a>埋め込み接続とその他の接続
+
 フローで使う接続は、2 つのカテゴリに分類されます。
 
 * **埋め込み** &mdash; これらの接続はフローで使われます。

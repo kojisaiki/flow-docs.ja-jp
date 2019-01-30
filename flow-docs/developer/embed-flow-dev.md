@@ -19,12 +19,12 @@ search.app:
 - Flow
 search.audienceType:
 - developer
-ms.openlocfilehash: aa5e0a7d143e0e1486533131f90d6b04c6fbc20c
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 00f802a1776ed36755f73437e272c6ca975ac8bd
+ms.sourcegitcommit: 31b578972f00e6ab2e50ea0b674142199b3b7a35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690012"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54905689"
 ---
 # <a name="integrate-microsoft-flow-with-websites-and-apps"></a>Microsoft Flow と Web サイトおよびアプリを統合する
 アプリまたは Web サイトに Microsoft Flow を埋め込むと、ユーザーは簡単に個人的なタスクや仕事のタスクを自動化できるようになります。
