@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: fb9f95845a6b516bfb83ed476929d8682098601f
-ms.sourcegitcommit: 4bd9fa4a9549a1830644f68cbf9ba50ed0ef8e19
+ms.openlocfilehash: 29d6532593719bef147cdacf1c0e2576ec734837
+ms.sourcegitcommit: c4cfb0a9b668c958755b3cdeae99eabf83651710
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55204941"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55479421"
 ---
 # <a name="create-team-flows"></a>チーム フローを作成する
 組織内の他のユーザーを所有者として追加することにより、チーム フローを作成します。 チーム フローのすべての所有者は、次の操作を実行できます。
@@ -74,6 +74,10 @@ ms.locfileid: "55204941"
 
 SharePoint の一覧の編集アクセス権を持つすべてのユーザーが自動的にフローに編集アクセスできるように、一覧を共同所有者としてフローに追加することができます。 フローが共有されると、フローへのリンクを簡単に配布できます。
 
+> [!TIP]
+> フローが SharePoint に接続される場合は一覧を使用し、それ以外の場合はグループを使用します。
+>
+
 ## <a name="remove-an-owner"></a>所有者を削除する
 
 > [!IMPORTANT]
@@ -114,6 +118,8 @@ SharePoint の一覧の編集アクセス権を持つすべてのユーザーが
 * **その他** &mdash; これらの接続はフローに対して定義されていますが、フロー内では使われていません。
 
 フロー内で使われなくなった接続は **[その他]** の一覧に表示され、所有者が接続を再びフローに含めるまでそのままになります。
+
+[接続の所有者を更新する](./create-team-flows.md#update-connection-owner)手順に従って、埋め込み接続を変更します。
 
 接続の一覧は、フローのプロパティで所有者の一覧の下に表示されます。
 
