@@ -22,14 +22,14 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 1e765d4c7c11354e382c3ff74ac66103345ff39f
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 93d0e035ed3661bd78c55a246106e604f2866b2e
+ms.sourcegitcommit: 29045ac95102af371a358b79b345b54a130fcab0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44691036"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55501436"
 ---
-# <a name="tutorial-create-a-business-process-flow-to-standardize-processes"></a>チュートリアル: プロセスを標準化する業務プロセス フローを作成する
+# <a name="tutorial-create-a-business-process-flow-to-standardize-processes"></a>チュートリアル:プロセスを標準化する業務プロセス フローを作成する
 
 このチュートリアルでは、PowerApps を使って業務プロセス フローを作成する方法を示します。 業務プロセス フローを使用する理由の詳細については、「[Business process flows overview](business-process-flows-overview.md)」 (業務プロセス フローの概要) を参照してください。 モバイル タスク フローの作成については、「[モバイル タスク フローを作成する](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-mobile-task-flow)」を参照してください。  
   
@@ -40,7 +40,12 @@ ms.locfileid: "44691036"
  > [!TIP]
  >  業務プロセス フローの定義を作成したら、業務プロセス フローのインスタンスを作成、読み取り、更新、削除できるユーザーを制御できるようになります。 たとえば、サービス関連のプロセスの場合、顧客サービス担当者には、業務プロセス フローのインスタンスを変更するためのフルアクセスを提供できます。一方、営業担当者には、顧客の販売後活動を監視できるようにインスタンスへの読み取り専用アクセスを提供することができます。 作成する業務プロセス フローの定義に対してセキュリティを設定するには、操作バーの **[セキュリティ ロールの有効化]** を選択します。  
   
-<a name="BKMK_Createbusinessprocessflows"></a>   
+<a name="BKMK_Createbusinessprocessflows"></a>
+
+## <a name="prerequisites"></a>前提条件
+
+ビジネス プロセス フローを作成するために、[Flow プラン 2](https://preview.flow.microsoft.com/pricing/) が必要です。 一部の Dynamics 365 ライセンス プランには、Flow プラン 2 が含まれています。
+
 ## <a name="create-a-business-process-flow"></a>業務プロセス フローを作成する  
   
 1. [ソリューション エクスプローラー](/powerapps/maker/model-driven-apps/advanced-navigation#solution-explorer)を開きます。

@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8baaf85ae07d2763886eb1ffda0141e4804cb630
-ms.sourcegitcommit: 8a36a3211e76b2b1a4a3154bc41e12a87dc3c288
+ms.openlocfilehash: af2e113278f480eb3c748cb1a2f9a81e34d32258
+ms.sourcegitcommit: a35abc6a2148cbfb48ca36d4af09bfd90eaffa42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53179819"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "55647854"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Microsoft Flow のオンプレミス データ ゲートウェイについて
 オンプレミス データ ゲートウェイと Microsoft Flow を利用し、Microsoft SQL Server などのオンプレミス データ ソースに安全に接続します。
@@ -123,7 +123,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 ファイアウォールが Azure Service Bus から Azure データ センターへの接続をブロックしている場合もあります。 そのような場合は、これらのデータ センターでお住まいの地域の [IP アドレス](https://www.microsoft.com/download/details.aspx?id=41653)すべてをホワイトリストに指定 (ブロック解除) します。
 
 ## <a name="configure-ports"></a>ポートの構成
-このゲートウェイは、Azure Service Bus に対する送信接続を作成します。 通信は、送信ポート TCP 443 (既定)、5671、5672、9350 から 9354 で行われます。 このゲートウェイには受信ポートが必要ありません。
+このゲートウェイは、Azure Service Bus に対する送信接続を作成します。 通信は、送信ポートで行われます。TCP 443 (既定)、5671、5672、9350 から 9354。 このゲートウェイには受信ポートが必要ありません。
 
 ハイブリッド ソリューションの詳細については、[こちら](https://azure.microsoft.com/documentation/articles/service-bus-fundamentals-hybrid-solutions/)を参照してください。
 
@@ -166,6 +166,9 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 
 **質問:** クラウド内のデータ ソース (たとえば SQL Azure) にはゲートウェイが必要ですか。
 **回答:** できません。 ゲートウェイは、オンプレミスのデータ ソースのみに接続します。
+
+**質問:** ゲートウェイは、既定の環境にインストールすることが必要ですか。
+**回答:** はい、Microsoft Flow でサポートされているのは、規定の環境にインストールされたゲートウェイのみです。
 
 **質問:** 実際の Windows サービスはどのように呼ばれていますか。
 **回答:** [サービス] では、このゲートウェイは **Power BI Enterprise Gateway サービス**という名前で表示されます。
