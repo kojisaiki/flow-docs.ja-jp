@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: cfd337180d1517df67864e239b611f6283e3af14
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: bb623e84f309303557d05d82422d2419f8d3ccbe
+ms.sourcegitcommit: 300829df88dfa1d0049ea506f949b29d6bd52e42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689780"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57251816"
 ---
 # <a name="get-started-with-microsoft-flow"></a>Microsoft Flow を使ってみる #
 
@@ -93,6 +93,7 @@ Microsoft Flow では、次のようなことができます。
 - [承認フローを作成する](wait-for-approvals.md)。
 - [実行中のフローを確認する](see-a-flow-run.md)。
 - [テンプレートを発行する](publish-a-template.md)。
+- [Microsoft Teams テンプレートからフローを作成する](https://flow.microsoft.com/connectors/shared_teams/microsoft-teams/)。
 
 ## <a name="use-the-mobile-app"></a>モバイル アプリの使用 ##
 

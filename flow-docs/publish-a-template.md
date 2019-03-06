@@ -13,33 +13,38 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/10/2017
+ms.date: 03/02/2019
 ms.author: sunayv
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7aac8dbc1b3488ce6fd3fb6990f258cb3a5052d7
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: e544f396bc4ba4410a04cda9b56a221d1b3cb181
+ms.sourcegitcommit: d8a061b308547043dbdd99379bbd778dfeca6e1f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689435"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57345088"
 ---
 # <a name="submit-a-template-to-the-microsoft-flow-gallery"></a>Microsoft Flow ギャラリーへのテンプレートの送信
-Microsoft Flow のテンプレートのギャラリーへのフロー テンプレートの送信 テンプレートを使用することで、ユーザーはフローをより簡単に作成できるだけでなく、フローの恩恵を受ける他のシナリオを想定することもできます。 
+
+Microsoft Flow のテンプレートのギャラリーへのフロー テンプレートの送信 テンプレートを使用することで、ユーザーはフローをより簡単に作成できるだけでなく、フローの恩恵を受ける他のシナリオを想定することもできます。
 
 1. **[マイ フロー]** ページで、フローの省略記号 (...) を選択します。
-   
-    ![省略記号ボタン](./media/publish-a-template/ellipsis-button.png)
-2. 表示されるメニューで、**[Submit as a template]\(テンプレートとして送信\)** を選択します。
-   
-    ![コンテキスト メニュー](./media/publish-a-template/context-menu.png)
-3. わかりやすいタイトル、テンプレートが自動化を支援するシナリオの明確な説明、テンプレートを適用するカテゴリを指定します。
-   
-    ![テンプレートのオプション](./media/publish-a-template/template-options.png)
-4. **[送信]** を選択します。
-   
-     Microsoft Flow チームは、送信されてきたテンプレートを確認し、 *場合によっては変更* を加えます。 チームがテンプレートを承認すると、Microsoft Flow のテンプレート ギャラリーに該当するテンプレートが表示されます。
 
+    ![省略記号ボタン](./media/publish-a-template/ellipsis-button.png)
+1. 表示されるメニューの **[詳細]** を選択します。
+1. **[その他]** を選択してから、表示されるメニューの **[Submit as a template]\(テンプレートとして送信\)** を選択します。
+
+    ![コンテキスト メニュー](./media/publish-a-template/context-menu.png)
+
+   最後に保存したときから少なくとも 1 回は正常に実行されたフローのみを送信できます。
+
+     ![省略記号ボタン](./media/publish-a-template/need-successful-run-warning.png)
+1. わかりやすいタイトル、ご自身のテンプレートがその自動化に役立つシナリオの明確な説明、最大のベネフィット、ユーザー数、実行回数、およびテンプレートに適用されるカテゴリを指定します。
+
+    ![テンプレートのオプション](./media/publish-a-template/template-options.png)
+1. **[送信]** を選択します。
+
+     Microsoft Flow チームは、ユーザーのテンプレートを確認し、"*場合によっては修正します*"。 チームがテンプレートを承認すると、Microsoft Flow のテンプレート ギャラリーにそれが表示されます。

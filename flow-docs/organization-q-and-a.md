@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: f62bbf9e508c269c17284382b674a07221a2d568
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: ef3f6c98d16733977482c5cb3c0c23e168f5eeca
+ms.sourcegitcommit: 8debf0041094f32fa221f5da3dbbcbc4f7815ff8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690562"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56885506"
 ---
 # <a name="flow-in-your-organization-qa"></a>組織における Flow の Q & A
 このトピックでは、組織のユーザーが Flow を使用する方法と、管理者が Flow サービスを制御する方法について説明します。
@@ -46,6 +46,10 @@ Microsoft Flow は個人やチームを支援するパブリック クラウド 
 組織のユーザーがオプション 2 の方法で Flow にサインアップすると、そのユーザーには Microsoft Flow Free のライセンスが自動的に割り当てられます。
 
 詳しくは、「[Flow にサインアップする](sign-up-sign-in.md)」をご覧ください。
+
+### <a name="what-is-the-microsoft-flow-free-plan"></a>Microsoft Flow の Free プランとは
+
+Microsoft Flow の Free プランは、追跡目的でのみ使用されます。 これを有効化または無効化しても、フローを作成するユーザーの機能に影響はありません。 Microsoft Flow の Free プランを無効にした場合、ユーザーがログインするともう一度これが有効になります。 これは想定どおりの動作です。
 
 ### <a name="can-i-block-another-person-from-signing-up-for-flow"></a>他のユーザーが Flow にサインアップすることを禁止できますか?
 Microsoft Flow は完全なパブリック クラウド サービスです。世界中のすべてのユーザーが Flow にサインアップし、Flow を使って日常のタスクを自動化できます。 Microsoft Flow を使用するとき、Office 365 アカウントを用意すること、使用することは要求されません。 このため、現時点では、他のユーザーが Flow を使うのを禁止するメカニズムはありません (世界中のすべてのユーザーがメール アドレスに関係なく使用できます)。
@@ -147,7 +151,7 @@ Microsoft Flow は、個人または組織の一員として利用できます�
    2. 左上のアプリ起動ツール アイコンを選んで、[管理者] を選びます。
    3. **[Become the admin]** (管理者になる) ページで説明を読み、**[Yes, I want to be the admin]** (はい、管理者になります) を選びます。  
       
-       **注**: このオプションが表示されない場合、Office 365 管理者は既にいます。
+       **注**:このオプションが表示されない場合は、既に Office 365 管理者が存在します。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できるか
 何も変更しなければ、各ユーザーの電子メール ドメインとサブドメインにテナントが作成されます。
@@ -156,7 +160,7 @@ Microsoft Flow は、個人または組織の一員として利用できます�
 
 * 前もって対象のテナントを作るか、既存のテナントを使います。 そのテナントに統合する既存のすべてのドメインとサブドメインを追加します。 その後は、これらのドメインおよびサブドメインの電子メール アドレスを持つすべてのユーザーは、サインアップすると自動的に対象テナントに参加します。
 
-**重要**: テナントが作成された後で、ユーザーをテナント間で移動する自動メカニズムはありません。 1 つの Office 365 テナントにドメインを追加する方法については、[Office 365 へのユーザーとドメインの追加に関する記事](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-ffdb2216-330d-4d73-832b-3e31bcb5b2a7)をご覧ください。
+**重要**:テナントが作成された後に、テナント全体にユーザーを移動する自動化されたメカニズムはサポートされていません。 1 つの Office 365 テナントにドメインを追加する方法については、[Office 365 へのユーザーとドメインの追加に関する記事](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-ffdb2216-330d-4d73-832b-3e31bcb5b2a7)をご覧ください。
 
 ### <a name="how-can-i-restrict-my-users-ability-to-access-my-organizations-business-data"></a>ユーザーが組織のビジネス データにアクセスする機能を制限するにはどうすればよいですか?
 Microsoft Flow では、下の図のように、ビジネス用のデータ ゾーンとビジネス以外のデータ ゾーンを作成できます。 このようなデータ損失防止ポリシーを導入すると、ビジネス データとビジネス以外のデータを組み合わせる Flow をユーザーは設計したり、実行したりできなくなります。 詳細については、「[データ損失防止 (DLP) ポリシー](prevent-data-loss.md)」を参照してください。
