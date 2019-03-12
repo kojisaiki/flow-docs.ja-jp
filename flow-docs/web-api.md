@@ -1,3 +1,22 @@
+---
+title: フローが Common Data Service for Apps に格納され、豊富な Web API を使用するようになりました
+description: フローが Common Data Service for Apps に格納され、豊富な Web API を使用するようになりました。
+author: stepsic-microsoft-com
+ms.reviewer: deonhe
+ms.date: 03/05/2019
+ms.topic: article
+ms.prod: ''
+ms.service: business-applications
+ms.technology: ''
+ms.author: stepsic
+audience: Power user
+ms.openlocfilehash: 111fb191c6963e02d7bf54b419fd7088ce7605fc
+ms.sourcegitcommit: 9ecf4956320d465a3bf618b79a9023b729d33c89
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57463031"
+---
 # <a name="microsoft-flow-web-api"></a>Microsoft Flow Web API
 
 今後、すべてのフローは Common Data Service (CDS) for Apps に格納され、[豊富な Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/perform-operations-web-api) が利用されます。
