@@ -3,7 +3,7 @@ title: ダイアログを業務プロセス フローまたはキャンバス �
 ms.custom: ''
 ms.date: 08/02/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: flow
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
@@ -21,12 +21,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 87a12345c72fd3dd3e93c1afecd282a688e4d4d1
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 498efb98a4c89ca6c2a01e345f5593beae4dbcca
+ms.sourcegitcommit: 9ecf4956320d465a3bf618b79a9023b729d33c89
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44691091"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57463030"
 ---
 # <a name="replace-dialogs-with-business-process-flows-or-canvas-apps"></a>ダイアログを業務プロセス フローまたはキャンバス アプリに置き換える
 
@@ -84,7 +84,7 @@ ms.locfileid: "44691091"
 
 この業務プロセスをユーザーが使用できるようにするには、適切なユーザーが確実に業務プロセス フローに対する権限を有しそれをアクティブ化できるようにします。
 
-業務プロセス フローを作成する方法の詳細については、「[Tutorial: Create a business process flow to standardize processes](create-business-process-flow.md)」 (チュートリアル: プロセスを標準化する業務プロセス フローを作成する) を参照してください。
+業務プロセス フローを作成する方法の詳細については、「[チュートリアル: プロセスを標準化する業務プロセス フローを作成する](create-business-process-flow.md)」を参照してください。
 
 ## <a name="dialog-replacement-using-canvas-app-scenario"></a>キャンバス アプリ シナリオを使用したダイアログの置き換え
 

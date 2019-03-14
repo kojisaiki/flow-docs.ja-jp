@@ -3,7 +3,7 @@ title: 業務プロセス フローの概要 | MicrosoftDocs
 ms.custom: ''
 ms.date: 06/27/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: flow
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: baefae21e605b0e54e32b09dfaee8f2980d73c13
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: b1e23a3ddfd4302c4a5429029ea4fb47f0ab9808
+ms.sourcegitcommit: 9ecf4956320d465a3bf618b79a9023b729d33c89
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690314"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57463013"
 ---
 # <a name="business-process-flows-overview"></a>業務プロセス フローの概要
 
@@ -92,7 +92,7 @@ ms.locfileid: "44690314"
  業務プロセス フローは、それがサポートされるエンティティに対してのみ定義できます。 追加できるプロセス、ステージ、ステップの数の制限にも注意する必要があります。  
   
 ### <a name="business-process-flows-that-call-a-workflow"></a>ワークフローを呼び出す業務プロセス フロー  
- 業務プロセス フロー内からオンデマンドでワークフローを呼び出すことができます。 新しい業務プロセス フロー デザイナーからこれを設定するには、ワークフロー コンポーネントをプロセス ステージまたは [Global Workflows]\(グローバル ワークフロー\) セクションにドラッグします。 業務プロセス フロー内でワークフローを使用する方法の詳細については、「[Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/)」 (ブログ: Dynamics 365での業務プロセス フローの自動化) を参照してください。  
+ 業務プロセス フロー内からオンデマンドでワークフローを呼び出すことができます。 新しい業務プロセス フロー デザイナーからこれを設定するには、ワークフロー コンポーネントをプロセス ステージまたは [Global Workflows]\(グローバル ワークフロー\) セクションにドラッグします。 業務プロセス フロー内でワークフローを使用する方法の詳細については、「[Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/)」 (ブログ: Dynamics 365 での業務プロセス フローの自動化) を参照してください。  
   
  ステージの終了時にトリガーするワークフローを業務プロセス フロー内に含める場合、そのステージがフロー内の最後のステージであるときは、ステージ完了時にワークフローがトリガーされるというメッセージが表示されます。 しかし、ステージは切り替わらないため、ワークフローはトリガーされません。 ステージ上でワークフローを含めないように指示する警告やエラーは表示されません。 業務プロセス フローと対話する場合、プロセスを終了または破棄しても、ステージが切り替わらないため、ワークフローはトリガーされません。 以下の例を検討してください。  
   
@@ -174,10 +174,10 @@ Dynamics 365 (オンライン) バージョン 9.0 アップデートに導入�
 ### <a name="limitations-of-using-business-process-flow-entities"></a>業務プロセス フロー エンティティの使用に関する制限
 
 - 現在のところ、業務プロセス フローに基づいてエンティティのカスタム フォームを作成することはできません。
-- ソリューションに業務プロセス フロー エンティティが含まれる場合、この業務プロセス フロー エンティティは、エクスポートする前に、手動でソリューションに追加しておく必要があります。 そうしないと、業務プロセス フロー エンティティがソリューション パッケージに含まれません。 詳細については、「[Add solution components](/powerapps/maker/model-driven-apps/create-solution#add-solution-components)」 (ソリューション コンポーネントの追加) を参照してください。
+- ソリューションに業務プロセス フロー エンティティが含まれる場合、この業務プロセス フロー エンティティは、エクスポートする前に、手動でソリューションに追加しておく必要があります。 そうしないと、業務プロセス フロー エンティティがソリューション パッケージに含まれません。 詳細情報: [ソリューション コンポーネントの追加](/powerapps/maker/model-driven-apps/create-solution#add-solution-components)
 
 ### <a name="next-steps"></a>次のステップ  
  [業務プロセス フローに関する短いビデオ (4:49) を見る](https://go.microsoft.com/fwlink/p/?linkid=842226)   
  [業務プロセス フローを作成する](create-business-process-flow.md)   
  [分岐を使用して業務プロセス フローを強化する](enhance-business-process-flows-branching.md) <br/>
- [ホワイトペーパー: 『Process Enablement with Dynamics 365』 (Dynamics 365 によるプロセスの有効化)](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
+ [ホワイト ペーパー: Dynamics 365 によるプロセスの有効化](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>

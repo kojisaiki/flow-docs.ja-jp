@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e544f396bc4ba4410a04cda9b56a221d1b3cb181
-ms.sourcegitcommit: d8a061b308547043dbdd99379bbd778dfeca6e1f
+ms.openlocfilehash: 693874ae7876b7c91fa55c45a656b3b76c52a517
+ms.sourcegitcommit: 54700957eb6d7ac486b9ec1f95f2b3ddb58e698c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/05/2019
-ms.locfileid: "57345088"
+ms.locfileid: "57430175"
 ---
 # <a name="submit-a-template-to-the-microsoft-flow-gallery"></a>Microsoft Flow ギャラリーへのテンプレートの送信
 
@@ -35,7 +35,7 @@ Microsoft Flow のテンプレートのギャラリーへのフロー テンプ�
 
     ![省略記号ボタン](./media/publish-a-template/ellipsis-button.png)
 1. 表示されるメニューの **[詳細]** を選択します。
-1. **[その他]** を選択してから、表示されるメニューの **[Submit as a template]\(テンプレートとして送信\)** を選択します。
+1. **[その他]** を選択してから、表示されるメニューの **[Submit as template]\(テンプレートとして送信\)** を選択します。
 
     ![コンテキスト メニュー](./media/publish-a-template/context-menu.png)
 

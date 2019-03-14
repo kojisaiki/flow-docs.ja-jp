@@ -15,12 +15,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f1b51a48d7355684d2c6883bbf0db12853f686eb
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 92db054d5e9fab7ef6077146260ce46f540697c9
+ms.sourcegitcommit: 9ecf4956320d465a3bf618b79a9023b729d33c89
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690240"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57462843"
 ---
 # <a name="create-a-custom-action"></a>カスタム アクションの作成
 
@@ -57,7 +57,7 @@ ms.locfileid: "44690240"
 また、アクションにはワークフロー プロセスにないものがあります。それは入力と出力の引数です。
 
 > [!NOTE]
-> コードを作成せずにワークフローからカスタム アクションを有効にすることができます。 詳しくは、「[Invoke custom actions from a workflow](invoke-custom-actions-workflow-dialog.md)」(ワークフローからカスタム アクションを呼び出す) をご覧ください。
+> コードを作成せずにワークフローからカスタム アクションを有効にすることができます。 詳細情報: [ワークフローからカスタム アクションを呼び出す](invoke-custom-actions-workflow-dialog.md)
  
 <a name="edit"></a>   
 ## <a name="edit-an-action"></a>アクションを編集する  
@@ -90,10 +90,10 @@ ms.locfileid: "44690240"
  すべてのプロセスと同じく、プロセスをテンプレートとしてアクティブ化することができます。これを使用すると、同じパターンのプロセスを作成するときに前進したところから開始できます。  
   
  **[Define Process Arguments]\(プロセスの引数の定義\)**  
- ここでは、アクションが開始時に予期するデータと、アクションから渡されるデータを指定します。 詳しくは、「[プロセスの引数を定義する](#define-process-arguments)」をご覧ください。  
+ ここでは、アクションが開始時に予期するデータと、アクションから渡されるデータを指定します。 詳細情報: [プロセスの引数を定義する](#define-process-arguments)  
   
  **[Add Stages and steps]\(ステージとステップの追加\)**  
- 他のプロセスと同様に、実行するアクションと、それをいつ実行するかを指定します。 詳しくは、「[ステージとステップを追加する](#add-stages-and-steps)」をご覧ください。
+ 他のプロセスと同様に、実行するアクションと、それをいつ実行するかを指定します。 詳細情報: [ステージとステップを追加する](#add-stages-and-steps)
 
 <a name="BKMK_DefineProcessArgs"></a>   
 ## <a name="define-process-arguments"></a>プロセスの引数を定義する  
@@ -125,7 +125,7 @@ ms.locfileid: "44690240"
 |String|テキスト値。|  
   
 > [!NOTE]
-> **EntityCollection** 引数値は、条件またはアクションについて、ユーザー インターフェイスで設定できません。 これらは、開発者がカスタム コードで使用するために提供されます。 詳しくは、「[独自のアクションの作成](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions)」をご覧ください。 
+> **EntityCollection** 引数値は、条件またはアクションについて、ユーザー インターフェイスで設定できません。 これらは、開発者がカスタム コードで使用するために提供されます。 詳細情報: [独自のアクションの作成](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions) 
   
 <a name="BKMK_AddStagesConditionsAndActions"></a>   
 ### <a name="add-stages-and-steps"></a>ステージとステップを追加する  
