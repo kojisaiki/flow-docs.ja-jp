@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4d8be06222a0ed64290772d168def85720877f28
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 32301a87c33e5586280d822df8f6c381dbbf96a9
+ms.sourcegitcommit: 3d0aecc89ed12b58f4b424c1c5a0654350f07d08
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689573"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57885163"
 ---
 # <a name="faq-for-regions-in-microsoft-flow"></a>Microsoft Flow のリージョンに関する FAQ
 このドキュメントでは、Microsoft Flow についてよく寄せられる質問の一覧を示します。
@@ -45,6 +45,8 @@ ms.locfileid: "44689573"
 * インド
 * 日本
 * カナダ
+* 南米
+* イギリス
 
 ## <a name="what-features-are-specific-to-a-given-region"></a>特定のリージョンに固有の機能はどれですか。
 環境は複数の異なるリージョンに作成でき、その地理的な場所にバインドされます。 環境にフローを作成すると、そのフローはその地理的な場所のデータセンターにデプロイされます。 これは、共通データ モデル、フロー、接続、ゲートウェイ、アプリ、カスタム コネクタなど、その環境で作成するすべての項目に適用されます。
