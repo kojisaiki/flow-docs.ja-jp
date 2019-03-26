@@ -69,9 +69,9 @@ items:
     href: edit-solution-aware-flow.md
   - name: ソリューション対応フローを削除する
     href: remove-solution-aware-flow.md
-- name: Common Data Service (CDS) for Apps
+- name: Common Data Service
   items:
-  - name: クラシック CDS for Apps のワークフロー
+  - name: クラシック Common Data Service ワークフロー
     href: workflow-processes.md
     items:
     - name: ワークフローのステージとステップを構成する
@@ -80,7 +80,7 @@ items:
       href: monitor-manage-processes.md
     - name: ワークフロー プロセスのベスト プラクティス
       href: best-practices-workflow-processes.md
-  - name: クラシック CDS for Apps のアクション
+  - name: クラシック Common Data Service アクション
     items:
     - name: アクションを使用する
       href: actions.md
@@ -90,15 +90,15 @@ items:
       href: configure-actions.md
     - name: ワークフローからカスタム アクションを呼び出す
       href: invoke-custom-actions-workflow-dialog.md
-  - name: クラシック CDS for Apps のフロー
+  - name: クラシック Common Data Service タスク フロー
     items:
     - name: モバイル タスク フローを作成する
       href: create-mobile-task-flow.md
-  - name: クラシック CDS for Apps のダイアログ
+  - name: クラシック Common Data Service ダイアログ
     items:
-    - name: クラシック CDS for Apps のダイアログを使用する
+    - name: クラシック Common Data Service ダイアログを使う
       href: use-cds-for-apps-dialogs.md
-    - name: クラシック CDS for Apps のダイアログを置換する
+    - name: クラシック Common Data Service ダイアログを置き換える
       href: replace-dialogs.md
 - name: 操作方法
   items:
@@ -161,7 +161,7 @@ items:
     items:
     - name: 'サンプル: 業務プロセス フローの使用'
       href: ./developer/sample-work-business-process-flows.md
-  - name: カスタム CDS for Apps ワークフロー アクティビティ
+  - name: カスタム Common Data Service ワークフロー アクティビティ
     href: ./developer/custom-cds-for-apps-workflow-activities.md
 - name: 管理
   items:
@@ -221,9 +221,9 @@ items:
     href: https://flow.microsoft.com/blog/
   - name: フォーラム
     href: https://powerusers.microsoft.com/t5/Microsoft-Flow-Community/ct-p/FlowCommunity
-ms.openlocfilehash: e5b09261b0c46b8019fbb58e058c3a11720c2028
-ms.sourcegitcommit: 3c7822c7207cfa51d0274e9647ef02e5ea1d999f
+ms.openlocfilehash: 160466a0a616661993237e70007072efded33c9c
+ms.sourcegitcommit: 24da014ea8db8e59f097c4622d1e2cca9a4d1709
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58321366"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58352736"

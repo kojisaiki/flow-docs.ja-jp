@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2515b64629436ccb96de497eaf928b83f281dc5f
-ms.sourcegitcommit: b41b45f6fa29a22e9a9a4d3c726a2321b2ff3cbf
+ms.openlocfilehash: 8b0e64317b868dc32ede173329fa2f88ed53de76
+ms.sourcegitcommit: 24da014ea8db8e59f097c4622d1e2cca9a4d1709
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2018
-ms.locfileid: "51025824"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58353001"
 ---
 # <a name="overview"></a>概要
 
@@ -40,7 +40,7 @@ ms.locfileid: "51025824"
 
 ソリューションとソリューション対応フローを作成するには、次のコンポーネントが必要です。
 
-- [Common Data Service for Apps 2.0](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+- [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 - バージョン 9.1.0.267 以上の環境
 
   バージョンを確認するには、[Microsoft Flow 管理センター](https://admin.flow.microsoft.com)に移動して **[環境]** を選択し、目的の環境を選択してから **[詳細]** タブを選択します。
