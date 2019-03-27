@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: ef3f6c98d16733977482c5cb3c0c23e168f5eeca
-ms.sourcegitcommit: 8debf0041094f32fa221f5da3dbbcbc4f7815ff8
+ms.openlocfilehash: 6e05c24aa00c29dff4ca07432277ca7b907ebbb0
+ms.sourcegitcommit: e17963065b72ddaba7b2605908c62768acb8c16c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56885506"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58327092"
 ---
 # <a name="flow-in-your-organization-qa"></a>組織における Flow の Q & A
 このトピックでは、組織のユーザーが Flow を使用する方法と、管理者が Flow サービスを制御する方法について説明します。
@@ -38,7 +38,7 @@ Microsoft Flow は個人やチームを支援するパブリック クラウド 
 個人が Web ポータルから Flow にサインアップするには、2 つの方法があります。
 
 #### <a name="option-1"></a>オプション 1
-[flow.microsoft.com](https://flow.microsoft.com) にアクセスし、**[無料でサインアップ]** を選択し、[portal.office.com](https://portal.office.com/Start?sku=flow_free) または [signup.live.com](https://signup.live.com) で Flow のサインアップ プロセスを完了します。
+[flow.microsoft.com](https://flow.microsoft.com) にアクセスし、**[無料でサインアップ]** を選択し、[admin.microsoft.com](https://admin.microsoft.com/Start?sku=flow_free) または [signup.live.com](https://signup.live.com) で Flow のサインアップ プロセスを完了することで、誰でもサインアップすることができます。
 
 #### <a name="option-2"></a>オプション 2
 [flow.microsoft.com](https://flow.microsoft.com) にアクセスし、**[サインイン]** を選択し、職場、学校、個人のメールでサインインし、Flow の使用条件に同意します。    
@@ -147,7 +147,7 @@ Microsoft Flow は、個人または組織の一員として利用できます�
 1. 管理するテナント ドメインと一致する電子メール アドレス ドメインを使って Flow にサインアップすることで、テナントに参加します。 たとえば、Microsoft が contoso.com テナントを作成した場合は、@contoso.com で終わる電子メール アドレスでテナントに参加します。
 2. ドメインの所有権を確認することによって、管理コントロールを要求します。テナントに参加した後は、ドメインの所有権を確認することによって自分自身を管理者の役割に昇格させることができます。 そのためには次のようにします。    
    
-   1. [https://portal.office.com](https://portal.office.com/Start?sku=flow_free) に移動します。
+   1. [https://admin.microsoft.com](https://admin.microsoft.com/Start?sku=flow_free) に移動します。
    2. 左上のアプリ起動ツール アイコンを選んで、[管理者] を選びます。
    3. **[Become the admin]** (管理者になる) ページで説明を読み、**[Yes, I want to be the admin]** (はい、管理者になります) を選びます。  
       
