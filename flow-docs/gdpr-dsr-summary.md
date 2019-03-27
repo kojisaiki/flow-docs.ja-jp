@@ -20,16 +20,16 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 6e4763fd3851276d647a302747342a6980293c33
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 1eaa98b674e78f46988d253e2be76a5d92283a76
+ms.sourcegitcommit: 24da014ea8db8e59f097c4622d1e2cca9a4d1709
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690796"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58353127"
 ---
 # <a name="responding-to-gdpr-data-subject-requests-for-microsoft-flow"></a>Microsoft Flow に対する GDPR データ主体の要求への応答
 
-この記事では、ユーザーと組織のために EU の一般データ保護規則 (GDPR) について説明します。 この記事では、GDPR に対する Microsoft の対応について説明するだけでなく、PowerApps、Microsoft Flow、Common Data Service for Apps を使用するときに GDPR コンプライアンスをサポートするために実行できる手順の例を示します。
+この記事では、ユーザーと組織のために EU の一般データ保護規則 (GDPR) について説明します。 この記事では、GDPR に対する Microsoft の対応について説明するだけでなく、現在、お客様が PowerApps、Microsoft Flow、Common Data Service を使用するときに、GDPR コンプライアンスをサポートするために実行できる手順の例を示します。
 
 ## <a name="prerequisites"></a>前提条件
 

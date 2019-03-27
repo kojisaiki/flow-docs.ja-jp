@@ -1,5 +1,5 @@
 ---
-title: 'サンプル: 業務プロセス フローの使用 (Dynamics 365 Customer Engagement の開発者ガイド) | MicrosoftDocs'
+title: 'サンプル: 業務プロセス フローの使用 (Dynamics 365 Customer Engagement の開発者ガイド) | Microsoft Docs'
 description: このサンプルでは、エンティティ レコードのビジネス プロセス フロー インスタンスを取得する、ビジネス プロセス フロー インスタンスのアクティブなパスとそのプロセス ステージを取得する、およびアクティブなステージを変更するなどの業務プロセス フローをプログラムで操作する方法を説明します。
 ms.custom: ''
 ms.date: 04/05/2018
@@ -18,24 +18,24 @@ search.app:
 - Flow
 search.audienceType:
 - developer
-ms.openlocfilehash: 6fe2b6d600d86dfd807dbb1ef794a1f428f26fbf
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 6f3543b666e471d1f7fa0fe24fc718e50d35aec8
+ms.sourcegitcommit: 24da014ea8db8e59f097c4622d1e2cca9a4d1709
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690056"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58352966"
 ---
 # <a name="sample-work-with-business-process-flows"></a>サンプル: 業務プロセス フローの使用
 
 このサンプルでは、エンティティ レコードのビジネス プロセス フロー インスタンスを取得する、ビジネス プロセス フロー インスタンスのアクティブなパスとそのプロセス ステージを取得する、およびアクティブなステージを変更するなどの業務プロセス フローをプログラムで操作する方法を説明します。 これらの概念については、「[Work with business process flows using code](business-process-flows-code.md)」 (コードを使用して業務プロセス フローを操作する) を参照してください  
 
- このサンプルは、「[サンプル: 業務プロセス フローの使用](https://go.microsoft.com/fwlink/p/?LinkId=846108)」からダウンロードできます。  
+ このサンプルをダウンロードするには、「[サンプル: 業務プロセス フローの使用](https://go.microsoft.com/fwlink/p/?LinkId=846108)」をご覧ください。  
 
 <a name="BKMK_Prerequisites"></a>   
 ## <a name="prerequisites"></a>前提条件  
  サンプルを実行するには、次が必要です。  
 
-1. アプリ用 Common Data Service 環境にアクセスできる。  
+1. Common Data Service 環境にアクセスできる。  
 
 2. このサンプルで使用されている潜在顧客、営業案件、およびワークフロー エンティティと業務プロセス フロー定義エンティティ レコードへの適切なアクセス許可を持つ。  
 
@@ -70,7 +70,7 @@ ms.locfileid: "44690056"
 
 2. 抽出したフォルダー内の `WorkWithBPF.sln` ファイルを見つけて、Visual Studio で開きます。  
 
-3. サンプル プロジェクトでは、サンプルを実行する前に復元する必要がある NuGet パッケージが使用されています。 Visual Studio で NuGet パッケージの自動復元が有効になっていることを確認します。 詳細情報: [パッケージの復元の有効化と無効化](https://go.microsoft.com/fwlink/?linkid=846106)  
+3. サンプル プロジェクトでは、サンプルを実行する前に復元する必要がある NuGet パッケージが使用されています。 Visual Studio で NuGet パッケージの自動復元が有効になっていることを確認します。 詳細情報: [NuGet パッケージの復元の有効化と無効化](https://go.microsoft.com/fwlink/?linkid=846106)  
 
     または、**[プロジェクト]** > **[NuGet パッケージの管理]** を選択し、**[復元]** を選択して、サンプルで使用されているパッケージを手動で復元します。  
 

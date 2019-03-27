@@ -1,6 +1,6 @@
 ---
-title: フローが Common Data Service for Apps に格納され、豊富な Web API を使用するようになりました
-description: フローが Common Data Service for Apps に格納され、豊富な Web API を使用するようになりました。
+title: フローが Common Data Service に格納され、豊富な Web API を使用するようになりました
+description: フローが Common Data Service に格納され、豊富な Web API を使用するようになりました。
 author: stepsic-microsoft-com
 ms.reviewer: deonhe
 ms.date: 03/05/2019
@@ -10,16 +10,16 @@ ms.service: business-applications
 ms.technology: ''
 ms.author: stepsic
 audience: Power user
-ms.openlocfilehash: 111fb191c6963e02d7bf54b419fd7088ce7605fc
-ms.sourcegitcommit: 9ecf4956320d465a3bf618b79a9023b729d33c89
+ms.openlocfilehash: ede20606d1d5ba2a97217dfbcfb3c9fffec2c017
+ms.sourcegitcommit: 24da014ea8db8e59f097c4622d1e2cca9a4d1709
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57463031"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58353058"
 ---
 # <a name="microsoft-flow-web-api"></a>Microsoft Flow Web API
 
-今後、すべてのフローは Common Data Service (CDS) for Apps に格納され、[豊富な Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/perform-operations-web-api) が利用されます。
+今後、すべてのフローは Common Data Service に格納され、[豊富な Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api) が利用されます。
 
 このコンテンツでは、Microsoft Flow の **[ソリューション]** タブに含まれるフローの管理について説明しています。 現在、**[マイ フロー]** 以下のフローはこのような API ではサポートされていません。
 
@@ -52,7 +52,7 @@ Online Management API の [[インスタンスの取得]](https://docs.microsoft
 
 Web API に対する各要求で、`Accept` および `Content-type` ヘッダーを `application/json` に設定する必要があります。
 
-最後に、`Authorization` ヘッダーに Azure AD ベアラー トークンを設定します。 CDS for Apps の Azure AD ベアラー トークンを取得する方法については、[こちら](https://docs.microsoft.com/dynamics365/customer-engagement/developer/authenticate-users)を参照してください。 たとえば、次の要求があります。
+最後に、`Authorization` ヘッダーに Azure AD ベアラー トークンを設定します。 Common Data Service の Azure AD ベアラー トークンを取得する方法については、[こちら](https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth)を参照してください。 たとえば、次の要求があります。
 
 ```http
 GET https://org00000000.crm0.dynamics.com/api/data/v9.1/workflows
@@ -79,7 +79,7 @@ Authorization: Bearer ey...
         "_modifiedby_value": "00000000-0000-0000-0000-000000000003",
         "_createdby_value": "00000000-0000-0000-0000-000000000003",
         "type": 1,
-        "description": "This flow updates some data in CDS for Apps.",
+        "description": "This flow updates some data in Common Data Service.",
         "clientdata": "{\"properties\":{\"connectionReferences\":{\"shared_commondataservice\":{\"source\":\"NotSpecified\",\"id\":\"/providers/Microsoft.PowerApps/apis/shared_commondataservice\",\"tier\":\"NotSpecified\"}},\"definition\":{...}},\"schemaVersion\":\"1.0.0.0\"}"
     }]
 }
@@ -91,22 +91,22 @@ Authorization: Bearer ey...
 
 | プロパティ名     | 説明                                              |
 | ----------------- | -------------------------------------------------------- |
-| category          | フローのカテゴリ。 次の種類があります。0 - クラシック CDS for Apps ワークフロー、1 - クラシック CDS for Apps ダイアログ、2 - ビジネス ルール、3 - クラシック CDS for Apps アクション、4 - ビジネス プロセス フロー、5 - 自動化されたインスタント フローまたはスケジュールされたフロー。 |
+| category          | フローのカテゴリ。 次の種類があります。0 - クラシック Common Data Service ワークフロー、1 - クラシック Common Data Service ダイアログ、2 - ビジネス ルール、3 - クラシック Common Data Service アクション、4 - 業務プロセス フロー、5 - 自動化されたインスタント フローまたはスケジュールされたフロー。 |
 | statecode         | フローの状態。 状態は **0** - オフ、または **1** - オンです。|
 | workflowuniqueid  | フローのこのインストールの一意識別子。 |
 | workflowid        | すべてのインポート全体でのフローの一意識別子。 |
 | createdon         | フローが作成された日付。 |
-| _ownerid_value    | フローを所有するユーザーまたはチームの一意識別子。 これは、CDS for Apps での systemusers エンティティの ID です。 |
+| _ownerid_value    | フローを所有するユーザーまたはチームの一意識別子。 これは、Common Data Service での systemusers エンティティの ID です。 |
 | modifiedon        | フローの最終更新日時。 |
 | ismanaged         | フローがマネージド ソリューションを介してインストールされたかどうかを示します。 |
 | name              | フローに付けた表示名。 |
-| _modifiedby_value | フローを最後に更新したユーザー。 これは、CDS for Apps での systemusers エンティティの ID です。 |
-| _createdby_value  | フローを作成したユーザー。 これは、CDS for Apps での systemusers エンティティの ID です。 |
+| _modifiedby_value | フローを最後に更新したユーザー。 これは、Common Data Service での systemusers エンティティの ID です。 |
+| _createdby_value  | フローを作成したユーザー。 これは、Common Data Service での systemusers エンティティの ID です。 |
 | type              | フローが実行中のフローか、追加のフローを作成するために使用できるテンプレートかを示します。 1 - フロー、2 - アクティブ化、または 3 - テンプレート。 |
 | 説明       | ユーザーが指定したフローの説明。 |
 | clientdata        | connectionReferences とフローの定義を含むオブジェクトの文字列エンコードされた JSON。 |
 
-特定のプロパティを要求する、フローの一覧をフィルター処理するなどの操作も実行できます。詳細については、[データのクエリを実行するための CDS for Apps API ドキュメント](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/query-data-web-api)に関するページを参照してください。 たとえば、このクエリからは、現在有効な自動フロー、インスタント フロー、またはスケジュールされたフローのみが返されます。
+特定のプロパティを要求する、フローの一覧をフィルター処理するなどの操作も実行できます。詳細については、[データのクエリを実行するための Common Data Service API ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-data-web-api)に関するページを参照してください。 たとえば、このクエリからは、現在有効な自動フロー、インスタント フロー、またはスケジュールされたフローのみが返されます。
 
 ```http
 GET https://org00000000.crm0.dynamics.com/api/data/v9.1/workflows?$filter=category eq 5 and statecode eq 1
@@ -130,7 +130,7 @@ Content-type: application/json
         "statecode": 0,
         "name": "Sample flow name",
         "type": 1,
-        "description": "This flow reads some data from CDS for Apps.",
+        "description": "This flow reads some data from Common Data Service.",
         "primaryentity":"none",
         "clientdata": "{\"properties\":{\"connectionReferences\":{\"shared_commondataservice\":{\"connectionName\":\"shared-commondataser-00000000-0000-0000-0000-000000000004\",\"source\":\"Invoker\",\"id\":\"/providers/Microsoft.PowerApps/apis/shared_commondataservice\"}},\"definition\":{\"$schema\": \"https:\/\/schema.management.azure.com\/providers\/Microsoft.Logic\/schemas\/2016-06-01\/workflowdefinition.json#\",\"contentVersion\": \"1.0.0.0\",\"parameters\": {\"$connections\": {\"defaultValue\": {},\"type\": \"Object\"},\"$authentication\": {\"defaultValue\": {},\"type\": \"SecureObject\"}},\"triggers\": {\"Recurrence\": {\"recurrence\": {\"frequency\": \"Minute\",\"interval\": 1},\"type\": \"Recurrence\"}},\"actions\": {\"List_records\": {\"runAfter\": {},\"metadata\": {\"flowSystemMetadata\": {\"swaggerOperationId\": \"GetItems_V2\"}},\"type\": \"ApiConnection\",\"inputs\": {\"host\": {\"api\": {\"runtimeUrl\": \"https:\/\/firstrelease-001.azure-apim.net\/apim\/commondataservice\"},\"connection\": {\"name\": \"@parameters('$connections')['shared_commondataservice']['connectionId']\"}},\"method\": \"get\",\"path\": \"\/v2\/datasets\/@{encodeURIComponent(encodeURIComponent('default.cds'))}\/tables\/@{encodeURIComponent(encodeURIComponent('accounts'))}\/items\",\"queries\": {\"$top\": 1},\"authentication\": \"@parameters('$authentication')\"}}},\"outputs\": {}}},\"schemaVersion\":\"1.0.0.0\"}"
 }
@@ -193,7 +193,7 @@ Authorization: Bearer ey...
 
 ## <a name="get-all-users-with-whom-a-flow-is-shared"></a>フローが共有されているすべてのユーザーを取得する
 
-アクセス権を持つユーザーを一覧表示するには、CDS for Apps の*関数*を使用します。 この関数は、`Target` の 1 つのパラメーターを受け取ります。
+アクセス権を持つユーザーを一覧表示するには、Common Data Service の*関数*を使用します。 この関数は、`Target` の 1 つのパラメーターを受け取ります。
 
 ```http
 GET https://org00000000.crm0.dynamics.com/api/data/v9.1/RetrieveSharedPrincipalsAndAccess(Target=@tid)?@tid={'@odata.id':'workflows(00000000-0000-0000-0000-000000000002)'}
@@ -310,8 +310,8 @@ Content-type: application/json
 
 | プロパティ名                    | 説明                               |
 | -------------------------------- | ----------------------------------------- |
-| OverwriteUnmanagedCustomizations | CDS for Apps にこのようなフローの既存のインスタンスがある場合、インポートするには、このフラグを `true` に設定する必要があります。 それ以外の場合は上書きされません。 |
-| PublishWorkflows                 | インポート時にクラシック CDS for Apps ワークフローをアクティブ化するかどうかを示します。 この設定は他の種類のフローには適用されません。 |
+| OverwriteUnmanagedCustomizations | Common Data Service にこのようなフローの既存のインスタンスがある場合、インポートするには、このフラグを `true` に設定する必要があります。 それ以外の場合は上書きされません。 |
+| PublishWorkflows                 | インポート時にクラシック Common Data Service ワークフローをアクティブ化するかどうかを示します。 この設定は他の種類のフローには適用されません。 |
 | ImportJobId                      | インポート ジョブを追跡するために新しい一意の GUID を指定します。 |
 | CustomizationFile                | ソリューションを含む base 64 でエンコードされた zip ファイル。 |
 

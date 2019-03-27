@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: bb623e84f309303557d05d82422d2419f8d3ccbe
-ms.sourcegitcommit: 300829df88dfa1d0049ea506f949b29d6bd52e42
+ms.openlocfilehash: 9ab3594f540129eb9caf8900c87420c08c1f7037
+ms.sourcegitcommit: 24da014ea8db8e59f097c4622d1e2cca9a4d1709
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57251816"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58353002"
 ---
 # <a name="get-started-with-microsoft-flow"></a>Microsoft Flow を使ってみる #
 
@@ -35,7 +35,7 @@ ms.locfileid: "57251816"
 
 主なフローの種類には、[自動](get-started-logic-flow.md)、[ボタン](introduction-to-button-flows.md)、[スケジュール](run-scheduled-tasks.md)、および[ビジネス プロセス](business-process-flows-overview.md) フローがあります。
 
-Dynamics 365 Customer Engagement カスタマイザーの場合は、従来のアプリ用 Common Data Service プロセスに馴れていることもあります。このプロセスには、[ワークフロー](configure-workflow-steps.md)、[アクション](create-actions.md)、[モバイル タスクフロー](create-mobile-task-flow.md)、および[ダイアログ](use-cds-for-apps-dialogs.md)が含まれます。
+Dynamics 365 Customer Engagement カスタマイザーの場合は、クラシック Common Data Service プロセスに慣れていることもあります。このプロセスには、[ワークフロー](configure-workflow-steps.md)、[アクション](create-actions.md)、[モバイル タスク フロー](create-mobile-task-flow.md)、および[ダイアログ](use-cds-for-apps-dialogs.md)が含まれます。
 
 まずは[サインアップ](sign-up-sign-in.md)してください。既に Microsoft Flow のアカウントをお持ちの場合は、タブレットやデスクトップ コンピューター、さらにはスマートフォンで[サインイン](https://flow.microsoft.com/signin)できます。
 

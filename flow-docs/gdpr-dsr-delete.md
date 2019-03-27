@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 9edad8ef0aa4e51292bddc5dc59c90ae84223de2
-ms.sourcegitcommit: ade400bab38f85071d4c8bf6a5380f561f12f2f5
+ms.openlocfilehash: 523e46269522d50eebe34fc559d69f4c146a2c3f
+ms.sourcegitcommit: 24da014ea8db8e59f097c4622d1e2cca9a4d1709
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53248847"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58353081"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Microsoft Flow に対する GDPR データ主体の削除要求への応答
 
@@ -49,7 +49,7 @@ Microsoft Flow では、組織の日常業務の重要な一部であるオー�
 
 * これらの各リソースには、個人データを含む "作成者" および "変更者" のレコードが含まれます。 セキュリティ上の理由から、これらのレコードはリソースが削除されるまで保持されます。
 
-** アプリ用 Common Data Service データベースが含まれる環境では、環境のアクセス許可 (たとえば、環境作成者および環境管理者のロールが割り当てられているユーザー) が、Common Data Service データベースにレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
+**Common Data Service データベースが含まれる環境では、環境のアクセス許可 (たとえば、環境作成者および環境管理者のロールが割り当てられているユーザー) が、Common Data Service データベースにレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
 
 手動での確認が必要なデータとリソースのため、Microsoft Flow では特定のユーザーの個人データの検索または変更を行う以下のエクスペリエンスが提供されています。
 
@@ -76,7 +76,7 @@ Microsoft Flow では、組織の日常業務の重要な一部であるオー�
 |カスタム コネクタのアクセス許可|Microsoft Flow 作成者ポータル| ||
 |承認履歴|Microsoft PowerApps 作成者ポータル*|||
 
-* Common Data Service for Apps の導入により、環境内にデータベースが作成された場合、環境のアクセス許可とモデル駆動型アプリのアクセス許可が、Common Data Service for Apps データベース インスタンス内のレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
+*Common Data Service の導入により、環境内にデータベースが作成された場合、環境のアクセス許可とモデル駆動型アプリのアクセス許可が、Common Data Service データベース インスタンス内のレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
 
 \*\* 管理者は、Microsoft Flow 管理センターからアクセス権を割り当てられている場合、Microsoft Flow 作成者ポータルからのみ、これらのリソースにアクセスできます。
 
@@ -137,7 +137,7 @@ Microsoft Flow では、組織の日常業務の重要な一部であるオー�
 
 ## <a name="delete-approval-history-from-microsoft-flow"></a>Microsoft Flow から承認履歴を削除する
 
- Microsoft Flow の承認データは、Common Data Service for Apps の現在または以前のバージョンに格納されています。 承認には、承認の割り当ておよび承認応答に含まれるコメントの形式で、個人情報が存在します。 管理者は、次の手順でそのデータにアクセスできます。
+ Microsoft Flow の承認データは、Common Data Service の現在または以前のバージョンに格納されています。 承認には、承認の割り当ておよび承認応答に含まれるコメントの形式で、個人情報が存在します。 管理者は、次の手順でそのデータにアクセスできます。
 
 1. [PowerApps](https://web.powerapps.com/) にサインインします。
 
@@ -277,7 +277,7 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 
 ユーザーには環境内のアクセス許可 (環境管理者、環境作成者など) を割り当てることができ、アクセス許可は "ロールの割り当て" として Microsoft Flow サービスに格納されます。
 
-Common Data Service for Apps の導入により、環境内にデータベースが作成された場合、これらの "ロールの割り当て" が、Common Data Service for Apps データベース インスタンス内のレコードとして格納されます。
+Common Data Service の導入により、環境内にデータベースが作成された場合、これらの "ロールの割り当て" が、Common Data Service データベース インスタンス内のレコードとして格納されます。
 
 環境でのユーザーのアクセス許可の削除について詳しくは、「[Microsoft Flow 内の環境の使用](https://docs.microsoft.com/flow/environments-overview-admin)」をご覧ください。
 

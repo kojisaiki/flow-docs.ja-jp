@@ -4,29 +4,23 @@ hide_bc: true
 title: Microsoft Flow のドキュメント | Microsoft Docs
 description: Microsoft Flow は、お気に入りのアプリとサービス間の自動ワークフローを作成し、ファイルの同期、通知の受信、データ収集などを行うサービスです。
 keywords:
-- Microsoft Flow
-- ワークフロー
-- フロー
-- 承認ワークフロー
-- SharePoint ワークフロー
+  - Microsoft Flow
+  - ワークフロー
+  - フロー
+  - 承認ワークフロー
+  - SharePoint ワークフロー
 author: msftman
 ms.author: deonhe
 manager: kfile
 ms.date: 03/28/2018
 ms.topic: hub-page
 ms.reviewer:
-- karann-msft
+  - karann-msft
 search.app:
-- Flow
+  - Flow
 search.audienceType:
-- flowmaker
-- enduser
-ms.openlocfilehash: 03eebb10c1155894b9dc1db5a0283cd72d78a1ae
-ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "46711590"
+  - flowmaker
+  - enduser
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -428,12 +422,12 @@ ms.locfileid: "46711590"
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage  bgdAccent1">
-                                                <img src="media/index/analytics_reporting.svg" alt="Use Common Data Service (CDS) for apps." />
+                                                <img src="media/index/analytics_reporting.svg" alt="Use Common Data Service." />
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>アプリ用 Common Data Service (CDS) の使用</h3>
-                                            <p>ワークフロー プロセスでアプリ用 Common Data Service (CDS) を使用します。</p>
+                                            <h3>Common Data Service の使用</h3>
+                                            <p>ワークフロー プロセスで Common Data Service を使用します。</p>
                                         </div>
                                     </div>
                                 </div>

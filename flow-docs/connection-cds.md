@@ -1,6 +1,6 @@
 ---
-title: Common Data Service for Apps を使用して自動化されたフローを作成する | Microsoft Docs
-description: Common Data Service for Apps 接続と Microsoft Flow を使用してワークフローを作成します。
+title: Common Data Service を使用して自動化されたフローを作成する | Microsoft Docs
+description: Common Data Service 接続と Microsoft Flow を使用してワークフローを作成する
 services: ''
 suite: flow
 documentationcenter: na
@@ -20,18 +20,18 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f9a417f99b6ea4105a451b65f7ccabbf36922d78
-ms.sourcegitcommit: 61f0eb1fdc54da02eb57dadf09899fa6f308b00d
+ms.openlocfilehash: 6dba013481983d0b8c43c82c7bc6eed800fccc2e
+ms.sourcegitcommit: 24da014ea8db8e59f097c4622d1e2cca9a4d1709
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57524499"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58352897"
 ---
-# <a name="create-an-automated-flow-by-using-common-data-service-for-apps"></a>Common Data Service for Apps を使用して自動化されたフローを作成する
+# <a name="create-an-automated-flow-by-using-common-data-service"></a>Common Data Service を使用して自動化されたフローを作成する
 
-Common Data Service for Apps コネクタを使用して、Common Data Service データベース内の作成イベントと更新イベントによって開始されるフローを作成できます。 さらに、Common Data Service for Apps データベース内のレコードに対して、作成、更新、取得、削除のアクションを実行できます。
+Common Data Service コネクタを使用して、Common Data Service データベース内の作成イベントと更新イベントによって開始されるフローを作成できます。 さらに、Common Data Service データベース内のレコードに対して、作成、更新、取得、削除のアクションを実行できます。
 
-## <a name="initiate-a-flow-from-common-data-service-for-apps"></a>Common Data Service for Apps からフローを開始する
+## <a name="initiate-a-flow-from-common-data-service"></a>Common Data Service からフローを開始する
 
 次のいずれかのトリガーを使用してフローを開始できます。
 
@@ -75,9 +75,9 @@ Common Data Service for Apps コネクタを使用して、Common Data Service �
 
 レコードに対する作成、更新、または削除に基づいてトリガーされるフローを作成するには、コールバック登録エンティティに対する作成、読み取り、書き込み、削除のユーザー レベル権限がユーザーに必要です。 さらに、定義されたスコープによっては、ユーザーは同じエンティティに対して少なくともそのレベルの読み取りを必要とする場合があります。  環境のセキュリティの[詳細については、こちらを参照してください](https://docs.microsoft.com/power-platform/admin/database-security)。
 
-## <a name="write-data-into-common-data-service-for-apps"></a>Common Data Service for Apps にデータを書き込む
+## <a name="write-data-into-common-data-service"></a>Common Data Service にデータを書き込む
 
-Common Data Service for Apps にデータを書き込むには、次のいずれかのアクションを使用します。
+Common Data Service にデータを書き込むには、次のいずれかのアクションを使用します。
 
 - 新しいレコードの作成
 - レコードの更新

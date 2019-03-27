@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: db8a8c99344b93ad981a26d5174e99385d2a3f82
-ms.sourcegitcommit: 31b578972f00e6ab2e50ea0b674142199b3b7a35
+ms.openlocfilehash: 392a869d6b25bb16ee02a6bb3373d6edcf81621b
+ms.sourcegitcommit: 24da014ea8db8e59f097c4622d1e2cca9a4d1709
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54905748"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58353150"
 ---
 # <a name="release-notes"></a>リリース ノート
 ## <a name="top-questions"></a>よくある質問
@@ -96,7 +96,7 @@ Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の�
 ### <a name="release-2018-07-23"></a>2018 年 7 月 23 日リリース
 
 - **Excel からのフローの構築と実行** - 新しい **[フロー]** ボタン (リボンの **[データ]** タブからアクセス) を使用して、Microsoft Flow から Excel のテーブル データ上でオートメーションを作成してトリガーできます。 データ処理またはデータのコピー/インポートを自動化します。
-- **ビジネス プロセス フローの作成** - ビジネス プロセス フローとは、Common Data Service for Apps に基づく、ステートフルかつヒューマン インタラクティブな新しい種類のフローです。 これらの新しいフローを使用して、ユーザーが従う一連のステージと手順を定義します。 ユーザーは、必要に応じて、前に進んだり後ろに戻ったりできます。
+- **業務プロセス フローの作成** - 業務プロセス フローとは、Common Data Service に基づく、ステートフルかつヒューマン インタラクティブな新しい種類のフローです。 これらの新しいフローを使用して、ユーザーが従う一連のステージと手順を定義します。 ユーザーは、必要に応じて、前に進んだり後ろに戻ったりできます。
 - **Outlook Web App での Microsoft To-Do のフローの作成** - Outlook Web App で \@メンションされたユーザーには、フローを作成するためのショートカットが表示されます。 このフローでは、電子メールのコンテンツに基づき、Microsoft To-Do で \@メンションされたユーザーのタスクが自動的に作成されます。
 - **SharePoint ビューのサポート** - SharePoint コネクタで、トリガーとアクションでの特定の SharePoint ビューの選択がサポートされるようになりました。 これによって列が、選択したビュー内にあるフィールドのみにフィルター処理されます。
 - **4 つの新しいコネクタ** - 追加 Azure IoT Central - 拡張性の高い IoT SaaS (サービスとしてのソフトウェア) ソリューション - Survey 123、LMS365、ProjectWise Design Integration。
@@ -151,7 +151,7 @@ Microsoft Flow プレビュー プログラムは、Microsoft Flow の今後の�
 
 ### <a name="release-2018-04-04"></a>2018 年 4 月 4 日リリース
 
-- **Common Data Service での承認** - 最新バージョンのアプリ向け Common Data Service に最新の承認が構築されます。 つまり、CDS コネクタとの間で送受信する承認の状態を読み取るフローを構築することができます。
+- **Common Data Service での承認** - 最新バージョンの Common Data Service に最新の承認が構築されます。 つまり、Common Data Service コネクタとの間で送受信する承認の状態を読み取るフローを構築できるということです。
 - **Apply to each によるエラーの検出** - ループ内に大量の項目がある場合でも、フロー実行ビューでエラーのループに直接移動します。
 - **承認の再割り当て** - 受け取った承認を組織内の別のユーザーに割り当てて、承認を委任することができます。 
 - **会議室の一覧** - Office 365 の Outlook Connector で、組織の会議室データを取得するアクションが追加されました。
