@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: a6c06fc564334eeacd01e54ab3b71046d229d033
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 7611ccb8bba9f2647402df46753de284016d7cd4
+ms.sourcegitcommit: 014f64bcc4aed27794d5c7efc2eca241d271518e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690034"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58656133"
 ---
 # <a name="use-markdown-in-microsoft-flow-approval-requests"></a>Microsoft Flow の承認要求で Markdown を使用する
 
@@ -57,10 +57,8 @@ ms.locfileid: "44690034"
    
 **例**
 
-<pre>
-Add lines between your text with the Enter key.
-This spaces your text better and makes it easier to read.
-</pre>
+Enter キーを使用して、テキストの間に行を追加します。
+テキストの間隔を空けて読みやすくします。
 
 **結果:**   
 Enter キーを使用して、テキストの間に行を追加します。      
@@ -69,10 +67,8 @@ Enter キーを使用して、テキストの間に行を追加します。
 
 **例 2**
 
-<pre>
-Add two spaces prior to the end of the line.(space, space)     
-This adds space in between paragraphs.
-</pre>
+行末の前に 2 つの空白を追加します。(スペース、スペース)     
+これにより、段落の間に空白が追加されます。
 
 **結果:**  
 行末の前に 2 つのスペースを追加します。   
